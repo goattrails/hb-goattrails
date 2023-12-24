@@ -3,6 +3,7 @@ en:
   weight: 1
 
 zh-hans:
+  disabled: true
   languageName: 简体中文
   title: HB 卡片主题模板
   weight: 2

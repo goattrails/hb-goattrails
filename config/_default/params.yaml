@@ -1,26 +1,27 @@
-description: The cards theme template of HB (Hugo Bootstrap) Framework.
+description: An informal group of riders who love twisty bumpy roads.
 
 hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   full_width: false # when true, the layout takes full width globally.
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    brand: GTJ # the brand name, leave it empty to use site's title.
+#    logo_bg: '#dddddd' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
-    socials:
-      github: hbstack
-      # twitter: razonyang
-      rss: true
-      mastodon: https://techhub.social/@hbstack
+#    socials:
+#      github: hbstack
+#      # twitter: razonyang
+#      rss: true
+#      mastodon: https://techhub.social/@hbstack
   footer:
+    powered_by: false
     # see https://hbstack.dev/en/docs/modules/socials/.
-    socials:
-      _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
-      rss: true
-      mastodon: https://techhub.social/@hbstack
+#    socials:
+#      _color: true # when false, remove the color of social icons.
+#      github: hbstack
+#      twitter: razonyang
+#      rss: true
+#      mastodon: https://techhub.social/@hbstack
   blog:
     list_cols_md: 2
     list_cols_lg: 3
@@ -34,11 +35,11 @@ hb:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
         avatar_size: 100
-        company: COMPANY
-        location: Earth
+        company: Goat Trail Junkies
+        location: SF Bay Area
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
+#          github: hbstack
+#          mastodon: https://techhub.social/@hbstack
           rss: true
       posts:
         recent_count: 5 # the number of recent posts.
@@ -46,6 +47,7 @@ hb:
         style: pills # pills, tabs or underline.
         list_style: slide # slide or vertical.
       taxonomies:
+        disable: true
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
         style: pills # pills, tabs or underline.
@@ -67,12 +69,12 @@ hb:
           limit: 20
           # title: Popular Tags # override the title.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    post_thumbnail_placeholder: GTJ # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
-    # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
+    post_date_format: "Mon Jan 2 2006 3:04 PM MST" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
-      # taxonomies: false # remove the taxonomies stat from the homepage.
-      featured_posts: 5 # the number of the featured posts, 0 means disabled.
+      taxonomies: false # remove the taxonomies stat from the homepage.
+      featured_posts: 0 # the number of the featured posts, 0 means disabled.
       pinned_posts_position: "list"
       main_sections: # leave it empty to include all regular pages.
         - docs
@@ -133,15 +135,15 @@ hugopress:
         body-end:
           cacheable: true
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
-        hb-blog-sidebar:
-          cacheable: true
-          weight: 4
+#        hb-blog-sidebar:
+#          cacheable: true
+#          weight: 4
     # change the order of sidebar modules.
-    hb-blog-sidebar-taxonomies:
-      hooks:
-        hb-blog-sidebar:
-          weight: 3
-    hb-blog-sidebar-posts:
-      hooks:
-        hb-blog-sidebar:
-          weight: 2
+#    hb-blog-sidebar-taxonomies:
+#      hooks:
+#        hb-blog-sidebar:
+#          weight: 3
+#    hb-blog-sidebar-posts:
+#      hooks:
+#        hb-blog-sidebar:
+#          weight: 2

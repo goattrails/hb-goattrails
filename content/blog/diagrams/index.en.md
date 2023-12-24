@@ -1,12 +1,13 @@
 ---
 title: "Diagrams and Charts"
-date: 2023-11-26T16:36:24+08:00
+date: 2023-11-26T16:36:24-07:00
 draft: false
 description: "This article offers some examples about using Mermaid for diagramming and charting."
+toc: false
 noindex: false
 featured: true
 pinned: false
-# comments: false
+comments: false
 series:
  - Examples
 categories:
