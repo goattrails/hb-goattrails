@@ -8,19 +8,23 @@ hb:
     brand: GTJ # the brand name, leave it empty to use site's title.
 #    logo_bg: '#dddddd' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
-#    socials:
-#      github: hbstack
+    socials:
+       facebook: https://www.facebook.com/groups/339744652011427
+       signal: https://signal.group/#CjQKIFP9k4ONdQV4_FC7ehTnQQUmUhB-yvlmBL85eVjlFkcGEhCJ6mI4bl6Ctp6mp8BINagG
+       rss: true
+       github: goattrails
 #      # twitter: razonyang
-#      rss: true
 #      mastodon: https://techhub.social/@hbstack
   footer:
     powered_by: false
     # see https://hbstack.dev/en/docs/modules/socials/.
-#    socials:
-#      _color: true # when false, remove the color of social icons.
-#      github: hbstack
+    socials:
+       _color: false # when false, remove the color of social icons.
+       facebook: https://www.facebook.com/groups/339744652011427
+       signal: https://signal.group/#CjQKIFP9k4ONdQV4_FC7ehTnQQUmUhB-yvlmBL85eVjlFkcGEhCJ6mI4bl6Ctp6mp8BINagG
+       rss: true
+       github: goattrails
 #      twitter: razonyang
-#      rss: true
 #      mastodon: https://techhub.social/@hbstack
   blog:
     list_cols_md: 2
@@ -92,9 +96,9 @@ hb:
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme-cards
+      repo: pleasantone/theme-cards-test
       branch: main
-      subpath: exampleSite
+#      subpath: exampleSite
   # gallery:
   #   thumbnail_size: "x640"
   # google_fonts:
