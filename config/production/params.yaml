@@ -5,4 +5,4 @@ decap_cms:
   publish_mode: editorial_workflow
   backend:
     name: github
-    repo: pleasantone/theme-cards-test
+    repo: goattrails/hb-goattrails
