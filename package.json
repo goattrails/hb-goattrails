@@ -1,5 +1,5 @@
 {
-  "name": "hb-theme-cards",
+  "name": "hb-goattrails",
   "description": "The cards theme of [HB Framework](https://hbstack.dev/).",
   "scripts": {
     "dev": "hugo server --gc -D",
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hbstack/theme-cards.git"
+    "url": "git+https://github.com/goattrails/hb-goattrails.git"
   },
   "author": "Razon Yang <razonyang@gmail.com>",
   "license": "MIT",

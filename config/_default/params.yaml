@@ -42,9 +42,11 @@ hb:
         company: Goat Trail Junkies
         location: SF Bay Area
         socials:
-#          github: hbstack
-#          mastodon: https://techhub.social/@hbstack
+          facebook: https://www.facebook.com/groups/339744652011427
+          signal: https://signal.group/#CjQKIFP9k4ONdQV4_FC7ehTnQQUmUhB-yvlmBL85eVjlFkcGEhCJ6mI4bl6Ctp6mp8BINagG
+          github: goattrails
           rss: true
+#          mastodon: https://techhub.social/@hbstack
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.
@@ -85,18 +87,18 @@ hb:
         - blog
         - news
     giscus:
-      repo: hbstack/theme-cards
+      repo: goattrails/hb-goattrails
       repo_id: R_kgDOK1LmSQ
       category_id: DIC_kwDOK1LmSc4CbdiM
   docs:
     giscus:
-      repo: hbstack/theme-cards
+      repo: goattrails/hb-goattrails
       repo_id: R_kgDOK1LmSQ
       category_id: DIC_kwDOK1LmSc4CbdiM
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: pleasantone/theme-cards-test
+      repo: goattrails/hb-goattrails
       branch: main
 #      subpath: exampleSite
   # gallery:

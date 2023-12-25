@@ -1,4 +1,4 @@
-module github.com/pleasantone/theme-cards-test
+module github.com/goattrails/hb-goattrails
 
 go 1.19
 
