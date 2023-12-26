@@ -1,0 +1,21 @@
+{{- $img := . }}
+{{/* Convert image to webp. */}}
+{{- if ne $img.MediaType.SubType "webp" }}
+  {{- $img = .Resize (printf "%dx%d webp" .Width .Height) }}
+{{- end }}
+{{- $thumbnail := $img.Resize (default "x640" site.Params.hb.gallery.thumbnail_size) }}
+{{- $color := "" }}
+{{- with $thumbnail.Colors }}
+  {{- $color = index . 0 }}
+{{- end }}
+<img
+  alt="{{ $img.Params.caption | default $img.Title | default $img.Name }}"
+  class="hb-gallery-album-img loading"
+  src="{{ $thumbnail.RelPermalink }}"
+  height="{{ $thumbnail.Height }}"
+  width="{{ $thumbnail.Width }}"
+  loading="lazy"
+  {{ with $color }}style="background: {{ . }};"{{ end }}
+  data-src="{{ $img.RelPermalink }}"
+  data-height="{{ $img.Height }}"
+  data-width="{{ $img.Width }}" />
