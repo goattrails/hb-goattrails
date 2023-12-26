@@ -15,6 +15,7 @@ title_sections_depth_dir: end # when start, the depth is counting from the root 
 permalinks:
   blog: /blog/:year/:month/:title
   news: /news/:year/:month/:title
+  events: /events/:year/:month/:title
 
 outputs:
   home:
