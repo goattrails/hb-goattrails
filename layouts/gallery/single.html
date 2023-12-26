@@ -1,0 +1,45 @@
+{{- define "main" }}
+  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-gallery-main-begin") }}
+  <div class="hb-gallery">
+    <div class="hb-gallery-album">
+      {{- $imgs := sort (.Resources.ByType "image") "Name" "asc" }}
+      {{- $dated  := slice }}
+      {{- $undated := slice }}
+      {{- range $imgs }}
+          {{- if (and .Exif .Exif.Date) }}
+              {{- $dated = $dated | append . }}
+          {{- else }}
+              {{- $undated = $undated | append . }}
+          {{- end }}
+      {{- end }}
+      {{- $imgs = $undated | append (sort $dated "Exif.Date" "asc") }}
+      <div class="hb-gallery-album-intro mb-5">
+        <h1 class="text-center">
+          {{- .Title -}}
+        </h1>
+        {{- with .Description }}
+          <p class="lead text-center pt-2 mb-0">{{ . }}</p>
+        {{- end }}
+        {{- if .Content }}
+          {{- $attributes := partial "hugopress/functions/render-attributes" (dict "Page" . "Name" "hb-gallery-post-content") }}
+          <div class="hb-gallery-post-content hb-module"
+               {{ with $attributes }}{{ . | safeHTMLAttr }}{{ end }}>
+               {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-gallery-post-content-afterbegin" "Page" .) }}
+               {{ .Content }}
+               {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-gallery-post-content-beforeend" "Page" .) }}
+          </div>
+          {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-gallery-post-content-end" "Page" .) }}
+        {{- end }}
+      </div>
+      <div class="hb-gallery-album-items bigger-pictures d-flex flex-wrap">
+        {{- range $imgs }}
+          <div class="hb-gallery-album-item flex-grow-1 position-relative">
+            {{- partialCached "hb/modules/gallery/img" . . }}
+            {{- partialCached "hb/modules/gallery/info" . . }}
+          </div>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-gallery-main-end") }}
+{{- end }}
