@@ -86,6 +86,7 @@ hb:
         - docs
         - blog
         - news
+        - events
     giscus:
       repo: goattrails/hb-goattrails
       repo_id: R_kgDOK1LmSQ
@@ -101,8 +102,9 @@ hb:
       repo: goattrails/hb-goattrails
       branch: main
 #      subpath: exampleSite
-  # gallery:
-  #   thumbnail_size: "x640"
+  gallery:
+    thumbnail_size: "x640"
+    paginate: 24
   # google_fonts:
     # families:
       # - name: Lato

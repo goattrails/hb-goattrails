@@ -46,6 +46,9 @@ imports:
   # docs content panel
   - path: github.com/hbstack/docs/modules/content-panel
 
+  - path: github.com/hbstack/gallery
+  - path: github.com/hbstack/gallery/modules/breadcrumb
+
   # other modules
   # - path: github.com/hugomods/google-analytics
   # - path: github.com/hugomods/google-adsense
