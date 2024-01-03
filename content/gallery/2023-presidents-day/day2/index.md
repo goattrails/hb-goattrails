@@ -4,10 +4,11 @@ date: 2023-02-19T16:16:05-08:00
 description: "Sunday Feburary 19th - A search for wildflowers around the Central Coast"
 resources:
   - src: map_sun.webp
-    name: " Route Map"
-    title: Route Map
+    name: " Day 2 Route Map"
+    title: Day 2 Route Map
     params:
       author: Ich
+      highlight: true
   - src: IMG_2961p.jpg
     title: Bull Canyon Rd bridge over the Santa Maria River
   - src: IMG_2960.jpg
@@ -58,7 +59,7 @@ resources:
   - src: IMG_3043.jpg
   - src: IMG_3044.jpg
     title: Clark Rd
-  - src: IMG_3046.jpg 
+  - src: IMG_3046.jpg
     title: the Temblor Range
   - src: PXL_20230219_213813752.jpg
     title: Hwy 229 at Calf Canyon

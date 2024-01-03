@@ -4,10 +4,11 @@ date: 2023-02-18T16:16:05-08:00
 description: "Saturday Feburary 18th - Bay Area to Santa Maria"
 resources:
   - src: map_sat.webp
-    name: " Route Map"
-    title: Route Map
+    name: " Day 1 Route Map"
+    title: Day 1 Route Map
     params:
       author: Ich
+      highlight: true
   - src: IMG_3453.jpg
     title: Los Gatos Peets meet up
   - src: Pxl3_20230218_073926.jpg
@@ -16,6 +17,7 @@ resources:
     title: Mark, Wes, Steve Tuggle, Steve Gibson
   - src: 20230218_081047.jpg
     title: "8:10 am * 19 bikes moving out"
+    highlight: true
   - src: IMG_2933.jpg
     title: Anna Jean Cummings County Park
   - src: IMG_2931p.jpg
