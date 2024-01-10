@@ -27,15 +27,16 @@ images:
 ## Climate
 
 Weather in
+:us:
 [Taft](https://www.google.com/search?q=weather%20Taft%20CA),
 [Brawley](https://www.google.com/search?q=weather%20Brawley%20CA),
-:flag_mx:
+:mexico:
 [San Felipe](https://www.google.com/search?q=weather%20San%20Felipe%20Baja),
 [San Ignacio](https://www.google.com/search?q=weather%20San%20Ignacio%20Baja),
 [La Paz](https://www.google.com/search?q=weather%20La%20Paz%20Baja),
 [Guerrero Negro](https://www.google.com/search?q=weather%20Guerrero%20Negro%20Baja),
 [Ensenada](https://www.google.com/search?q=weather%20Ensenada%20Baja),
-:flag_us:
+:us:
 [Camarillo](https://www.google.com/search?q=weather%20Camarillo%20CA),
 [San Jose](https://www.google.com/search?q=weather%20San%20Jose%20CA).
 
