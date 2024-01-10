@@ -89,13 +89,13 @@ hb:
         - events
     giscus:
       repo: goattrails/hb-goattrails
-      repo_id: R_kgDOK1LmSQ
-      category_id: DIC_kwDOK1LmSc4CbdiM
+      repo_id: R_kgDOK9Lc1Q
+      category_id: DIC_kwDOK9Lc1c4CcVdv
   docs:
     giscus:
       repo: goattrails/hb-goattrails
-      repo_id: R_kgDOK1LmSQ
-      category_id: DIC_kwDOK1LmSc4CbdiM
+      repo_id: R_kgDOK9Lc1Q
+      category_id: DIC_kwDOK9Lc1c4CcVdv
   content_panel:
     repo:
       service: github # github or gitlab.
@@ -119,7 +119,7 @@ pwa:
   manifest:
     background_color: '#712cf9'
     theme_color: '#712cf9'
-    short_name: 'HB Theme'
+    short_name: 'Goat Trail Junkies'
 
 # see https://hugomods.com/en/docs/search/#site-parameters
 search:
