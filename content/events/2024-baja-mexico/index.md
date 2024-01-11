@@ -218,25 +218,23 @@ Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 
 ## Preparations
 
-### Fuel Range
+### Fueling
 
-{{% bs/lead %}}
+{{< bs/alert warning >}}
 The longest stretch on this trip between refueling stops could be 230 miles.
-{{% /bs/lead %}}
+{{< /bs/alert >}}
 
 There may be roadside fuel peddlers but fuel availability, quality, and price can not be trusted.
 Carry two-gallon spare fuel canister and fill it up before these longer stretches.
 
 Stations are full service with attendant. *Tip 10 pesos (60¢) or not.*
 
-* Magna
-  * unleaded gasoline, green pump
-* Premium
-  * higher octane, red pump
-* Nova
-  * leaded gas
-* Diesel Sin
-  * diesel
+| Labeled    | Fuel
+| ---------- | ----
+| Magna      | Unleaded gasoline, green pump
+| Premium    | Higher octane, red pump
+| Nova       | Leaded gas
+| Diesel Sin | Diesel
 
 ### Currency
 
@@ -301,8 +299,10 @@ Bring two passport photos, or AAA can take the photos for another **$20**.
 
 * Mount fresh new front and rear tires prior to this trip.
   They will need to endure over 3,600 miles.
-  Most bikes will be 500 pound BMW F850GSes.
-* Saddle bags, tail bag, and 2 gallons extra fuel container.
+  Most bikes will be 500 pound adventure bikes like BMW F850GSes.
+* Saddle Bags
+* Tail and/or Tank bag
+* 2 gallons extra fuel (bladder or container)
 * Basic tools to handle flat repairs or minor tip overs.
 
 ### Weather
