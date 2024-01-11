@@ -1,42 +1,17 @@
-[fast]
-weight = 1
-title = "Fast"
-description = "Google PageSpeed Insights scored perfect 💯 of four metrics on mobile and desktop."
-[fast.icon]
-name = "speedometer"
-color = "green"
-
-[responsive]
-weight = 2
-title = "Responsive"
-url = "bootstrap"
-description = "Mobile first, built on top of the Bootstrap v5.3."
-[responsive.icon]
-name = "bootstrap"
-color = "#7952B3"
-
-[foss]
-weight = 3
-title = "FOSS"
-url = "https://github.com/hugomods"
-description = "Free and open source software, code licensed **MIT**."
-[foss.icon]
-name = "code"
-vendor = "fas"
-color = "green"
-
 [matt]
 Xtitle = "Matt"
 description = "Matt 'Gecko'"
+weight = 1
 [matt.image]
 Filename = "attendees/matt_gecko.png"
-XAlt = "Picture of Matt"
-XCaption = "Matt Caption"
+Alt = "Picture of Matt"
+XCaption = "Matt Gecko"
 
 [stuart]
 Xtitle = "Stuart"
 description = "Uncle Stu"
+weight = 2
 [stuart.image]
 Filename = "attendees/uncle_stu.png"
-XAlt = "Headshot of Stu"
-XCaption = "Stu Caption"
+Alt = "Headshot of Stuart"
+XCaption = "Uncle Stu"

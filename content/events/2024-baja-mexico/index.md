@@ -29,7 +29,7 @@ Predominantly riding paved roads on street tires.
    Northgate Mall, 5800 Northgate Dr. #146 San Rafael, CA
    *(top off at [76](https://goo.gl/maps/F1zv2PQTcjTju17X6),
    [Shell](https://goo.gl/maps/7iN9H6bbP4ePVyYt9)
-   [Chevron](https://goo.gl/maps/F3aGLG3vAwCmEkaK9) :fuel_pump:)*
+   [Chevron](https://goo.gl/maps/F3aGLG3vAwCmEkaK9) :fuelpump:)*
 * [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk) discussion
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
 * [GPX]({{< gpxref >}}) file
