@@ -17,6 +17,8 @@ and Kruse Ranch Rd.
 
 <!-- more -->
 
+{{< countdown >}}
+
 * **WHEN:** Meet 8:45 AM **(KSU 9:15AM sharp!)**
 * **WHERE:** [Peet's Coffee](https://goo.gl/maps/Nr19wF2eEhyFY9L28),
    Northgate Mall, 5800 Northgate Dr. #146 San Rafael, CA
