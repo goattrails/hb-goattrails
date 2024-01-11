@@ -4,31 +4,28 @@
 
 /*! PUT YOU STYLE HERE TO AVOID GETTING REMOVING BY PURGECSS. */
 
+/*! purgecss end ignore */
+
 .countdown-timer {
-    text-align: center;
-    background-color: #ffd54f;
-    margin-bottom: 1em;
-
-    & li {
-      display: inline-block;
-      font-size: 1.25em;
-      list-style-type: none;
-      padding: 1em;
-      text-transform: uppercase;
-
-      & span {
-        font-size: 2.5rem;
+  text-align: center;
+  background-color: #ffd54f;
+  margin-bottom: 1em;
+  & li {
+    display: inline-block;
+    font-size: 1.25em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    & span {
+      font-size: 2.5rem;
+    }
+  }
+  @media all and (max-width: 768px) {
+      li {
+        font-size: calc(1.125rem * var(--smaller));
+      }
+      li span {
+        font-size: calc(3.375rem * var(--smaller));
       }
     }
-
-    @media all and (max-width: 768px) {
-        li {
-          font-size: calc(1.125rem * var(--smaller));
-        }
-        li span {
-          font-size: calc(3.375rem * var(--smaller));
-        }
-      }
 }
-
-/*! purgecss end ignore */
