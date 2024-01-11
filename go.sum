@@ -28,6 +28,8 @@ github.com/hbstack/blog/modules/post-nav v0.3.6 h1:ZyYbLdPCfV8bILLliBiCm6TxJOY/n
 github.com/hbstack/blog/modules/post-nav v0.3.6/go.mod h1:NjxKH/72tO9mtUwUvtgD3mIGSNYHmFe6YisS6zSJd6s=
 github.com/hbstack/blog/modules/related-posts v0.2.5 h1:e5IF1TK8A/7Tpp6Eso43Ns2//BSbJYsFmOW+1yeKN0U=
 github.com/hbstack/blog/modules/related-posts v0.2.5/go.mod h1:MG7gAdmJIMDTRD9Qyx3ANsJCY/xmG12zO69aDSKWDlE=
+github.com/hbstack/blog/modules/revision v0.1.0 h1:5qx8ki82yUmyrm01T7WXuCsWuUljWb+CNczI8Y0vpb4=
+github.com/hbstack/blog/modules/revision v0.1.0/go.mod h1:IzYAbBSORl4IjkEoKITBG6lVTLK3PIkbTewNnWJJEoM=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 h1:DnN7Vl7rvsl5pPRpwcMkW9hQgCaO7mASLd778VLQOHI=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.20/go.mod h1:Ord7TP0ZP4C+l6a83oEAvPyTOnnGsmrIC26MTJaKYmI=
 github.com/hbstack/bootstrap v0.2.0 h1:pHZ1KQ0HHwhHFbgzZ401kMSxkS7Tg0I/X002SD6WHak=
@@ -98,6 +100,8 @@ github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab4
 github.com/hbstack/progress-bar v0.1.0/go.mod h1:JZt160XK62FxThzt+RmokjOww3De8ZL0ITcxMJLVE7g=
 github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
 github.com/hbstack/pwa v0.1.2/go.mod h1:8x01rczLrSw1aCWD+yrn6v5FRQPtaEh/PYCtFDICEWo=
+github.com/hbstack/revision v0.3.0 h1:Ifa1ZFUGfrrt1WtV2wDgyuQDV/ZkslaDWAaxmnE5yI8=
+github.com/hbstack/revision v0.3.0/go.mod h1:Hl8/oY7WU4QeUT7dpzDRI3+Rdzt9M67vm6OV7xllRSc=
 github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2HsyY=
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
 github.com/hbstack/search v0.2.1 h1:u7DbLPZ0WO1db2ARb2reubn5KzPE3wG6NLrgylB6WQg=

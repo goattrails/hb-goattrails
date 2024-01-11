@@ -18,6 +18,7 @@ require (
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.3.6 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.2.5 // indirect
+	github.com/hbstack/blog/modules/revision v0.1.0 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
 	github.com/hbstack/breadcrumb v0.6.0 // indirect
@@ -53,6 +54,7 @@ require (
 	github.com/hbstack/pagination v0.6.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
+	github.com/hbstack/revision v0.3.0 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.1 // indirect
 	github.com/hbstack/slide v0.3.1 // indirect
