@@ -6,5 +6,5 @@ images:
 socials:
   facebook: ich.nguyen.58
 #  github: hbstack
-#  gmail: mailto:ichtalag@gmail.com
+#  gmail: mailto:XXX@gmail.com
 ---
