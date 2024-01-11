@@ -64,7 +64,7 @@ hb:
           count: false # override the global count setting.
           limit: 5 # override the global limit setting.
         categories:
-          disable: false
+          disable: true
           weight: 3
         series:
           disable: false
