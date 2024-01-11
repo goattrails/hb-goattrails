@@ -30,6 +30,14 @@ Predominantly riding paved roads on street tires.
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
 * [GPX]({{< gpxref >}}) file
 
+## Itinerary
+
+Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
+--- | ---- | -------- | --- | ----- | --- | ---- | ----- | -------
+0 | Sat Mar 2nd | Hollister, Coalinga, Maricopa, Cerro, Noroeste, Lebec<br/><br/>CA-25, CA-198, CA-33, CA-166, Mil Portrero | [us0](us0.gpx) | 309 | 498 | [Google](https://www.google.com/maps/dir/37.3959,-122.1019/37.2893,-121.8943/36.8380,-121.3906/36.1370,-120.3626/35.0584,-119.4001/34.8188,-118.8824), [OnTheGo](https://onthegomap.com/s/jb9pjlor), [interactive](https://www.goattrails.info/baja/maps/us0.html) | ![Day0](https://www.goattrails.info/baja/image/route_d0.jpg) | [Holiday Inn](https://www.ihg.com/holidayinnexpress/hotels/us/en/lebec/bkrfr/hoteldetail), [Motel 6](https://www.motel6.com/en/home/motels.ca.lebec.4640.html) $75 ~ $160 [Lebec](https://www.google.com/maps/place/34.8188,-118.8824)
+1 | Sun Mar 3rd | Lake Hughes, Wrightwood, Hemet, Warner Springs, Poway<br/><br/>N2, N6, N4, Big Pines, CA-66, CA-2, I-215, I-10, San Timoteo Canyon, CA-79, CA-78<br/><br/><mark>caveat: Big Pines at 7,000ft and Wildwood at 6,000ft may be snowed in. Detour via Bob's Gap to CA-138. | [us1](us1.gpx) | 254 | 408 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611), [OnTheGo](https://onthegomap.com/s/lcgjdtg1), [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day1](https://www.goattrails.info/baja/image/route_d1.jpg) | [Ramada](https://www.wyndhamhotels.com/ramada/poway-california/ramada-poway-san-diego-north/overview), [Best Western](https://www.bestwestern.com/en_US/book/hotel-rooms.05639.html) $140 [Poway](https://www.google.com/maps/place/32.9522,-117.0611)
+2 | Mon Mar 4th | Tecate border crossing :mexico:, Sierra Juarez, Mexicali, San Felipe<br/><br/>CA-94, MEX-2D, Mex-5 | [bj2](bj2.gpx) | 254 | 409 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611) [OnTheGo](https://onthegomap.com/s/lcgjdtg1) [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day2](https://www.goattrails.info/baja/image/route_d2.jpg) | [El Capitán](https://www.hotelcapitansanfelipe.com/), [Hotel George](https://www.georges-hotel.com/) ~$120 [San Felipe](https://www.google.com/maps/place/31.0197,-114.8350)
+
 ## Route
 
 ![Baja 2024 Route](Matt_1a.jpg)
