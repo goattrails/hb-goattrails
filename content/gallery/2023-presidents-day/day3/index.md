@@ -2,6 +2,8 @@
 title: "Day 3 - Monday"
 date: 2023-02-20T16:16:05-08:00
 description: "Monday Feburary 20th - Returning Home"
+authors:
+  - ich
 resources:
   - src: map_mon.webp
     name: " Route Map"

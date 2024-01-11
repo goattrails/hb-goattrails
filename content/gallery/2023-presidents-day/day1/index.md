@@ -2,6 +2,8 @@
 title: "Day 1 - Saturday"
 date: 2023-02-18T16:16:05-08:00
 description: "Saturday Feburary 18th - Bay Area to Santa Maria"
+authors:
+  - ich
 resources:
   - src: map_sat.webp
     name: " Day 1 Route Map"
