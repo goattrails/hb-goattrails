@@ -1,6 +1,8 @@
 description: An informal group of riders who love twisty bumpy roads.
 
 hb:
+  revision:
+    created_at: false # disable created-at because we use post date for the date of the event
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   full_width: false # when true, the layout takes full width globally.
