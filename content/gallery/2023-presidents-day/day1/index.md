@@ -1,7 +1,7 @@
 ---
 title: "Day 1 - Saturday"
 date: 2023-02-18T16:16:05-08:00
-description: "Saturday Feburary 18th - Bay Area to Santa Maria"
+description: "Saturday February 18th - Bay Area to Santa Maria"
 authors:
   - ich
 resources:
@@ -49,7 +49,7 @@ resources:
   - src: IMG_2953p.jpg
     title: Jack Creek Rd.
   - src: IMG_2955p.jpg
-    title: "450-foot concreet smokestacks"
+    title: "450-foot concrete smokestacks"
   - src: 441A9174.jpg
     title: Morro Rock
   - src: IMG_2957.jpg

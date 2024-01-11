@@ -1,7 +1,7 @@
 ---
 title: "Day 2 - Sunday"
 date: 2023-02-19T16:16:05-08:00
-description: "Sunday Feburary 19th - A search for wildflowers around the Central Coast"
+description: "Sunday February 19th - A search for wildflowers around the Central Coast"
 authors:
   - ich
 resources:

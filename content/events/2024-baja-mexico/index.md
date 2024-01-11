@@ -323,4 +323,3 @@ Both use standard time year round.
 Only a few border cities synchronize with US daylight saving time shifts.
 
 ![time zones](mexico_time_zone.gif)
-
