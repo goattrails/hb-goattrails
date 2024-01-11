@@ -1,6 +1,5 @@
 ---
 draft: false
-author: Ich
 authors:
   - ich
 title: Baja California
@@ -25,11 +24,8 @@ Predominantly riding paved roads on street tires.
 ## Summary
 
 * **WHEN:** Meet 9:45 AM **(KSU 10:00AM sharp!)**
-* **WHERE:** [Peet's Coffee](https://goo.gl/maps/Nr19wF2eEhyFY9L28),
-   Northgate Mall, 5800 Northgate Dr. #146 San Rafael, CA
-   *(top off at [76](https://goo.gl/maps/F1zv2PQTcjTju17X6),
-   [Shell](https://goo.gl/maps/7iN9H6bbP4ePVyYt9)
-   [Chevron](https://goo.gl/maps/F3aGLG3vAwCmEkaK9) :fuelpump:)*
+* **WHERE:** [Safeway Gas](https://maps.app.goo.gl/7V9dctZGNNzJXKan9),
+  :fuelpump: 591 Tres Pinos Rd., Hollister, CA 95023
 * [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk) discussion
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
 * [GPX]({{< gpxref >}}) file
