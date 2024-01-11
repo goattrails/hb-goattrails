@@ -1,0 +1,41 @@
+matt:
+  description: Matt 'Gecko'
+  weight: 1
+  image:
+    Filename: attendees/mug_mattgor.jpg
+stuart:
+  description: Uncle Stu
+  weight: 2
+  image:
+    Filename: attendees/mug_stuart.jpg
+ian:
+  description: Ian
+  weight: 3
+  image:
+    Filename: attendees/mug_ian.jpg
+huntley:
+  description: Huntley
+  weight: 4
+  image:
+    Filename: attendees/mug_hunt.jpg
+ich:
+  description: Ichabod
+  weight: 5
+  image:
+    Filename: attendees/mug_ich.jpg
+raj:
+  description: Raj (unconfirmed)
+  weight: 6
+  image:
+    Filename: attendees/mug_raj-2.jpg
+mike:
+  description: Mike (unconfirmed)
+  weight: 7
+  image:
+    Filename: attendees/mug_eminem.jpg
+holland:
+  description: Holldan (unconfirmed)
+  weight: 8
+  image:
+    Filename: attendees/mug_holland.jpg
+
