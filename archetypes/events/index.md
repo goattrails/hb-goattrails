@@ -1,13 +1,43 @@
 ---
-draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-author: Paul Traina # put in the ride leader perhaps?
+title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 publishDate: {{ .Date }}
-description: A description of the route including any alerts (e.g. a dirt path) to display on summary page.
-tags: ["north-bay", "south-bay", "east-bay", "sierras", "central-california"]
-gpxfile: "fort-ross.gpx"
+# expiryDate: {{ .Date }}
+draft: true
+description: "{{ replace .Name "-" " " | title }}"
+noindex: false
+featured: false
+pinned: false
+# authors:
+#  - ich
+# comments: false
+series:
+#  -
+categories:
+#  -
+tags:
+#  - north-bay
+#  - south-bay
+#  - east-bay
+#  - sierras
+#  - california
+#  - mexico
+#  - pnw
+images:
+#  -
+# menu:
+#   main:
+#     weight: 100
+#     params:
+#       icon:
+#         vendor: bs
+#         name: book
+#         color: '#e24d0e'
+# gpxfile: 'fort-ross.gpx'
 ---
+
+Example Content.
+
 {{< figure "fort-ross.jpg" >}}
 
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
