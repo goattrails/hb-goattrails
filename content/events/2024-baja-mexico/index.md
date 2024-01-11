@@ -210,7 +210,7 @@ Predominantly riding paved roads on street tires.
 
 ## Attendees
 
-{{< bs/icon-grid "2024-baja-attendees" >}}
+{{< bs/icon-grid "attendees" >}}
 
 ## Preparations
 
