@@ -34,7 +34,7 @@ mike:
   image:
     Filename: attendees/mug_eminem.jpg
 holland:
-  description: Holldan (unconfirmed)
+  description: Holland (unconfirmed)
   weight: 8
   image:
     Filename: attendees/mug_holland.jpg
