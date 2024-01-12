@@ -57,10 +57,10 @@
             <div class="bs-icon-grid-item-title fw-bold mb-3 fs-4 d-flex align-items-center justify-content-{{ $alignment }}">
               {{- with .image }}
                 {{- $imageOpts := (merge (dict
-                    "ClassName" "bs-icon-grid-item-image me-2") .)
+                    "ClassName" "bs-icon-grid-item-image") .)
                 }}
                 {{- if isset . "ClassName" }}
-                    {{- $imageOpts = merge $imageOpts (dict "ClassName" (printf "bs-icon-grid-item-image me-2 %s" (.ClassName)))}}
+                    {{- $imageOpts = merge $imageOpts (dict "ClassName" (printf "bs-icon-grid-item-image %s" (.ClassName)))}}
                 {{- end }}
                 {{- partial "images/image" $imageOpts }}
               {{- end -}}
@@ -77,10 +77,10 @@
             <div class="bs-icon-grid-item-title fw-bold mb-3 fs-4 d-flex align-items-center justify-content-{{ $alignment }}">
               {{- with .image }}
                 {{- $imageOpts := (merge (dict
-                    "ClassName" "bs-icon-grid-item-image me-2") .)
+                    "ClassName" "bs-icon-grid-item-image") .)
                 }}
                 {{- if isset . "ClassName" }}
-                    {{- $imageOpts = merge $imageOpts (dict "ClassName" (printf "bs-icon-grid-item-image me-2 %s" (.ClassName)))}}
+                    {{- $imageOpts = merge $imageOpts (dict "ClassName" (printf "bs-icon-grid-item-image %s" (.ClassName)))}}
                 {{- end }}
                 {{- partial "images/image" $imageOpts }}
               {{- end -}}
