@@ -1,6 +1,6 @@
 {
   "name": "hb-goattrails",
-  "description": "The cards theme of [HB Framework](https://hbstack.dev/).",
+  "description": "Website for [Goat Trail Junkies](https://goattrails.org/).",
   "scripts": {
     "dev": "hugo server --gc -D",
     "prod": "hugo server --gc --disableFastRender --renderToDisk --minify -e production -p 1314"
@@ -12,9 +12,9 @@
   "author": "Razon Yang <razonyang@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hbstack/theme-cards/issues"
+    "url": "https://github.com/goattrails/issues"
   },
-  "homepage": "https://github.com/hbstack/theme-cards#readme",
+  "homepage": "https://github.com/goattrails/hb-goattrails#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
