@@ -160,6 +160,10 @@ hugopress:
 
 decap_cms:
   search: true
+  slug:
+    encoding: ascii
+    clean_accents: true
+    sainitze_replacement: "_"
   collections:
     news:
       name: events
@@ -171,6 +175,7 @@ decap_cms:
       nested:
         depth: 3
       slug: "{{year}}-{{slug}}"
+      path: "{{slug}}/index"
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "publishDate", widget: "datetime"}
