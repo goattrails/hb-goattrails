@@ -177,18 +177,18 @@ decap_cms:
       slug: "{{year}}-{{slug}}"
       path: "{{slug}}/index"
       fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Publish Date", name: "publishDate", widget: "datetime"}
-        - {label: "Event Date", name: "date", widget: "datetime"}
-        - {label: "Expiry Date", name: "expiryDate", widget: "datetime", required: false}
-        - {label: "Draft article", name: "draft", widget: "boolean", default: false}
-        - {label: "Do not list in index", name: "noindex", widget: "boolean", default: false, required: false}
-        - {label: "Feature this article", name: "featured", widget: "boolean", default: false, required: false}
-        - {label: "Pinned", name: "pinned", widget: "boolean", default: false, required: false}
-        - {label: "Allow comments", name: "comments", widget: "boolean", default: true, required: false}
-        - {label: "Intro Blurb", name: "description", widget: "text"}
-        - {label: "Authors", name: "authors", widget: "list", default: ["ich", "paul"]}
-        - {label: "Area tags", name: "tags", widget: "list", default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
-        - {label: "Featured Images", name: "images", widget: "list", choose_url: false, field: {label: "Image", name: "image", widget: image}}
-        - {label: "GPX file", name: "gpxfile", widget: "file", media_folder: "", required: false}
-        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Title", name: title, widget: string}
+        - {label: "Publish Date", name: publishDate, widget: datetime}
+        - {label: "Event Date", name: date, widget: datetime}
+      # - {label: "Expiry Date", name: expiryDate, widget: datetime, required: false}
+        - {label: "Draft article", name: draft, widget: boolean, default: false}
+        - {label: "Do not list in index", name: hidden, widget: hidden, default: false, required: false}
+        - {label: "Feature this article", name: feature, widget: hidden, default: false, required: false}
+        - {label: "Pinned", name: pinned, widget: hidden, default: false, required: false}
+        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false}
+        - {label: "Intro Blurb", name: description, widget: text, required: false}
+        - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
+        - {label: "Area tags", name: tags, widget: list, default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
+        - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
+        - {label: "GPX file", name: gpxfile, widget: file, required: false}
+        - {label: "Body", name: body, widget: markdown}
