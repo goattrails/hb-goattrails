@@ -1,13 +1,15 @@
 ---
+title: Fort Ross Road Ramble
+publishDate: 2023-07-27
+date: 2023-07-30T08:45:00-07:00
 draft: false
-author: Paul
 authors:
   - paul
-title: Fort Ross Road Ramble
-date: 2023-07-30T08:45:00-07:00
-publishDate: 2023-07-27
+author: Paul
 tags:
   - north-bay
+images:
+  - featured-fort-ross.jpg
 gpxfile: fort-ross.gpx
 ---
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
