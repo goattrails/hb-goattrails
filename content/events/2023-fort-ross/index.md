@@ -5,7 +5,6 @@ date: 2023-07-30T08:45:00-07:00
 draft: false
 authors:
   - paul
-author: Paul
 tags:
   - north-bay
 images:
