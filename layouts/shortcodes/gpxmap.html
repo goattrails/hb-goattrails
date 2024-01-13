@@ -1,18 +1,22 @@
 {{- $width := default "100%" (.Get `width`) }}
 {{- $height := default 600 (.Get `height`) }}
 {{- $class := default "interactive-map" (.Get `class`)}}
-{{- $gpx := default (.Get 0) (.Get `gpx`) }}
-{{- with $gpx }}
+{{- $file := default (.Get 0) (.Get `file`) }}
+{{- $url := default "" (.Get `url`) }}
+{{- with $file }}
     {{- with $.Page.Resources.Get . }}
+        {{- $url = .Permalink }}
+    {{- else }}
+        {{ errorf "%s: %q shortcode: unable to get GPX file" $.Position $.Name }}
+    {{- end }}
+{{- end }}
+{{- with $url }}
 <figure class="{{ $class }}">
     <iframe width="{{ $width }}" height="{{ $height }}"
-            src="https://gpsvisualizer.com/atlas/map?cc=0&mc=0&wl=0&url={{ .Permalink }}">
+            src="https://gpsvisualizer.com/atlas/map?cc=0&mc=0&wl=0&url={{ $url }}">
     </iframe>
-    <figcaption><a target="_blank" href="https://gpsvisualizer.com/atlas/map?url={{ .Permalink }}">Interactive Map</a></figcaption>
+    <figcaption><a target="_blank" href="https://gpsvisualizer.com/atlas/map?url={{ $url }}">Interactive Map</a></figcaption>
 </figure>
-    {{- else }}
-        {{ errorf "%s: %q shortcode: unable to get GPX resource" $.Position $.Name }}
-    {{- end }}
 {{- else }}
-  {{- errorf "%s: %q shortcode: no GPX file specified" .Position .Name }}
+    {{- errorf "%s: %q shortcode: no GPX file or URL specified" .Position .Name }}
 {{- end }}
