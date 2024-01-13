@@ -2,13 +2,14 @@
 # google_adsense = 'ca-pub-XXXXXXXXXXXXXXXX' # Please make that the Google AdSense module was imported.
 
 decap_cms:
+  publish_mode: editorial_workflow
   backend:
     name: github
     repo: goattrails/hb-goattrails
     branch: main
-    site_domain: goattrails.pst.org
     open_authoring: true
     squash_merges: true
-    base_url: https://wc858xnae1.execute-api.us-east-1.amazonaws.com
-    auth_endpoint: /prod/auth
-  publish_mode: editorial_workflow
+    auth_scope: repo
+    site_domain: goattrails.pst.org
+      #    base_url: https://wc858xnae1.execute-api.us-east-1.amazonaws.com
+      #    auth_endpoint: /prod/auth

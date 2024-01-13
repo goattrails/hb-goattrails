@@ -15,6 +15,6 @@ hugopress:
       disable: true
 
 decap_cms:
+  local_backend: true
   backend:
     name: git-gateway
-  local_backend: true
