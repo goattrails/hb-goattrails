@@ -15,9 +15,6 @@ hugopress:
       disable: true
 
 decap_cms:
-  local_backend: true
   backend:
     name: git-gateway
-  site_url: http://localhost:1313
-  display_url: http://localhost:1313
-
+  local_backend: true

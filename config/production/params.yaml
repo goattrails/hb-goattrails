@@ -1,2 +1,10 @@
 # see https://hugomods.com/en/docs/google-adsense/.
 # google_adsense = 'ca-pub-XXXXXXXXXXXXXXXX' # Please make that the Google AdSense module was imported.
+
+decap_cms:
+  backend:
+    name: github
+    repo: goattrails/hb-goattrails
+    branch: main
+    open_authoring: true
+  publish_mode: editorial_workflow
