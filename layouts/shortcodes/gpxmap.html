@@ -1,13 +1,27 @@
 {{- $width := default "100%" (.Get `width`) }}
 {{- $height := default 600 (.Get `height`) }}
 {{- $class := default "interactive-map" (.Get `class`)}}
-{{- $file := default (.Get 0) (.Get `file`) }}
-{{- $url := default "" (.Get `url`) }}
-{{- with $file }}
-    {{- with $.Page.Resources.Get . }}
+{{- $cache := default false (.Get `cache`)}}
+{{- $url := default (.Get 0) (.Get `gpx`) }}
+{{- $page := $.Page }}
+{{- if not $url }}
+    {{- errorf "%s: %q shortcode: no GPX file or URL specified" .Position .Name }}
+{{- end }}
+{{- if findRE `(?i)https?://` $url }}
+    {{- with resources.GetRemote $url }}
+        {{- with .Err }}
+            {{- errorf "%s: %q shortcode: %s: $s" $page.Position $page.Name $url . }}
+        {{- else }}
+            {{ if $cache }}
+                {{- $url = .Permalink }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+{{- else }}
+    {{- with $page.Resources.Get $url }}
         {{- $url = .Permalink }}
     {{- else }}
-        {{ errorf "%s: %q shortcode: unable to get GPX file" $.Position $.Name }}
+        {{ errorf "%s: %q shortcode: unable to get GPX file" .Position .Name }}
     {{- end }}
 {{- end }}
 {{- with $url }}
