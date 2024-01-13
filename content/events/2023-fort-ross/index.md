@@ -9,6 +9,8 @@ tags:
   - north-bay
 images:
   - featured-fort-ross.jpg
+params:
+  endDate: 2023-07-30T14:45:00-07:00
 ---
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
 and Kruse Ranch Rd.
@@ -49,3 +51,5 @@ and Kruse Ranch Rd.
 
 * 07/30/23: Sunrise: 06:11, Starts: 09:15, Ends: 17:41, Sunset: 20:20
 * Total distance: 195.52 mi
+
+{{< fullcalendar "timeGridWeek" >}}

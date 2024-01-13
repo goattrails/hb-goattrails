@@ -9,6 +9,8 @@ tags:
   - mexico
 images:
   - lapaz.jpg
+params:
+  endDate: 2024-03-16T18:00:00-07:00
 ---
 Motorcycle trip down the Baja California peninsula. Sightseeing, whale watching, beach wandering,
 and fish taco eating.
@@ -30,6 +32,8 @@ Predominantly riding paved roads on street tires.
 * [GPX](map_v0.gpx) file
 
 ## Itinerary
+
+{{< fullcalendar >}}
 
 Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 --- | ---- | -------- | --- | ----- | --- | ---- | ----- | -------
