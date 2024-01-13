@@ -7,7 +7,6 @@ date: 2024-03-02T09:45:00-08:00
 publishDate: 2024-01-01
 tags:
   - mexico
-gpxfile: map_v0.gpx
 images:
   - lapaz.jpg
 ---
@@ -28,7 +27,7 @@ Predominantly riding paved roads on street tires.
   :fuelpump: 591 Tres Pinos Rd., Hollister, CA 95023
 * [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk) discussion
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
-* [GPX]({{< gpxref >}}) file
+* [GPX](map_v0.gpx) file
 
 ## Itinerary
 
@@ -42,7 +41,7 @@ Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 
 ![Baja 2024 Route](Matt_1a.jpg)
 
-{{< gpxmap >}}
+{{< gpxmap "map_v0.gpx" >}}
 
     sunrise ☼ 6:30 ~ 18:30 ☽ GMT-7 or GMT-8
 
