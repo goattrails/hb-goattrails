@@ -24,6 +24,7 @@ outputs:
     - RSS
     - SearchIndex    # required by search module.
     - WebAppManifest # required by PWA module to make your site installable.
+    - DecapCMSConfig
 
 taxonomies:
   authors: authors       # multiple authors.

@@ -157,3 +157,37 @@ hugopress:
 #      hooks:
 #        hb-blog-sidebar:
 #          weight: 2
+
+decap_cms:
+  media_folder: static/images/uploads
+  public_folder: /images/uploads
+  display_url: https://goattrails.pst.org/
+  # publish_mode: editorial_workflow
+  search: true
+  collections:
+    event:
+      name: event
+      label: Event
+      folder: content/events
+      create: true
+      media_folder: ''
+      public_folder: ''
+      slug: "{{year}}_{{slug}}"
+      nested:
+        depth: 1000
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "publishDate", widget: "datetime"}
+        - {label: "Event Date", name: "date", widget: "datetime"}
+        - {label: "Expiry Date", name: "expiryDate", widget: "datetime", required: false}
+        - {label: "Draft article", name: "draft", widget: "boolean", default: false}
+        - {label: "Do not list in index", name: "noindex", widget: "boolean", default: false, required: false}
+        - {label: "Feature this article", name: "featured", widget: "boolean", default: false, required: false}
+        - {label: "Pinned", name: "pinned", widget: "boolean", default: false, required: false}
+        - {label: "Allow comments", name: "comments", widget: "boolean", default: true, required: false}
+        - {label: "Intro Blurb", name: "description", widget: "text"}
+        - {label: "Authors", name: "authors", widget: "list", default: ["ich", "paul"]}
+        - {label: "Area tags", name: "tags", widget: "list", default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
+        - {label: "Featured Images", name: "images", widget: "list", choose_url: false, media_folder: ""}
+        - {label: "GPX file", name: "gpxfile", widget: "file", media_folder: "", required: false}
+        - {label: "Body", name: "body", widget: "markdown"}
