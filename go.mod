@@ -66,7 +66,7 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.14 // indirect
 	github.com/hugomods/base v0.4.1 // indirect
-	github.com/hugomods/bootstrap v0.15.1 // indirect
+	github.com/hugomods/bootstrap v0.16.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.8.1 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
@@ -80,7 +80,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.27 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
-	github.com/hugomods/images v0.8.4 // indirect
+	github.com/hugomods/images v0.9.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect

@@ -214,7 +214,7 @@ Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 
 ## Attendees
 
-{{< bs/icon-grid "attendees" >}}
+{{< bs/img-grid "attendees" >}}
 
 ## Preparations
 

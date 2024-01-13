@@ -1,53 +1,17 @@
-matt:
-  title: Matt "Gecko"
-  description: This is a test of the emergency broadcast system. This is only a test.
-  weight: 1
-  image:
-    Filename: attendees/mug_mattgor.jpg#float-start
-    Alt: Matt "Gecko"
-stuart:
-  title: Uncle Stu
-  weight: 2
-  image:
-    Filename: attendees/mug_stuart.jpg#float-start
-    Alt: Uncle Stu
-ian:
-  title: Ian
-  weight: 3
-  image:
-    Filename: attendees/mug_ian.jpg#float-start
-    Alt: Ian
-huntley:
-  title: Huntley
-  weight: 4
-  image:
-    Filename: attendees/mug_hunt.jpg#float-start
-    Alt: Huntley
-ich:
-  title: Ich
-  weight: 5
-  image:
-    Filename: attendees/mug_ich.jpg#float-start
-    Alt: Ich
-raj:
-  title: Raj
-  description: (unconfirmed)
-  weight: 6
-  image:
-    Filename: attendees/mug_raj-2.jpg#float-start
-    Alt: Raj
-mike:
-  title: Mike
-  description: (unconfirmed)
-  weight: 7
-  image:
-    Filename: attendees/mug_eminem.jpg#float-start
-    Alt: Mike
-holland:
-  title: Holland
-  description: (unconfirmed)
-  weight: 8
-  image:
-    Filename: attendees/mug_holland.jpg#float-start
-    Alt: Holland
+- title: Matt "Gecko"
+  src: attendees/mug_mattgor.jpg
+- title: Uncle Stu
+  src: attendees/mug_stuart.jpg
+- title: Ian
+  src: attendees/mug_ian.jpg
+- title: Huntley
+  src: attendees/mug_hunt.jpg
+- title: Ich
+  src: attendees/mug_ich.jpg
+- title: Raj (unconfirmed)
+  src: attendees/mug_raj-2.jpg
+- title: Mike (unconfirmed)
+  src: attendees/mug_eminem.jpg
+- title: Holland (unconfirmed)
+  src: attendees/mug_holland.jpg
 
