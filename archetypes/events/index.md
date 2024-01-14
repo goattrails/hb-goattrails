@@ -3,19 +3,22 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 publishDate: {{ .Date }}
 # expiryDate: {{ .Date }}
-draft: true
+params:
+  endDate: {{ .Date }}
 description: "{{ replace .Name "-" " " | title }}"
+draft: false
 noindex: false
 featured: false
 pinned: false
-# authors:
+comments: false
+authors:
 #  - ich
-# comments: false
 series:
 #  -
 categories:
 #  -
 tags:
+#  - coast
 #  - north-bay
 #  - south-bay
 #  - east-bay
@@ -25,20 +28,12 @@ tags:
 #  - pnw
 images:
 #  -
-# menu:
-#   main:
-#     weight: 100
-#     params:
-#       icon:
-#         vendor: bs
-#         name: book
-#         color: '#e24d0e'
-# gpxfile: 'fort-ross.gpx'
 ---
-
 Example Content.
 
 {{< figure "fort-ross.jpg" >}}
+
+{{< fullcalendar >}}
 
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
 and Kruse Ranch Rd.
@@ -60,10 +55,10 @@ and Kruse Ranch Rd.
 * Ride ends at [Starbucks](https://goo.gl/maps/BrJcXxdC16p3T3iB7) :coffee:,
   800 Strawberry Village Shopping Center *(not the one in Safeway)*
 * **HOW:**
-  [GPX]({{< gpxref >}})
+  [GPX](fort-ross.gpx)
   [Scenic](https://scenicapp.space/route/ByyIxbmz)
 
-{{< gpxmap >}}
+{{< gpxmap "fort-ross.gpx" >}}
 
 | Name                           |   Dist. | G |  ETA  | Notes
 | :----------------------------- | ------: | - | ----: | :----
