@@ -70,6 +70,7 @@ related:
 security:
   funcs:
     getenv:
-      - ^HUGO
-      - CI$
+      - '^HUGO_'
+      - '^CI$'
       - PWD
+      - '^GITHUB_TOKEN$'
