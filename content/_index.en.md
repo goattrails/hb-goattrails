@@ -8,4 +8,17 @@ title: Goat Trail Junkies
 #      icon:
 #        vendor: bs
 #        name: house
+header:
+  banner:
+    alignment: center
+    Ximg: /images/header.jpeg
+    video:
+      src: /images/header.mov
+      type: video/quicktime
+    title: |
+      Goat Trail Junkies
+      { .text-uppercase .mb-5 data-aos="fade-up" }
+    description: |
+      Riding *faster*, *farther*, and *stupider*
+      { .mb-5 data-aos="fade-up" data-aos-delay="200" }
 ---
