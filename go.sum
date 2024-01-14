@@ -124,8 +124,6 @@ github.com/henrygd/bigger-picture v1.1.14 h1:cyLougM5oeL3+lwrwFgeklwBd54nJWxXadt
 github.com/henrygd/bigger-picture v1.1.14/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxpH9Cah/ygAraOBIk=
 github.com/hugomods/base v0.4.1 h1:Wadju82kW7m60sA1FIECB2HvYboUOBUL6rCypMuTI74=
 github.com/hugomods/base v0.4.1/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
-github.com/hugomods/bootstrap v0.15.1 h1:j3yvlIDMrorJCC2AY2TrZNU4o9pxqXKBugl/xAW0BFo=
-github.com/hugomods/bootstrap v0.15.1/go.mod h1:HOdgrRHBMvH+MknbcdHwen50Y5ihT2n6wbvz3z628uE=
 github.com/hugomods/bootstrap v0.16.0 h1:j0bydBA+/gICIoBHaB/H7i+nB6FsCVqs8AEQZFBoRVg=
 github.com/hugomods/bootstrap v0.16.0/go.mod h1:HOdgrRHBMvH+MknbcdHwen50Y5ihT2n6wbvz3z628uE=
 github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBXE3nFT2vJxA=
@@ -154,8 +152,6 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.27 h1:lHGfeLYgxzjNBES51GiMKf
 github.com/hugomods/icons/vendors/simple-icons v1.0.27/go.mod h1:1JLmxEWlmmxE67YzC/CbP19QEfFMoucbLzMWvJ5N4DQ=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
-github.com/hugomods/images v0.8.4 h1:NheYkSLyoEmdRrMRYuxoB1dWCnkLCC3qLC2QuoPk/C0=
-github.com/hugomods/images v0.8.4/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/images v0.9.0 h1:qPIJisJw5cSN6xsUYpmBeGVQ6tFE8JphJkUhOkumsxI=
 github.com/hugomods/images v0.9.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.3.0 h1:hq0Kels9clL38Y2K/QZgXFKF7hQuumyQYz16TT4/Hhk=

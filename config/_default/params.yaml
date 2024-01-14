@@ -36,7 +36,7 @@ hb:
     sidebar:
       sticky: true # set it to false to not stick the sidebar.
       width: .35 # the width of sidebar.
-      position: start # the sidebar position: start (left) or end (right).
+      position: end # the sidebar position: start (left) or end (right).
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
@@ -55,13 +55,12 @@ hb:
         style: pills # pills, tabs or underline.
         list_style: slide # slide or vertical.
       taxonomies:
-        disable: true
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
         style: pills # pills, tabs or underline.
         separate: false # whether to separate into mutliple sections.
         authors:
-          disable: false # whether to disable this taxonomy.
+          disable: true # whether to disable this taxonomy.
           weight: 1 # the weight of this taxonomy, lower gets higher priority.
           count: false # override the global count setting.
           limit: 5 # override the global limit setting.
@@ -69,13 +68,13 @@ hb:
           disable: true
           weight: 3
         series:
-          disable: false
+          disable: true
           weight: 2
         tags:
           disable: false
           weight: 4
           limit: 20
-          # title: Popular Tags # override the title.
+          title: Popular Regions # override the title.
     paginate: 12 # paginate.
     post_thumbnail_placeholder: GTJ # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
