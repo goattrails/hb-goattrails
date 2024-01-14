@@ -46,7 +46,7 @@ and Kruse Ranch Rd.
    Northgate Mall, 5800 Northgate Dr. #146 San Rafael, CA
    *(top off at [76](https://goo.gl/maps/F1zv2PQTcjTju17X6),
    [Shell](https://goo.gl/maps/7iN9H6bbP4ePVyYt9)
-   [Chevron](https://goo.gl/maps/F3aGLG3vAwCmEkaK9) :fuel_pump:)*
+   [Chevron](https://goo.gl/maps/F3aGLG3vAwCmEkaK9) :fuelpump:)*
 * Lunch in Guerneville at
   [Pat’s International](https://goo.gl/maps/b1wHVau5ZGLLCUjY7) (:us: & :kr:)
   or alternatively at the
