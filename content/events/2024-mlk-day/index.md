@@ -42,9 +42,6 @@ A short ride in the hills along the newly reopened Stage Road, then back up thro
 
 ## Time and Milages
 
-* Departure at Mon Jan 15 09:00:00 2024
-* Total distance: 113 mi
-
 | Name                           |   Dist. | G |  ETA  | Notes
 | :----------------------------- | ------: | - | ----: | :----
 | 01 Sbux                        |       0 |   | 09:00 | Start
@@ -57,5 +54,7 @@ A short ride in the hills along the newly reopened Stage Road, then back up thro
 ## Lunch
 
 ![Sam & Curry and Burger IM](food.jpg)
+
+## Calendar
 
 {{< fullcalendar >}}
