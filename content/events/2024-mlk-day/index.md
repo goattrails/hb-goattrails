@@ -1,9 +1,8 @@
 ---
 title: "We have a dream! (MLK day)"
-date: 2024-01-15T08:30:00-08:00
 publishDate: 2024-01-13T23:32:25-08:00
-params:
-    endDate: 2024-01-15T15:00:00-08:00
+date: 2024-01-15T08:30:00-08:00
+endDate: 2024-01-15T15:00:00-08:00
 # expiryDate: 2024-01-13T23:32:25-08:00
 draft: false
 # description: "We have a dream!"

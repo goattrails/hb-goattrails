@@ -1,0 +1,40 @@
+eventSources:
+  - events:
+    - start: 2024-01-14T08:30:00-08:00
+      end: 2024-01-14T09:45:00-08:00
+      title: an event
+    - start: 2024-03-02
+      title: Lebec
+    - start: 2024-03-03
+      title: Poway
+    - start: 2024-03-04
+      title: San Felipe
+    - start: 2024-03-05
+      title: Bahia de los Angeles
+    - start: 2024-03-06
+      title: San Ignatio
+    - start: 2024-03-08
+      title: Loreto
+    - start: 2024-03-09
+      title: La Paz
+    - start: 2024-03-11
+      title: Mulegé
+    - start: 2024-03-12
+      title: Guerrero Negro
+    - start: 2024-03-13
+      title: San Quintin
+    - start: 2024-03-14
+      title: Ensenada
+    - start: 2024-03-15
+      title: Camarillo
+    - start: 2024-03-16
+      title: Home
+    defaultAllDay: true
+    color: green
+  - events:
+    - start: 2024-03-10
+      title: rest day
+    - start: 2024-03-07
+      title: whale watching
+    defaultAllDay: true
+    color: orange

@@ -4,13 +4,12 @@ authors:
   - ich
 title: Baja California
 date: 2024-03-02T09:45:00-08:00
+endDate: 2024-03-16T18:00:00-07:00
 publishDate: 2024-01-01
 tags:
   - mexico
 images:
   - lapaz.jpg
-params:
-  endDate: 2024-03-16T18:00:00-07:00
 ---
 Motorcycle trip down the Baja California peninsula. Sightseeing, whale watching, beach wandering,
 and fish taco eating.
@@ -33,7 +32,7 @@ Predominantly riding paved roads on street tires.
 
 ## Itinerary
 
-{{< fullcalendar >}}
+{{< fullcalendar data="caldata.yaml" >}}
 
 Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 --- | ---- | -------- | --- | ----- | --- | ---- | ----- | -------
