@@ -51,4 +51,4 @@ and Kruse Ranch Rd.
 * 07/30/23: Sunrise: 06:11, Starts: 09:15, Ends: 17:41, Sunset: 20:20
 * Total distance: 195.52 mi
 
-{{< fullcalendar "timeGridWeek" >}}
+{{< fullcalendar view="timeGridWeek" >}}

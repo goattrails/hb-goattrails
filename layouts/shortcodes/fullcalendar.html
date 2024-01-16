@@ -2,10 +2,11 @@
 {{- $isoformat := "2006-01-02T15:04:05Z0700" }}
 {{- $page := .Page }}
 {{- $end_date := default nil $page.Params.endDate }}
-{{- $extraData := dict }}
+{{- $extraData :=  dict }}
 {{- with .Get "data" }}
     {{- $extraData = $page.Resources.Get . | transform.Unmarshal }}
 {{- end }}
+{{- $view := .Get "view" | default "dayGridMonth" }}
 {{- $defaults := dict
     "themeSystem" "bootstrap5"
     "views" (dict
@@ -16,6 +17,7 @@
         "center" "title"
         "right" "dayGridMonth,timeGridWeek")
     "initialDate" ($page.Date.Format $isoformat)
+    "initialView" $view
     "eventSources" (slice)
 }}
 {{- $defaultEvent := dict
