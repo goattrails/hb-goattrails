@@ -4,7 +4,6 @@
 decap_cms:
   publish_mode: editorial_workflow
   backend:
-    name: github
-    repo: goattrails/hb-goattrails
-    open_authoring: true
+    name: git-gateway
     branch: main
+    open_authoring: true
