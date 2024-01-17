@@ -6,10 +6,7 @@ decap_cms:
   backend:
     name: github
     repo: goattrails/hb-goattrails
-    branch: main
     open_authoring: true
-    squash_merges: true
-    auth_scope: repo
-    site_domain: goattrails.pst.org
+    branch: main
       #    base_url: https://wc858xnae1.execute-api.us-east-1.amazonaws.com
       #    auth_endpoint: /prod/auth

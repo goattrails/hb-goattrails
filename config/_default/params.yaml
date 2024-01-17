@@ -165,6 +165,7 @@ hugopress:
 
 decap_cms:
   search: true
+  logo_url: images/logo.png
   slug:
     encoding: ascii
     clean_accents: true
@@ -195,7 +196,7 @@ decap_cms:
         - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
         - {label: "Area tags", name: tags, widget: list, default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
         - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
-        - {label: "Body", name: body, widget: markdown}
+        - {label: "Content", name: body, widget: markdown}
     blog:
       name: blog
       label: Blog
@@ -217,5 +218,5 @@ decap_cms:
         - {label: "Description", name: description, widget: text, required: false}
         - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
         - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
-        - {label: "Body", name: body, widget: markdown}
+        - {label: "Content", name: body, widget: markdown}
 
