@@ -1,5 +1,4 @@
-{{/* Put custom HTML markup before the end of <body>. */}}
-{{- if .IsHome }}
+{{- if $.Page.IsHome }}
 <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
