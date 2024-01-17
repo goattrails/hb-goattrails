@@ -8,5 +8,3 @@ decap_cms:
     repo: goattrails/hb-goattrails
     open_authoring: true
     branch: main
-      #    base_url: https://wc858xnae1.execute-api.us-east-1.amazonaws.com
-      #    auth_endpoint: /prod/auth
