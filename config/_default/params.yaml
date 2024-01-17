@@ -175,7 +175,7 @@ decap_cms:
   slug:
     encoding: ascii
     clean_accents: true
-    sainitze_replacement: "_"
+    sanitize_replacement: "_"
   collections:
     events:
       name: events
@@ -190,18 +190,18 @@ decap_cms:
       path: "{{slug}}/index"
       fields:
         - {label: "Title", name: title, widget: string}
-        - {label: "Publish Date", name: publishDate, widget: datetime}
         - {label: "Event Date", name: date, widget: datetime}
-      # - {label: "Expiry Date", name: expiryDate, widget: datetime, required: false}
-        - {label: "Draft article", name: draft, widget: boolean, default: false}
-        - {label: "Do not list in index", name: hidden, widget: hidden, default: false, required: false}
-        - {label: "Feature this article", name: feature, widget: hidden, default: false, required: false}
-        - {label: "Pinned", name: pinned, widget: hidden, default: false, required: false}
+        - {label: "Event Ending Date", name: endDate, widget: datetime, required: false, default: null}
+        - {label: "Post Publish Date", name: publishDate, widget: datetime}
+        - {label: "Post Expiration Date", name: expiryDate, widget: hidden, required: false, default: null}
+        - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false}
+        - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false}
+        - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false}
         - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false}
         - {label: "Description", name: description, widget: text, required: false}
         - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
         - {label: "Area tags", name: tags, widget: list, default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
-        - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
+        - {label: "Header Image", name: images, widget: list, choose_url: true, field: {label: "Image", name: image, widget: image}, required: false}
         - {label: "Content", name: body, widget: markdown}
     blog:
       name: blog
