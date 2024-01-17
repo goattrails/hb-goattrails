@@ -18,7 +18,7 @@ hb:
 #      # twitter: razonyang
 #      mastodon: https://techhub.social/@hbstack
   footer:
-    powered_by: false
+    powered_by: true
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
        _color: false # when false, remove the color of social icons.
@@ -170,7 +170,7 @@ decap_cms:
     clean_accents: true
     sainitze_replacement: "_"
   collections:
-    news:
+    events:
       name: events
       label: Events
       label_singular: Event
@@ -191,9 +191,31 @@ decap_cms:
         - {label: "Feature this article", name: feature, widget: hidden, default: false, required: false}
         - {label: "Pinned", name: pinned, widget: hidden, default: false, required: false}
         - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false}
-        - {label: "Intro Blurb", name: description, widget: text, required: false}
+        - {label: "Description", name: description, widget: text, required: false}
         - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
         - {label: "Area tags", name: tags, widget: list, default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
         - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
-        - {label: "GPX file", name: gpxfile, widget: file, required: false}
         - {label: "Body", name: body, widget: markdown}
+    blog:
+      name: blog
+      label: Blog
+      description: Blog Pieces and News
+      folder: content/blog
+      create: true
+      nested:
+        depth: 3
+      slug: "{{year}}-{{slug}}"
+      path: "{{slug}}/index"
+      fields:
+        - {label: "Title", name: title, widget: string}
+        - {label: "Date", name: date, widget: datetime}
+        - {label: "Draft article", name: draft, widget: boolean, default: false}
+        - {label: "Do not list in index", name: hidden, widget: hidden, default: false, required: false}
+        - {label: "Feature this article", name: feature, widget: hidden, default: false, required: false}
+        - {label: "Pinned", name: pinned, widget: hidden, default: false, required: false}
+        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false}
+        - {label: "Description", name: description, widget: text, required: false}
+        - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
+        - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
+        - {label: "Body", name: body, widget: markdown}
+
