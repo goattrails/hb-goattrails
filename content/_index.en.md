@@ -1,18 +1,18 @@
 ---
 title: Goat Trail Junkies
-#menu:
-#  main:
-#    name: Home
-#    weight: -1
-#    params:
-#      icon:
-#        vendor: bs
-#        name: house
+menu:
+  main:
+    name: Home
+    weight: -1
+    params:
+      icon:
+        vendor: bs
+        name: house
 header:
   banner:
     alignment: center
-    Ximg: /images/header.jpeg
-    video:
+    img: /images/header.jpeg
+    XXXvideo:
       src: /images/header.mov
       type: video/quicktime
     title: |
