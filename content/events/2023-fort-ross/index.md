@@ -1,16 +1,18 @@
 ---
 title: Fort Ross Road Ramble
 publishDate: 2023-07-27
-date: 2023-07-30T08:45:00-07:00
-endDate: 2023-07-30T14:45:00-07:00
 draft: false
 authors:
   - paul
+endDate: 2023-07-30T14:45:00-07:00
+date: 2023-07-30T08:45:00-07:00
 tags:
   - north-bay
 images:
   - featured-fort-ross.jpg
 ---
+TEST
+
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
 and Kruse Ranch Rd.
 
