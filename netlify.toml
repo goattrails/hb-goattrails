@@ -2,6 +2,12 @@
 command = "npm ci && hugo --minify --gc -b $URL"
 publish = "public"
 
+[context.deploy-preview]
+command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
+
 [build.environment]
 NODE_VERSION = "19"
 HUGO_VERSION = "0.121.2"
