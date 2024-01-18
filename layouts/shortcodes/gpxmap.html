@@ -1,6 +1,6 @@
-{{- $width := default "100%" (.Get `width`) }}
-{{- $height := default 600 (.Get `height`) }}
-{{- $class := default "interactive-map" (.Get `class`)}}
+{{- $width := default "90%" (.Get `width`) }}
+{{- $height := default 550 (.Get `height`) }}
+{{- $class := default "interactive-map shadow p-3 mb-5 bg-body rounded" (.Get `class`)}}
 {{- $cache := default false (.Get `cache`)}}
 {{- $url := default (.Get 0) (.Get `gpx`) }}
 {{- $page := $.Page }}
@@ -26,7 +26,7 @@
 {{- end }}
 {{- with $url }}
 <figure class="{{ $class }}">
-    <iframe width="{{ $width }}" height="{{ $height }}"
+    <iframe width="{{ $width }}" height="{{ $height }}" loading="lazy" class="d-block mx-auto"
             src="https://gpsvisualizer.com/atlas/map?cc=0&mc=0&wl=0&url={{ $url }}">
     </iframe>
     <figcaption><a target="_blank" href="https://gpsvisualizer.com/atlas/map?url={{ $url }}">Interactive Map</a></figcaption>
