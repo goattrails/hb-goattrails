@@ -1,11 +1,13 @@
 ---
-title: "Purpose"
-date: 2024-01-16T11:58:09-08:00
-publishDate: 2024-01-16T11:58:09-08:00
-description: "Purpose of this Website"
-comments: false
+title: Purpose
+description: Purpose of this Website
 authors:
   - paul
+date: 2024-01-16T11:58:09-08:00
+publishDate: 2024-01-16T11:58:09-08:00
+comments: false
+images:
+  - featured.jpg
 ---
 This is a wireframe example of what we can create using Hugo.
 Actual content management is a breeze and can even be managed
