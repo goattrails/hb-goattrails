@@ -190,19 +190,33 @@ decap_cms:
       path: "{{slug}}/index"
       fields:
         - {label: "Title", name: title, widget: string}
-        - {label: "Event Date", name: date, widget: datetime}
-        - {label: "Event Ending Date", name: endDate, widget: datetime, required: false, default: null}
-        - {label: "Post Publish Date", name: publishDate, widget: datetime}
-        - {label: "Post Expiration Date", name: expiryDate, widget: hidden, required: false, default: null}
-        - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false}
-        - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false}
-        - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false}
-        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false}
-        - {label: "Description", name: description, widget: text, required: false}
-        - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
-        - {label: "Area tags", name: tags, widget: list, default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"]}
-        - {label: "Header Image", name: images, widget: list, choose_url: true, field: {label: "Image", name: image, widget: image}, required: false}
-        - {label: "Content", name: body, widget: markdown}
+        - {label: "Description", name: description, widget: text, required: false,
+           hint: "plain text, no markdown or html"}
+        - {label: "Authors", label_singular: "Author", name: authors, widget: list, required: false, collapsed: true,
+           default: ["ich", "paul"]}
+        - {label: "Areas", label_singular: "Area", name: tags, widget: list, collapsed: true,
+           default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"],
+           hint: "north-bay, south-bay, east-bay, sierras, norcal, socal, mexico, pnw"}
+        - {label: "Event Date", name: date, widget: datetime,
+           hint: "Date and Time of Event"}
+        - {label: "Event Ending Date", name: endDate, widget: datetime, required: false, default: null,
+           hint: "Ending time for Event"}
+        - {label: "Post Publish Date", name: publishDate, widget: datetime,
+           hint: "Start publishing post on..."}
+        - {label: "Post Expiration Date", name: expiryDate, widget: hidden, required: false, default: null,
+           hint: "Stop publishing post on...."}
+        - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false,
+           hint: "Hide post from front page"}
+        - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false,
+           hint: "Feature post on front page"}
+        - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false,
+           hint: "Pin post in carousel"}
+        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false,
+           hint: "Allow commenting on this post"}
+        - {label: "Featured Images", label_singular: "Featured Image", name: images, widget: list, summary: "{{fields.image}}", required: false, collapsed: true,
+           hint: "One featured image, and call it feature<something>.jpg",
+           field: {label: "Image", name: image, widget: image, choose_url: true}}
+        - {label: "Body", name: body, widget: markdown}
     blog:
       name: blog
       label: Blog
@@ -215,14 +229,26 @@ decap_cms:
       path: "{{slug}}/index"
       fields:
         - {label: "Title", name: title, widget: string}
-        - {label: "Date", name: date, widget: datetime}
-        - {label: "Draft article", name: draft, widget: boolean, default: false}
-        - {label: "Do not list in index", name: hidden, widget: hidden, default: false, required: false}
-        - {label: "Feature this article", name: feature, widget: hidden, default: false, required: false}
-        - {label: "Pinned", name: pinned, widget: hidden, default: false, required: false}
-        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false}
-        - {label: "Description", name: description, widget: text, required: false}
-        - {label: "Authors", name: authors, widget: list, default: ["ich", "paul"]}
-        - {label: "Featured Images", name: images, widget: list, choose_url: false, field: {label: "Image", name: image, widget: image}, required: false}
-        - {label: "Content", name: body, widget: markdown}
-
+        - {label: "Description", name: description, widget: text, required: false,
+           hint: "plain text, no markdown or html"}
+        - {label: "Authors", label_singular: "Author", name: authors, widget: list, required: false, collapsed: true,
+           default: ["ich", "paul"]}
+        - {label: "Tags", label_singular: "Tag", name: tags, widget: list, collapsed: true, required: false}
+        - {label: "Date", name: date, widget: datetime,
+           hint: "Article Date"}
+        - {label: "Post Publish Date", name: publishDate, widget: hidden, required: false, default: null,
+           hint: "Start publishing post on..."}
+        - {label: "Post Expiration Date", name: expiryDate, widget: hidden, required: false, default: null,
+           hint: "Stop publishing post on...."}
+        - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false,
+           hint: "Hide post from front page"}
+        - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false,
+           hint: "Feature post on front page"}
+        - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false,
+           hint: "Pin post in carousel"}
+        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false,
+           hint: "Allow commenting on this post"}
+        - {label: "Featured Images", label_singular: "Featured Image", name: images, widget: list, summary: "{{fields.image}}", required: false, collapsed: true,
+           hint: "One featured image, and call it feature<something>.jpg",
+           field: {label: "Image", name: image, widget: image, choose_url: true}}
+        - {label: "Body", name: body, widget: markdown}
