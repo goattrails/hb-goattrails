@@ -25,9 +25,9 @@ and Kruse Ranch Rd.
 
 <!-- more -->
 
-{{< ical >}}
-
 {{< countdown >}}
+
+## Start
 
 * **WHEN:** Meet 8:45 AM **(KSU 9:15AM sharp!)**
 * **WHERE:** [Peet's Coffee](https://goo.gl/maps/Nr19wF2eEhyFY9L28),
@@ -43,6 +43,8 @@ and Kruse Ranch Rd.
 * Ride ends at [Starbucks](https://goo.gl/maps/BrJcXxdC16p3T3iB7) :coffee:,
   800 Strawberry Village Shopping Center *(not the one in Safeway)*
 * **HOW:** [GPX](fort-ross.gpx) [Scenic](https://scenicapp.space/route/ByyIxbmz)
+
+## Route and Waypoints
 
 {{< gpxmap "fort-ross.gpx" >}}
 
@@ -60,4 +62,6 @@ and Kruse Ranch Rd.
 * 07/30/23: Sunrise: 06:11, Starts: 09:15, Ends: 17:41, Sunset: 20:20
 * Total distance: 195.52 mi
 
+<!--
 {{< fullcalendar view="timeGridWeek" >}}
+-->

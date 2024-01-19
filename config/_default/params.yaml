@@ -155,6 +155,8 @@ hugopress:
         # see layouts/partials/hugopress/modules/hb-custom/hooks/body-end.html.
         body-end:
           cacheable: true
+        hb-blog-post-toc-end:
+          cacheable: false
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
 #        hb-blog-sidebar:
 #          cacheable: true
