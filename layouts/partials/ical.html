@@ -10,7 +10,7 @@
 {{- if $endDate }}
   {{- $endDate = time.AsTime $endDate | time.Format $isoformat }}
 {{- end }}
-<button type="button" class="btn btn-info" id="{{ $id }}">Download to Calendar</button>
+<button type="button" class="btn btn-info" id="{{ $id }}">Add to iCal/Apple</button>
 <script type="module">
 'use strict';
 import ical from 'https://cdn.jsdelivr.net/npm/ical-generator@6.0.1/+esm';

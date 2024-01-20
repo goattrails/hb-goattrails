@@ -1,5 +1,5 @@
 {{- if eq .Page.Section "events" }}
-<div class="hb-module text-center">
-  {{- partial "ical.html" .Page }}
+<div class="hb-module text-center p-1">
+  {{- partial "add-to-calendar.html" .Page }}
 </div>
 {{- end }}

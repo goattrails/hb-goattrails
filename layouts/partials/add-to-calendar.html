@@ -1,0 +1,35 @@
+{{- $isoformat := "2006-01-02T15:04:05Z0700" }}
+{{- $page := .Page }}
+{{- $id := print "add-to-calendar-" (delimit (shuffle (seq 1 9)) "") }}
+{{- $title := $page.Title }}
+{{- $start_date := $page.Date }}
+{{- $end_date := $page.Params.endDate }}
+{{- $address := $page.Params.start }}
+{{- $description := $page.Description | default $page.Summary | plainify }}
+{{- $url := $page.Permalink }}
+{{- $location := delimit (slice $address.location.title $address.location.address) "\n" }}
+{{- if $end_date }}
+  {{- $end_date = time.AsTime $end_date | time }}
+{{- end }}
+<add-to-calendar-button
+  name="{{ $title }}"
+  description="{{ replace  $description "\n" "[br]" }}"
+{{- if $location }}
+  location="{{ replace $location "\n" ", " }}"
+{{- end }}
+  startDate="{{ $start_date.Format "2006-01-02" }}"
+  startTime="{{ $start_date.Format "15:04" }}"
+{{- if $end_date }}
+  endDate="{{ $end_date.Format "2006-01-02" }}"
+  endTime="{{ $end_date.Format "15:04" }}"
+{{- end }}
+  url="{{ $url }}"
+  options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Microsoft Teams','Yahoo'"
+  icalFileName="{{ $title | anchorize }}"
+  timeZone="America/Los_Angeles"
+  buttonStyle="date"
+  size="4"
+  lightMode="bodyScheme"
+  hideBranding
+></add-to-calendar-button>
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
