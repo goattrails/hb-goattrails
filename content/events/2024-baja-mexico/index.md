@@ -6,6 +6,14 @@ title: Baja California
 date: 2024-03-02T09:45:00-08:00
 endDate: 2024-03-16T18:00:00-07:00
 publishDate: 2024-01-01
+start:
+  location:
+    title: "Hollister Safeway Gas"
+    address: "591 Tres Pinos Rd.\nHollister, CA 95023"
+    geo:
+      lat: 36.8380955
+      lon: -121.3910211
+      radius: 19
 tags:
   - mexico
 images:
