@@ -1,5 +1,5 @@
 {{- $target := default .Page.Date (.Get 0) }}
-{{- $completed := default "It's already happened!" (.Get 1) }}
+{{- $completed := default "This event has already started." (.Get 1) }}
 {{- $id := print "countdown-timer-" (delimit (shuffle (seq 1 9)) "") }}
 <div class="countdown-timer p-3 mb-5 bg-body shadow rounded border" id="{{ $id }}">
     <div class="countdown-active">
