@@ -17,7 +17,7 @@ Predominantly riding paved roads on street tires.
 
 *Suitable for larger adventure bikes, Expect up to 40 miles of well groomed dirt roads. Tires should be good for 3600 miles.*
 
-<!-- more -->
+<!--more-->
 
 {{< countdown >}}
 

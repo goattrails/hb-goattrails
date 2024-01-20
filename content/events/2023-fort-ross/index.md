@@ -23,7 +23,7 @@ and Kruse Ranch Rd.
 
 *Expect up to 4 miles of well groomed dirt roads.*
 
-<!-- more -->
+<!--more-->
 
 {{< countdown >}}
 
