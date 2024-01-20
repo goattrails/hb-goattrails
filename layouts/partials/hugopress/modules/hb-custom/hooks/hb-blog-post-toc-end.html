@@ -6,8 +6,7 @@
 {{- $date := $page.Date.Format $isoformat }}
 {{- $endDate := $page.Params.endDate }}
 {{- $address := $page.Params.start }}
-{{- $summary := $page.Summary }}
-{{- $description := $page.Description }}
+{{- $description := $page.Description | default $page.Summary | plainify }}
 {{- $url := $page.Permalink }}
 {{- if $endDate }}
   {{- $endDate = time.AsTime $endDate | time.Format $isoformat }}
@@ -25,14 +24,16 @@ async function handleDownload(e) {
       const cal = ical();
       const event = cal.createEvent({
           start: "{{ $date }}",
+{{- if $endDate }}
           end: "{{ $endDate }}",
+{{- end }}
           summary: "{{ $title }}",
-          description: "{{ $description | default $summary }}",
-          organizer: 'Goat Trail Junkies <goattrails@noreply.github.com>',
+          description: "{{ $description }}",
           url: '{{ $url }}',
+{{- if and $address $address.location }}
           location: {{ $address.location }},
+{{- end }}
      });
-     // event.description('It still works ;)');
      resolve(new File([cal.toString()], filename, { type: 'text/calendar' }));
   });
 
