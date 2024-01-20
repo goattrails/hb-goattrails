@@ -1,57 +1,5 @@
-{{- $isoformat := "2006-01-02T15:04:05Z0700" }}
-{{- $page := .Page }}
-{{- if eq $page.Section "events" }}
-{{- $id := print "ics-" (delimit (shuffle (seq 1 9)) "") }}
-{{- $title := $page.Title }}
-{{- $date := $page.Date.Format $isoformat }}
-{{- $endDate := $page.Params.endDate }}
-{{- $address := $page.Params.start }}
-{{- $description := $page.Description | default $page.Summary | plainify }}
-{{- $url := $page.Permalink }}
-{{- if $endDate }}
-  {{- $endDate = time.AsTime $endDate | time.Format $isoformat }}
-{{- end }}
+{{- if eq .Page.Section "events" }}
 <div class="hb-module text-center">
-<button type="button" class="btn btn-info" id="{{ $id }}">Download to Calendar</button>
-<script type="module">
-'use strict';
-import ical from 'https://cdn.jsdelivr.net/npm/ical-generator@6.0.1/+esm';
-
-async function handleDownload(e) {
-  e.preventDefault();
-  const filename = '{{ $title | anchorize }}.ics';
-  const file = await new Promise((resolve, reject) => {
-      const cal = ical();
-      const event = cal.createEvent({
-          start: "{{ $date }}",
-{{- if $endDate }}
-          end: "{{ $endDate }}",
-{{- end }}
-          summary: "{{ $title }}",
-          description: "{{ $description }}",
-          url: '{{ $url }}',
-{{- if and $address $address.location }}
-          location: {{ $address.location }},
-{{- end }}
-     });
-     resolve(new File([cal.toString()], filename, { type: 'text/calendar' }));
-  });
-
-  const url = URL.createObjectURL(file);
-
-  // trying to assign the file URL to a window could cause cross-site
-  // issues so this is a workaround using HTML5
-  const anchor = document.createElement('a');
-  anchor.href = url;
-  anchor.download = filename;
-
-  document.body.appendChild(anchor);
-  anchor.click();
-  document.body.removeChild(anchor);
-
-  URL.revokeObjectURL(url);
-};
-document.querySelector('#{{ $id }}').addEventListener('click', handleDownload);
-</script>
+  {{- partial "ical.html" .Page }}
 </div>
 {{- end }}
