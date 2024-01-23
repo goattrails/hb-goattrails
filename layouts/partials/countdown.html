@@ -1,5 +1,5 @@
 {{- $id := print "countdown-timer-" (delimit (shuffle (seq 1 9)) "") }}
-<div class="countdown-timer text-center p-3 mb-5 bg-body shadow rounded border {{.class }}" id="{{ $id }}" style="display:none">
+<div class="countdown-timer text-center p-3 mb-5 bg-body shadow rounded border {{.class }}" id="{{ $id }}">
     <div class="countdown-active">
       <ul>
         <li><span class="days"></span> Days</li>
@@ -31,7 +31,7 @@
                 el.querySelector(".seconds").innerText = Math.floor((distance % (minute)) / second);
 {{- end }}
 
-                //do something later when date is reached
+                //do something later when date has passed
                 if (distance < 0) {
 {{- if not .completed_text }}
                     el.style.display = "none";
@@ -39,8 +39,6 @@
                     el.querySelector(".countdown-active").style.display = "none";
                     el.querySelector(".countdown-done").style.display = "block";
                     clearInterval(interval);
-                } else {
-                    el.style.display = "block"
                 }
             }, second)
     }());
