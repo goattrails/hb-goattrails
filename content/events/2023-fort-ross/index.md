@@ -25,8 +25,6 @@ and Kruse Ranch Rd.
 
 <!--more-->
 
-{{< countdown >}}
-
 ## Start
 
 * **WHEN:** Meet 8:45 AM **(KSU 9:15AM sharp!)**

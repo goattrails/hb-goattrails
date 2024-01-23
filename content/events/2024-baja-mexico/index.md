@@ -27,8 +27,6 @@ Predominantly riding paved roads on street tires.
 
 <!--more-->
 
-{{< countdown >}}
-
 ## Summary
 
 * **WHEN:** Meet 9:45 AM **(KSU 10:00AM sharp!)**

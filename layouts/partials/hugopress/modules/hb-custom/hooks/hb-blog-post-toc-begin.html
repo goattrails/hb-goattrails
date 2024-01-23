@@ -2,4 +2,5 @@
 <div class="hb-module text-center p-1">
   {{- partial "add-to-calendar.html" .Page }}
 </div>
+{{- partial "countdown.html" (dict "page" .Page "target_date" .Page.Date "completed-text" "" "class" "hb-module")}}
 {{- end }}
