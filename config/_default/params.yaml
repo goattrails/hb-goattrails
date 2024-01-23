@@ -157,6 +157,8 @@ hugopress:
           cacheable: true
         hb-blog-post-toc-begin:
           cacheable: false
+        hb-blog-post-toc-end:
+          cacheable: false
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
 #        hb-blog-sidebar:
 #          cacheable: true
