@@ -19,28 +19,29 @@
               hour = minute * 60,
               day = hour * 24;
 
-        const countDown = new Date('{{ dateFormat "02 Jan 2006 15:04:05 -0700" .target_date }}').getTime(), // 21 Dec 2023 08:00:00 PST').getTime(),
-              interval = setInterval(function() {
-                const now = new Date().getTime(),
-                      distance = countDown - now;
+        const countDown = new Date('{{ dateFormat "02 Jan 2006 15:04:05 -0700" .target_date }}').getTime();
+        (function update() {
+          const now = new Date().getTime(),
+                distance = countDown - now,
                 el = document.getElementById('{{ $id }}');
-                el.querySelector(".days").innerText = Math.floor(distance / (day));
-                el.querySelector(".hours").innerText = Math.floor((distance % (day)) / (hour));
-                el.querySelector(".minutes").innerText = Math.floor((distance % (hour)) / (minute));
+          el.querySelector(".days").innerText = Math.floor(distance / (day));
+          el.querySelector(".hours").innerText = Math.floor((distance % (day)) / (hour));
+          el.querySelector(".minutes").innerText = Math.floor((distance % (hour)) / (minute));
 {{- if .seconds }}
-                el.querySelector(".seconds").innerText = Math.floor((distance % (minute)) / second);
+          el.querySelector(".seconds").innerText = Math.floor((distance % (minute)) / second);
 {{- end }}
 
-                //do something later when date has passed
-                if (distance < 0) {
+          // when date has passed...
+          if (distance >= 0)
+              setTimeout(update, second);
+          else {
 {{- if not .completed_text }}
-                    el.style.display = "none";
+              el.style.display = "none";
 {{- end }}
-                    el.querySelector(".countdown-active").style.display = "none";
-                    el.querySelector(".countdown-done").style.display = "block";
-                    clearInterval(interval);
-                }
-            }, second)
+              el.querySelector(".countdown-active").style.display = "none";
+              el.querySelector(".countdown-done").style.display = "block";
+          }
+        })();
     }());
 </script>
 
