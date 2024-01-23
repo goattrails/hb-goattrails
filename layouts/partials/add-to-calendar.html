@@ -24,10 +24,10 @@
   endTime="{{ $end_date.Format "15:04" }}"
 {{- end }}
   url="{{ $url }}"
-  options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Microsoft Teams','Yahoo'"
+  options="'Apple','Google','iCal','Outlook.com','Yahoo'"
   icalFileName="{{ $title | anchorize }}"
   timeZone="Etc/GMT{{ $start_date.Format "+7" }}"
-  buttonStyle="date"
+{{/*  buttonStyle="date" TODO disabled until we remove the overflow-y-auto from div.hb-blog-post-toc */}}
   size="4"
   lightMode="bodyScheme"
   hideBranding
