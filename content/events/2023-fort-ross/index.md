@@ -10,13 +10,12 @@ tags:
   - north-bay
 images:
   - featured-fort-ross.jpg
-start:
-  location:
-    title: "Peet's Coffee Northgate Mall"
-    address: "5800 Northgate Dr. #146\nSan Rafael, CA 94114"
-    geo:
-      lat: 38.0044923
-      lon: -122.5445852
+location:
+  title: "Peet's Coffee Northgate Mall"
+  address: "5800 Northgate Dr. #146\nSan Rafael, CA 94114"
+  geo:
+    lat: 38.0044923
+    lon: -122.5445852
 ---
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
 and Kruse Ranch Rd.

@@ -6,7 +6,10 @@
 {{- $end_date := $page.Params.endDate }}
 {{- $description := $page.Description | default $page.Summary | plainify }}
 {{- $url := $page.Permalink }}
-{{- $location := delimit (slice $page.Params.location.title $page.Params.location.address) "\n" }}
+{{- $location := $page.Params.location.title }}
+{{- with $page.Params.location.address }}
+  {{- $location = printf "%s\n%s" $location . }}
+{{- end }}
 {{- if $end_date }}
   {{- $end_date = time.AsTime $end_date | time }}
 {{- end }}

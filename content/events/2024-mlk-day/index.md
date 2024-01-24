@@ -21,6 +21,9 @@ tags:
 images:
   - king-speech.webp
   - food.jpg
+location:
+  title: Starbucks
+  address: 325 Sharon Park Dr, Menlo Park
 ---
 A short ride in the hills along the newly reopened Stage Road, then back up through Los Gatos, with lunch in San Jose.
 <!--more-->
