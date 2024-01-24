@@ -13,6 +13,11 @@
 {{- if $end_date }}
   {{- $end_date = time.AsTime $end_date | time }}
 {{- end }}
+{{/* this stupidity is because add-to-calendar does not understand numeric timeoffsets */}}
+{{- $timeOffset := $start_date.Format "-0700" }}
+{{- $timeSign := cond (strings.Contains $timeOffset "-") "+" "-" }}
+{{- $timeOffset = int (strings.TrimLeft "0-" $timeOffset) }}
+{{- $timeOffset = printf "Etc/GMT%s%d" $timeSign (div (int $timeOffset) 100) }}
 <add-to-calendar-button
   name="{{ $title }}"
   description="{{ replace  $description "\n" "[br]" }}"
@@ -28,9 +33,9 @@
   url="{{ $url }}"
   options="'Apple','Google','iCal','Outlook.com','Yahoo'"
   icalFileName="{{ $title | anchorize }}"
-  timeZone="Etc/GMT{{ $start_date.Format "+7" }}"
+  timeZone="America/Los_Angeles"
   buttonStyle="date"
-  size="3"
+  size="6"
   lightMode="bodyScheme"
   hideBranding
 ></add-to-calendar-button>
