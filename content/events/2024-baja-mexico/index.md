@@ -6,18 +6,55 @@ title: Baja California
 date: 2024-03-02T09:45:00-08:00
 endDate: 2024-03-16T18:00:00-07:00
 publishDate: 2024-01-01
-start:
-  location:
-    title: "Hollister Safeway Gas"
-    address: "591 Tres Pinos Rd.\nHollister, CA 95023"
-    geo:
-      lat: 36.8380955
-      lon: -121.3910211
-      radius: 19
+location:
+  title: "Hollister Safeway Gas"
+  address: "591 Tres Pinos Rd., Hollister, CA 95023"
+  geo:
+    lat: 36.8380955
+    lon: -121.3910211
+    radius: 19
 tags:
   - mexico
 images:
   - lapaz.jpg
+fullCalendar:
+  eventSources:
+    - events:
+      - start: 2024-03-02
+        title: Lebec
+      - start: 2024-03-03
+        title: Poway
+      - start: 2024-03-04
+        title: San Felipe
+      - start: 2024-03-05
+        title: Bahia de los Angeles
+      - start: 2024-03-06
+        title: San Ignatio
+      - start: 2024-03-08
+        title: Loreto
+      - start: 2024-03-09
+        title: La Paz
+      - start: 2024-03-11
+        title: Mulegé
+      - start: 2024-03-12
+        title: Guerrero Negro
+      - start: 2024-03-13
+        title: San Quintin
+      - start: 2024-03-14
+        title: Ensenada
+      - start: 2024-03-15
+        title: Camarillo
+      - start: 2024-03-16
+        title: Home
+      defaultAllDay: true
+      color: green
+    - events:
+      - start: 2024-03-10
+        title: rest day
+      - start: 2024-03-07
+        title: whale watching
+      defaultAllDay: true
+      color: orange
 ---
 Motorcycle trip down the Baja California peninsula. Sightseeing, whale watching, beach wandering,
 and fish taco eating.

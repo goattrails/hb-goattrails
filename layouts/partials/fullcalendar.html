@@ -4,7 +4,11 @@
 {{- $isoformat := "2006-01-02T15:04:05Z0700" }}
 {{- $id := print "ics-" (delimit (shuffle (seq 1 9)) "") }}
 {{- $end_date := default nil $page.Params.endDate }}
-{{- $extraData :=  dict }}
+{{- $pageEventSources :=  slice }}
+{{- with $page.Params.fullcalendar.eventsources }}
+    {{- $pageEventSources = . }}
+{{- end }}
+{{- $extraData := dict }}
 {{- with $context.data }}
     {{- $extraData = $page.Resources.Get . | transform.Unmarshal }}
 {{- end }}
@@ -20,20 +24,19 @@
         "right" "dayGridMonth,timeGridWeek")
     "initialDate" ($page.Date.Format $isoformat)
     "initialView" $view
-    "eventSources" (slice)
 }}
-{{- $defaultEvent := dict
+{{- $pageEvent := dict
     "title" $page.Title
     "start" ($page.Date.Format $isoformat)
 }}
 {{- if $end_date }}
-    {{- $defaultEvent = merge $defaultEvent (dict
+    {{- $pageEvent = merge $pageEvent (dict
             "end" (($end_date | time).Format $isoformat)
     )}}
 {{- end }}
-{{- $merged := merge $defaults $extraData }}
-{{- $eventSources := $merged.eventSources | append (dict "events" (slice $defaultEvent)) }}
-{{- $merged = merge $merged (dict "eventSources" $eventSources) }}
+{{- $pageEvent = (dict "events" (slice $pageEvent)) }}
+{{- $pageEventSources = (dict "eventSources" $pageEventSources) }}
+{{- $merged := merge $defaults $pageEvent $pageEventSources $extraData }}
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {

@@ -4,10 +4,9 @@
 {{- $title := $page.Title }}
 {{- $start_date := $page.Date }}
 {{- $end_date := $page.Params.endDate }}
-{{- $address := $page.Params.start }}
 {{- $description := $page.Description | default $page.Summary | plainify }}
 {{- $url := $page.Permalink }}
-{{- $location := delimit (slice $address.location.title $address.location.address) "\n" }}
+{{- $location := delimit (slice $page.Params.location.title $page.Params.location.address) "\n" }}
 {{- if $end_date }}
   {{- $end_date = time.AsTime $end_date | time }}
 {{- end }}
@@ -27,7 +26,7 @@
   options="'Apple','Google','iCal','Outlook.com','Yahoo'"
   icalFileName="{{ $title | anchorize }}"
   timeZone="Etc/GMT{{ $start_date.Format "+7" }}"
-{{/*  buttonStyle="date" TODO disabled until we remove the overflow-y-auto from div.hb-blog-post-toc */}}
+  buttonStyle="date"
   size="4"
   lightMode="bodyScheme"
   hideBranding
