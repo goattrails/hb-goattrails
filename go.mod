@@ -10,7 +10,7 @@ require (
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.4.1 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.24.2 // indirect
+	github.com/hbstack/blog v0.24.3 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
@@ -26,7 +26,7 @@ require (
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.7.2 // indirect
-	github.com/hbstack/docs v0.11.5 // indirect
+	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
@@ -41,8 +41,8 @@ require (
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.9.0 // indirect
-	github.com/hbstack/header v0.12.6 // indirect
+	github.com/hbstack/hb v0.9.2 // indirect
+	github.com/hbstack/header v0.12.7 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
@@ -70,7 +70,7 @@ require (
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.8.1 // indirect
+	github.com/hugomods/decap-cms v0.10.1 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.1 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.1 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
