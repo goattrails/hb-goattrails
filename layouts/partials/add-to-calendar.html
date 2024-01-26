@@ -1,6 +1,5 @@
 {{- $isoformat := "2006-01-02T15:04:05Z0700" }}
 {{- $page := .Page }}
-{{- $id := print "add-to-calendar-" (delimit (shuffle (seq 1 9)) "") }}
 {{- $title := $page.Title }}
 {{- $start_date := $page.Date }}
 {{- $end_date := $page.Params.endDate }}
@@ -33,9 +32,7 @@
   url="{{ $url }}"
   options="'Apple','Google','iCal','Outlook.com','Yahoo'"
   icalFileName="{{ $title | anchorize }}"
-  timeZone="America/Los_Angeles"
-  buttonStyle="date"
-  size="6"
+  timeZone="{{ $timeOffset }}"
   lightMode="bodyScheme"
   hideBranding
 ></add-to-calendar-button>
