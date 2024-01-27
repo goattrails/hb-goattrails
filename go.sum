@@ -18,6 +18,8 @@ github.com/hbstack/blog/modules/breadcrumb v0.1.22 h1:NDcjR5805LBDRcLaDF12VAIAJi
 github.com/hbstack/blog/modules/breadcrumb v0.1.22/go.mod h1:abqj7FTsHihbv3B2szGm4YmVGVZWzWg2VVA5ZhqUyKY=
 github.com/hbstack/blog/modules/content-panel v0.1.21 h1:g43IVjn3O6QCQSvCbgr9iYCgZcI5XG8YAiuVPb269Ok=
 github.com/hbstack/blog/modules/content-panel v0.1.21/go.mod h1:fVnvVtnfo3R78jnGLgckfC43j7rYMMN+l1PhU9E6Jas=
+github.com/hbstack/blog/modules/decap-cms v0.1.0 h1:LiI5ZtTYrPX9e4PkLRwli8bY1ooV23MPqIrEo8RWjMI=
+github.com/hbstack/blog/modules/decap-cms v0.1.0/go.mod h1:ixceWx1jRQIOb2BQIUHj8HcnOE83soKvdbFsp2lVx8Y=
 github.com/hbstack/blog/modules/featured-image v0.2.21 h1:G4nwll995EsnEAJOBUKJMjH12HtJ0YFPL0nH8m7qneI=
 github.com/hbstack/blog/modules/featured-image v0.2.21/go.mod h1:+gxtGAEh7aXDDKQA0wWzdi9HPLcqCSRtRp63F+NN8QU=
 github.com/hbstack/blog/modules/giscus v0.1.23 h1:k70d91K6mU6LJGhXYh1Mrpk+MFFrxwTOGyCVWHWHgbo=
@@ -132,8 +134,8 @@ github.com/hugomods/bootstrap v0.17.0 h1:oH+V92q5W/kye9QPSQdZXYsO3V2wyfkAjdYLPFI
 github.com/hugomods/bootstrap v0.17.0/go.mod h1:EA5CtuNQX+aNkwEt1xae7clZ+4087KFXWZGE+2/f5oc=
 github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBXE3nFT2vJxA=
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
-github.com/hugomods/decap-cms v0.10.1 h1:iETNUSo+70/wKT8fp8O/GEJIE5lGMZs3yiodLhQSd/Y=
-github.com/hugomods/decap-cms v0.10.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.11.0 h1:dkA8G9IRpdQvJuZjZOYUX9ncBxCuTILg3JrlzzZhKgk=
+github.com/hugomods/decap-cms v0.11.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.1 h1:Hjyj4AskRZuVaVtAuOylP1dk7201sxHQBGmkBvJAIpk=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.1/go.mod h1:g9lQv9x/JH7szo6GJJY86lUBk+I8gQ5foM/ceVUVTcM=
 github.com/hugomods/decap-cms/widgets/url v0.1.1 h1:+aFioKFC6L7lqUYKFQ01cQ54DdWi58ezwen6jcfz+Os=

@@ -174,85 +174,78 @@ hugopress:
 #          weight: 2
 
 decap_cms:
+  _configs:
+    field_end_date:
+      fields:
+        end_date:
+          i18n: true
+          name: endDate
+          label: "Event Ending Date"
+          widget: datetime
+          picker_utc: false
+    field_publish_date:
+      fields:
+        publish_date:
+          i18n: true
+          name: publishDate
+          label: "Post Publish Date"
+          widget: datetime
+          picker_utc: false
+    hb_events_posts:
+      name: events
+      label: Events
+      label_singular: Event
+      create: true
+      _extends:
+        - field_title
+        - field_draft
+        - field_publish_date
+        - field_date
+        - field_end_date
+        - field_description
+        - field_images
+        - field_aliases
+        - field_authors
+        - field_series
+        - field_categories
+        - field_tags
+        - field_body
   search: true
-  logo_url: images/logo.png
   slug:
     encoding: ascii
     clean_accents: true
     sanitize_replacement: "_"
   collections:
     events:
-      name: events
-      label: Events
-      label_singular: Event
       description: Upcoming events
       folder: content/events
-      create: true
-      nested:
-        depth: 3
       slug: "{{year}}-{{slug}}"
-      path: "{{slug}}/index"
+      _weight: 1
+      _extends:
+        - hb_events_posts
+        - nested
       fields:
-        - {label: "Title", name: title, widget: string}
-        - {label: "Description", name: description, widget: text, required: false,
-           hint: "plain text, no markdown or html"}
-        - {label: "Authors", label_singular: "Author", name: authors, widget: list, required: false, collapsed: true,
-           default: ["ich", "paul"]}
-        - {label: "Areas", label_singular: "Area", name: tags, widget: list, collapsed: true,
+
+        - {name: authors, default: ["ich", "paul"] }
+        - {name: tags, label: "Areas", label_singular: "Area",
            default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"],
            hint: "north-bay, south-bay, east-bay, sierras, norcal, socal, mexico, pnw"}
-        - {label: "Event Date", name: date, widget: datetime,
-           hint: "Date and Time of Event"}
-        - {label: "Event Ending Date", name: endDate, widget: datetime, required: false, default: null,
-           hint: "Ending time for Event"}
-        - {label: "Post Publish Date", name: publishDate, widget: datetime,
-           hint: "Start publishing post on..."}
-        - {label: "Post Expiration Date", name: expiryDate, widget: hidden, required: false, default: null,
-           hint: "Stop publishing post on...."}
+        - {name: images, hint: "One featured image, and call it feature<something>.jpg" }
+        - {name: date, label: "Event Date", hint: "Date and Time of Event"}
+
+        - {name: endDate, widget: datetime, hint: "Ending time for Event"}
         - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false,
            hint: "Hide post from front page"}
         - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false,
            hint: "Feature post on front page"}
         - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false,
            hint: "Pin post in carousel"}
-        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false,
+        - {label: "Allow comments", name: comments, widget: hidden, default: true, required: false,
            hint: "Allow commenting on this post"}
-        - {label: "Featured Images", label_singular: "Featured Image", name: images, widget: list, summary: "{{fields.image}}", required: false, collapsed: true,
-           hint: "One featured image, and call it feature<something>.jpg",
-           field: {label: "Image", name: image, widget: image, choose_url: true}}
-        - {label: "Body", name: body, widget: markdown}
     blog:
-      name: blog
-      label: Blog
-      description: Blog Pieces and News
       folder: content/blog
-      create: true
-      nested:
-        depth: 3
-      slug: "{{year}}-{{slug}}"
-      path: "{{slug}}/index"
-      fields:
-        - {label: "Title", name: title, widget: string}
-        - {label: "Description", name: description, widget: text, required: false,
-           hint: "plain text, no markdown or html"}
-        - {label: "Authors", label_singular: "Author", name: authors, widget: list, required: false, collapsed: true,
-           default: ["ich", "paul"]}
-        - {label: "Tags", label_singular: "Tag", name: tags, widget: list, collapsed: true, required: false}
-        - {label: "Date", name: date, widget: datetime,
-           hint: "Article Date"}
-        - {label: "Post Publish Date", name: publishDate, widget: hidden, required: false, default: null,
-           hint: "Start publishing post on..."}
-        - {label: "Post Expiration Date", name: expiryDate, widget: hidden, required: false, default: null,
-           hint: "Stop publishing post on...."}
-        - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false,
-           hint: "Hide post from front page"}
-        - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false,
-           hint: "Feature post on front page"}
-        - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false,
-           hint: "Pin post in carousel"}
-        - {label: "Allow comments", name: comments, widget: boolean, default: true, required: false,
-           hint: "Allow commenting on this post"}
-        - {label: "Featured Images", label_singular: "Featured Image", name: images, widget: list, summary: "{{fields.image}}", required: false, collapsed: true,
-           hint: "One featured image, and call it feature<something>.jpg",
-           field: {label: "Image", name: image, widget: image, choose_url: true}}
-        - {label: "Body", name: body, widget: markdown}
+      _weight: 2
+      _extends:
+        - field_authors
+        - hb_blog_posts
+        - nested
