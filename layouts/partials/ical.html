@@ -14,7 +14,6 @@
 <script type="module">
 'use strict';
 import ical from 'https://cdn.jsdelivr.net/npm/ical-generator@6.0.1/+esm';
-
 async function handleDownload(e) {
   e.preventDefault();
   const filename = '{{ $title | anchorize }}.ics';
@@ -35,19 +34,18 @@ async function handleDownload(e) {
      resolve(new File([cal.toString()], filename, { type: 'text/calendar' }));
   });
 
-  const url = URL.createObjectURL(file);
+  const fileUrl = URL.createObjectURL(file);
 
   // trying to assign the file URL to a window could cause cross-site
   // issues so this is a workaround using HTML5
   const anchor = document.createElement('a');
-  anchor.href = url;
+  anchor.href = fileUrl;
   anchor.download = filename;
 
   document.body.appendChild(anchor);
   anchor.click();
   document.body.removeChild(anchor);
-
-  URL.revokeObjectURL(url);
+  URL.revokeObjectURL(fileUrl);
 };
 document.querySelector('#{{ $id }}').addEventListener('click', handleDownload);
 </script>
