@@ -22,9 +22,10 @@
   @media all and (max-width: 768px) {
       li {
         font-size: calc(1.125rem * var(--smaller));
+        & span {
+          font-size: calc(3.375rem * var(--smaller));
+        }
       }
-      li span {
-        font-size: calc(3.375rem * var(--smaller));
-      }
+
     }
 }
