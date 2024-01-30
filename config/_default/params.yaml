@@ -64,7 +64,7 @@ hb:
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
         style: pills # pills, tabs or underline.
-        separate: false # whether to separate into mutliple sections.
+        separate: false # whether to separate into multiple sections.
         authors:
           disable: true # whether to disable this taxonomy.
           weight: 1 # the weight of this taxonomy, lower gets higher priority.
@@ -182,7 +182,7 @@ decap_cms:
           name: endDate
           label: "Event Ending Date"
           widget: datetime
-          picker_utc: false
+          picker_utc: true
     field_publish_date:
       fields:
         publish_date:
@@ -190,7 +190,27 @@ decap_cms:
           name: publishDate
           label: "Post Publish Date"
           widget: datetime
-          picker_utc: false
+          picker_utc: true
+    field_hidden:
+      fields:
+        hidden:
+          i18n: false
+          name: hidden
+          label: "Hide post"
+          hint: "Hide post from home page"
+          widget: boolean
+          default: false
+          required: false
+    field_comments:
+      fields:
+        comments:
+          i18n: false
+          name: comments
+          label: "Allow comments"
+          hint: "Allow comments on this page"
+          widget: boolean
+          default: false
+          required: false
     hb_events_posts:
       name: events
       label: Events
@@ -199,6 +219,10 @@ decap_cms:
       _extends:
         - field_title
         - field_draft
+        - hb_field_featured
+        - hb_field_pinned
+        - field_hidden
+        - field_comments
         - field_publish_date
         - field_date
         - field_end_date
@@ -225,23 +249,15 @@ decap_cms:
         - hb_events_posts
         - nested
       fields:
-
         - {name: authors, default: ["ich", "paul"] }
         - {name: tags, label: "Areas", label_singular: "Area",
            default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"],
            hint: "north-bay, south-bay, east-bay, sierras, norcal, socal, mexico, pnw"}
         - {name: images, hint: "One featured image, and call it feature<something>.jpg" }
         - {name: date, label: "Event Date", hint: "Date and Time of Event"}
-
         - {name: endDate, widget: datetime, hint: "Ending time for Event"}
-        - {label: "Post Hidden", name: hidden, widget: hidden, default: false, required: false,
-           hint: "Hide post from front page"}
-        - {label: "Post Featured", name: feature, widget: hidden, default: false, required: false,
-           hint: "Feature post on front page"}
-        - {label: "Post Pinned", name: pinned, widget: hidden, default: false, required: false,
-           hint: "Pin post in carousel"}
-        - {label: "Allow comments", name: comments, widget: hidden, default: true, required: false,
-           hint: "Allow commenting on this post"}
+        - {name: featured, hint: "Feature post on front page"}
+        - {name: pinned, hint: "Pin post in carousel"}
     blog:
       folder: content/blog
       _weight: 2

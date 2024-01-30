@@ -64,7 +64,6 @@ imports:
   - path: github.com/hbstack/meta/recommended
   - path: github.com/hugomods/decap-cms/widgets/url
   - path: github.com/hugomods/decap-cms/editor-components/todo
-  - path: github.com/hugomods/decap-cms
   - path: github.com/hbstack/blog/modules/decap-cms
 # - path: github.com/hbstack/blog/modules/social-share-buttons
   - path: github.com/hugomods/aos
