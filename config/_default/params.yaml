@@ -249,6 +249,8 @@ decap_cms:
     events:
       description: Upcoming events
       folder: content/events
+      media_folder: ""
+      public_folder: ""
       slug: "{{year}}-{{slug}}"
       _weight: 1
       _extends:
@@ -266,8 +268,9 @@ decap_cms:
         - {name: pinned, hint: "Pin post in carousel"}
     blog:
       folder: content/blog
+      media_folder: ""
+      public_folder: ""
       _weight: 2
       _extends:
-        - field_authors
         - hb_blog_posts
         - nested
