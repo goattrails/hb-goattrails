@@ -258,6 +258,7 @@ decap_cms:
         - nested
       fields:
         - {name: authors, default: ["ich", "paul"] }
+        - {name: description, required: false}
         - {name: tags, label: "Areas", label_singular: "Area",
            default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"],
            hint: "north-bay, south-bay, east-bay, sierras, norcal, socal, mexico, pnw"}
