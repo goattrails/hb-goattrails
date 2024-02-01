@@ -6,7 +6,7 @@
     ":automergeBranch",
     ":automergeMinor",
     ":automergeDigest",
-    ":timeZone(America/Los_Angeles)"
+    ":timeZone America/Los_Angeles"
   ],
   "postUpdateOptions": [
     "gomodTidy"
