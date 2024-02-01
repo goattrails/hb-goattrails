@@ -40,7 +40,7 @@ A short ride in the hills along the newly reopened Stage Road, then back up thro
 
 ## Map
 
-{{< gpxmap "jan15.gpx" >}}
+{{< gpxmap gpx="jan15.gpx" >}}
 
 ## Time and Milages
 
