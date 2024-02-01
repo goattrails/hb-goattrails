@@ -12,9 +12,9 @@ header:
   banner:
     alignment: center
     img: /images/header.jpeg
-    XXXvideo:
-      src: /images/header.mov
-      type: video/quicktime
+    video:
+      src: /images/header.mp4
+      type: video/mp4
     title: |
       Goat Trail Junkies
       { .text-uppercase .mb-5 data-aos="fade-up" }
