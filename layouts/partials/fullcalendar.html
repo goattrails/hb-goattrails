@@ -2,7 +2,7 @@
 {{- $context := . }}
 {{- $page := $context.page }}
 {{- $isoformat := "2006-01-02T15:04:05Z0700" }}
-{{- $id := print "ics-" (delimit (shuffle (seq 1 9)) "") }}
+{{- $id := print "fc-" (delimit (shuffle (seq 1 9)) "") }}
 {{- $end_date := default nil $page.Params.endDate }}
 {{- $pageEventSources :=  slice }}
 {{- with $page.Params.fullcalendar.eventsources }}
