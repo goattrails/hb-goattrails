@@ -1,21 +1,23 @@
 ---
-title: Fort Ross Road Ramble
+draft: false
 publishDate: 2023-07-27
 date: 2023-07-30T08:45:00-07:00
 endDate: 2023-07-30T14:45:00-07:00
-draft: false
 authors:
   - paul
-tags:
-  - north-bay
-images:
-  - featured-fort-ross.jpg
 location:
-  title: "Peet's Coffee Northgate Mall"
-  address: "5800 Northgate Dr. #146\nSan Rafael, CA 94114"
+  title: Peet's Coffee Northgate Mall
+  address: |-
+    5800 Northgate Dr. #146
+    San Rafael, CA 94114
   geo:
     lat: 38.0044923
     lon: -122.5445852
+title: Fort Ross Road Ramble
+images:
+  - feature-fort-ross.jpg
+tags:
+  - north-bay
 ---
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
 and Kruse Ranch Rd.
@@ -58,5 +60,7 @@ and Kruse Ranch Rd.
 
 * 07/30/23: Sunrise: 06:11, Starts: 09:15, Ends: 17:41, Sunset: 20:20
 * Total distance: 195.52 mi
+
+## Calendar
 
 {{< fullcalendar view="timeGridWeek" >}}
