@@ -3,8 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 publishDate: {{ .Date }}
 # expiryDate: {{ .Date }}
-params:
-  endDate: {{ .Date }}
+endDate: {{ .Date }}
 description: "A twisty ride up to Guerneville and north featuring Fort Ross Rd. and Kruse Ranch Rd."
 draft: false
 noindex: false
