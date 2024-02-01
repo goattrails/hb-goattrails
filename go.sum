@@ -52,8 +52,6 @@ github.com/hbstack/docs/modules/breadcrumb v0.1.9 h1:znf/33KfQFZXOXVKezdksy/euM0
 github.com/hbstack/docs/modules/breadcrumb v0.1.9/go.mod h1:vpQYRcZmRTqYpVb7x7sOgw13MxBuNgUt82wQDz6ZtZU=
 github.com/hbstack/docs/modules/content-panel v0.1.8 h1:jdvI05iKD3awcCFx9UoGNh7DfNK60jWLJjVAspqEH+o=
 github.com/hbstack/docs/modules/content-panel v0.1.8/go.mod h1:hlcrr8ZLfC+hOuzgCZh3YIlmwzKOiUvbb2oP20PBO8k=
-github.com/hbstack/docs/modules/decap-cms v0.2.0 h1:LQAgUeqRZ2BhKMqMmIHBIZC5fI6qbLNTHS0ZzGLA2vw=
-github.com/hbstack/docs/modules/decap-cms v0.2.0/go.mod h1:hp1v7Okbu4MN2+A18eUJ7MgEIzPTyOMwvGPIRwz2co4=
 github.com/hbstack/docs/modules/doc-nav v0.3.4 h1:HZrUltvsaLuGJKrDDzaC/qinzww9IDTMikeCy8UqghQ=
 github.com/hbstack/docs/modules/doc-nav v0.3.4/go.mod h1:52tWPJSu6DO7q5KXK/O6F+nUWKbveNOHkJC1yie51Es=
 github.com/hbstack/docs/modules/featured-image v0.2.8 h1:5sYRhNxVa/EYGCsgS5SKiZMIAdhZQJxam4CEyTFWL8Q=
@@ -136,8 +134,7 @@ github.com/hugomods/bootstrap v0.17.0 h1:oH+V92q5W/kye9QPSQdZXYsO3V2wyfkAjdYLPFI
 github.com/hugomods/bootstrap v0.17.0/go.mod h1:EA5CtuNQX+aNkwEt1xae7clZ+4087KFXWZGE+2/f5oc=
 github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBXE3nFT2vJxA=
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
-github.com/hugomods/decap-cms v0.11.1 h1:pUPFe9OlppRqrmLA+FroAVZ/XaTFatbmAGP7JTKcCAE=
-github.com/hugomods/decap-cms v0.11.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.11.2 h1:3qJI+ZSBASUOO+zhKzC6g7ifBrzyJhHpTzeMVZfetCw=
 github.com/hugomods/decap-cms v0.11.2/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.1 h1:Hjyj4AskRZuVaVtAuOylP1dk7201sxHQBGmkBvJAIpk=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.1/go.mod h1:g9lQv9x/JH7szo6GJJY86lUBk+I8gQ5foM/ceVUVTcM=
@@ -173,8 +170,7 @@ github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/pwa v0.7.0 h1:4m8WTkWSEWi2FCnfHMJm1ZbcAPbPbHElh2gepPzfM3A=
 github.com/hugomods/pwa v0.7.0/go.mod h1:KpYK2Ffn969+Py5SzV3+iXYase4UoUeRAsd9jY7Q2Us=
-github.com/hugomods/search v0.8.3 h1:IIeU8Xw5t+SRYwpX08NjROt+YtDtWjjW0Xa00nEaYVs=
-github.com/hugomods/search v0.8.3/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
+github.com/hugomods/search v0.8.4 h1:LWnTZ3Zs6Tv9Qv61XvrJzKEJ2UvYa+gKwv/yvhtMb5U=
 github.com/hugomods/search v0.8.4/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
 github.com/hugomods/seo/modules/alternatives v0.1.0/go.mod h1:ff9uz+f5yii9k2jbwt/HKM3RpLR3EYZrNQBAOabNxMA=

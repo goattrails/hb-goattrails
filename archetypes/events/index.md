@@ -5,7 +5,7 @@ publishDate: {{ .Date }}
 # expiryDate: {{ .Date }}
 params:
   endDate: {{ .Date }}
-description: "{{ replace .Name "-" " " | title }}"
+description: "A twisty ride up to Guerneville and north featuring Fort Ross Rd. and Kruse Ranch Rd."
 draft: false
 noindex: false
 featured: false
@@ -27,14 +27,8 @@ tags:
 #  - mexico
 #  - pnw
 images:
-#  -
+  - fort-ross.jpg
 ---
-Example Content.
-
-{{< figure "fort-ross.jpg" >}}
-
-{{< fullcalendar >}}
-
 A twisty ride up to Guerneville and north featuring Fort Ross Rd.
 and Kruse Ranch Rd.
 
@@ -58,7 +52,9 @@ and Kruse Ranch Rd.
   [GPX](fort-ross.gpx)
   [Scenic](https://scenicapp.space/route/ByyIxbmz)
 
-{{< gpxmap "fort-ross.gpx" >}}
+## Map and Waypoints
+
+{{< gpxmap gpx="fort-ross.gpx" >}}
 
 | Name                           |   Dist. | G |  ETA  | Notes
 | :----------------------------- | ------: | - | ----: | :----
@@ -73,3 +69,7 @@ and Kruse Ranch Rd.
 
 * 07/30/23: Sunrise: 06:11, Starts: 09:15, Ends: 17:41, Sunset: 20:20
 * Total distance: 195.52 mi
+
+## Calendar
+
+{{< fullcalendar >}}
