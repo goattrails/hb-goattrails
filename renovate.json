@@ -1,12 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "America/Los_Angeles",
   "extends": [
     "config:best-practices",
     "schedule:automergeDaily",
     ":automergeBranch",
     ":automergeMinor",
-    ":automergeDigest",
-    ":timeZone America/Los_Angeles"
+    ":automergeDigest"
   ],
   "postUpdateOptions": [
     "gomodTidy"
