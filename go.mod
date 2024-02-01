@@ -72,7 +72,7 @@ require (
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.11.1 // indirect
+	github.com/hugomods/decap-cms v0.11.2 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.1 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.1 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
