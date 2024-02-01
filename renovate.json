@@ -1,14 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:best-practices",
+    "schedule:automergeDaily",
+    ":automergeBranch",
+    ":automergeMinor",
+    ":automergeDigest",
+    ":timeZone(America/Los_Angeles)"
   ],
-  "packageRules": [
-    {
-      "matchManagers": ["gomod"],
-      "matchDepTypes": ["indirect"],
-      "enabled": true,
-      "automerge": true
-    }
+  "postUpdateOptions": [
+    "gomodTidy"
   ]
 }
