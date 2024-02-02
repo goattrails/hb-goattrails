@@ -296,6 +296,10 @@ decap_cms:
         pinned:
           hint: "Pin post in carousel"
           widget: hidden
+    field_images:
+      fields:
+        images:
+          hint: "One featured image, and call it feature<something>.jpg"
     hb_events_posts:
       name: events
       label: Events
@@ -337,8 +341,6 @@ decap_cms:
       _extends:
         - hb_events_posts
         - nested
-      fields:
-        - {name: images, hint: "One featured image, and call it feature<something>.jpg" }
     blog:
       folder: content/blog
       slug: "{{year}}/{{slug}}/index"
