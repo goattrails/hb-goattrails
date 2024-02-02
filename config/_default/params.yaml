@@ -181,6 +181,15 @@ decap_cms:
       - news
       - events
   _configs:
+    field_event_date:
+      fields:
+        date:
+          i18n: true
+          name: date
+          label: "Event Start Date"
+          widget: datetime
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
     field_end_date:
       fields:
         end_date:
@@ -189,6 +198,7 @@ decap_cms:
           label: "Event Ending Date"
           widget: datetime
           format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
     field_publish_date:
       fields:
         publish_date:
@@ -197,6 +207,7 @@ decap_cms:
           label: "Post Publish Date"
           widget: datetime
           format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
     field_hidden:
       fields:
         hidden:
@@ -240,7 +251,7 @@ decap_cms:
               required: false
     field_gpxfile:
       fields:
-        gpxFile:
+        gpxfile:
           i18n: false
           name: gpxFile
           label: "GPX file"
@@ -250,6 +261,41 @@ decap_cms:
           summary: "{{fields.gpxFile}}"
           collapsed: true
           minimize_collapsed: true
+    field_authors:
+      fields:
+        authors:
+          default:
+            - ich
+            - paul
+    field_description:
+      fields:
+        description:
+          required: false
+    field_tags:
+      fields:
+        tags:
+          label: "Areas"
+          label_singular: "Area"
+          summary: "{{fields.tags}}"
+          default:
+            - "north-bay"
+            - "south-bay"
+            - "east-bay"
+            - "sierras"
+            - "norcal"
+            - "socal"
+            - "mexico"
+            - "pnw"
+    field_featured:
+      fields:
+        featured:
+          hint: "Feature post on front page"
+          widget: hidden
+    field_pinned:
+      fields:
+        pinned:
+          hint: "Pin post in carousel"
+          widget: hidden
     hb_events_posts:
       name: events
       label: Events
@@ -263,7 +309,7 @@ decap_cms:
         - field_hidden
         - field_comments
         - field_publish_date
-        - field_date
+        - field_event_date
         - field_end_date
         - field_description
         - field_location
@@ -292,15 +338,7 @@ decap_cms:
         - hb_events_posts
         - nested
       fields:
-        - {name: authors, default: ["ich", "paul"] }
-        - {name: description, required: false}
-        - {name: tags, label: "Areas", label_singular: "Area",
-           default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"],
-           hint: "north-bay, south-bay, east-bay, sierras, norcal, socal, mexico, pnw"}
         - {name: images, hint: "One featured image, and call it feature<something>.jpg" }
-        - {name: date, label: "Event Date", hint: "Date and Time of Event", picker_utc: false, format: "YYYY-MM-DDTHH:mm:ssZZ"}
-        - {name: featured, hint: "Feature post on front page"}
-        - {name: pinned, hint: "Pin post in carousel"}
     blog:
       folder: content/blog
       slug: "{{year}}/{{slug}}/index"
