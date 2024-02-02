@@ -36,14 +36,14 @@ require (
 	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
-	github.com/hbstack/featured-image v0.1.2 // indirect
+	github.com/hbstack/featured-image v0.2.0 // indirect
 	github.com/hbstack/footer v0.2.10 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/gallery v0.11.0 // indirect
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.9.2 // indirect
+	github.com/hbstack/hb v0.10.0 // indirect
 	github.com/hbstack/header v0.12.7 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
@@ -73,8 +73,8 @@ require (
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.11.2 // indirect
-	github.com/hugomods/decap-cms/editor-components/todo v0.1.1 // indirect
-	github.com/hugomods/decap-cms/widgets/url v0.1.1 // indirect
+	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
+	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
