@@ -1,10 +1,10 @@
 ---
+title: Fort Ross Road Ramble
 draft: false
+featured: true
 publishDate: 2023-07-27
 date: 2023-07-30T08:45:00-07:00
 endDate: 2023-07-30T14:45:00-07:00
-authors:
-  - paul
 location:
   title: Peet's Coffee Northgate Mall
   address: |-
@@ -13,9 +13,10 @@ location:
   geo:
     lat: 38.0044923
     lon: -122.5445852
-title: Fort Ross Road Ramble
 images:
   - feature-fort-ross.jpg
+authors:
+  - paul
 tags:
   - north-bay
 ---

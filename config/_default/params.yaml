@@ -66,15 +66,15 @@ hb:
         style: pills # pills, tabs or underline.
         separate: false # whether to separate into multiple sections.
         authors:
-          disable: true # whether to disable this taxonomy.
+          disable: false # whether to disable this taxonomy.
           weight: 1 # the weight of this taxonomy, lower gets higher priority.
           count: false # override the global count setting.
           limit: 5 # override the global limit setting.
         categories:
-          disable: true
+          disable: false
           weight: 3
         series:
-          disable: true
+          disable: false
           weight: 2
         tags:
           disable: false
@@ -87,7 +87,7 @@ hb:
     post_date_format: "Mon Jan 2 2006 3:04 PM MST" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
       taxonomies: false # remove the taxonomies stat from the homepage.
-      featured_posts: 0 # the number of the featured posts, 0 means disabled.
+      featured_posts: 5 # the number of the featured posts, 0 means disabled.
       pinned_posts_position: "list"
       main_sections: # leave it empty to include all regular pages.
         - docs
@@ -160,10 +160,11 @@ hugopress:
         hb-blog-post-toc-end:
           cacheable: false
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
+# we don't use the sidebar
 #        hb-blog-sidebar:
 #          cacheable: true
 #          weight: 4
-    # change the order of sidebar modules.
+#    # change the order of sidebar modules.
 #    hb-blog-sidebar-taxonomies:
 #      hooks:
 #        hb-blog-sidebar:
@@ -213,8 +214,7 @@ decap_cms:
         hidden:
           i18n: false
           name: hidden
-          label: "Hide post"
-          hint: "Hide post from home page"
+          label: "Hide post from front page"
           widget: boolean
           default: false
           required: false
@@ -224,9 +224,8 @@ decap_cms:
           i18n: false
           name: comments
           label: "Allow comments"
-          hint: "Allow comments on this page"
           widget: boolean
-          default: false
+          default: true
           required: false
     field_location:
       fields:
@@ -271,12 +270,12 @@ decap_cms:
       fields:
         description:
           required: false
-    field_tags:
+    field_areas:
       fields:
-        tags:
+        areas:
+          name: tags
           label: "Areas"
           label_singular: "Area"
-          summary: "{{fields.tags}}"
           default:
             - "north-bay"
             - "south-bay"
@@ -286,20 +285,17 @@ decap_cms:
             - "socal"
             - "mexico"
             - "pnw"
-    field_featured:
+          i18n: true
+          required: false
+          widget: list
+    hb_field_featured:
       fields:
         featured:
-          hint: "Feature post on front page"
-          widget: hidden
-    field_pinned:
+          label: "Feature post in carousel"
+    hb_field_pinned:
       fields:
         pinned:
-          hint: "Pin post in carousel"
-          widget: hidden
-    field_images:
-      fields:
-        images:
-          hint: "One featured image, and call it feature<something>.jpg"
+          label: "Pin post on front page and carousel"
     hb_blog_posts:
       path: "{{year}}-{{slug}}/index"
       summary: "{{date | truncate(10, ' ')}}{{date | ternary('- ','')}}{{title}}"
@@ -342,7 +338,7 @@ decap_cms:
         - field_authors
         - field_series
         - field_categories
-        - field_tags
+        - field_areas
         - field_body
   search: true
   slug:

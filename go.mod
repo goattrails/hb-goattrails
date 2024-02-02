@@ -13,13 +13,14 @@ require (
 	github.com/hbstack/blog v0.24.3 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
-	github.com/hbstack/blog/modules/decap-cms v0.2.0 // indirect
+	github.com/hbstack/blog/modules/decap-cms v0.2.1 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.3.6 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.2.5 // indirect
 	github.com/hbstack/blog/modules/revision v0.1.0 // indirect
+	github.com/hbstack/blog/modules/social-share-buttons v0.1.1 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 // indirect
 	github.com/hbstack/bootstrap v0.2.1 // indirect
 	github.com/hbstack/breadcrumb v0.6.0 // indirect
@@ -62,6 +63,7 @@ require (
 	github.com/hbstack/search v0.2.1 // indirect
 	github.com/hbstack/slide v0.3.1 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
+	github.com/hbstack/social-share-buttons v0.1.3 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
