@@ -302,7 +302,7 @@ decap_cms:
           hint: "One featured image, and call it feature<something>.jpg"
     hb_blog_posts:
       path: "{{year}}-{{slug}}/index"
-      summary: "{{year}}-{{month}}-{{day}} / {{title}}"
+      summary: "{{date | truncate(10, ' ')}}{{date | ternary('- ','')}}{{title}}"
       sortable_fields: ["date", "title"]
       view_groups:
         - label: Year
@@ -316,7 +316,7 @@ decap_cms:
       label_singular: Event
       create: true
       path: "{{year}}-{{slug}}/index"
-      summary: "{{date}} / {{title}}"
+      summary: "{{date | truncate(10, ' ')}}{{date | ternary('- ','')}}{{title}}"
       sortable_fields: ["date", "title"]
       view_groups:
         - label: Year
