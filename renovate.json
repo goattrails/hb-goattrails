@@ -6,7 +6,8 @@
     "schedule:automergeDaily",
     ":automergeBranch",
     ":automergeMinor",
-    ":automergeDigest"
+    ":automergeDigest",
+    ":preserveSemverRanges"
   ],
   "postUpdateOptions": [
     "gomodTidy"
