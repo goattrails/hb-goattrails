@@ -217,6 +217,32 @@ decap_cms:
           widget: boolean
           default: false
           required: false
+    field_location:
+      fields:
+        location:
+          i18n: false
+          name: location
+          label: "Start location"
+          hint: "Name and address of start location"
+          widget: object
+          required: false
+          summary: "{{fields.title}}: {{fields.address}}"
+          fields:
+            - label: Title
+              name: title
+              widget: string
+            - label: Address
+              name: address
+              widget: text
+    field_gpxfile:
+      fields:
+        gpxFile:
+          i18n: false
+          name: gpxFile
+          label: "GPX file"
+          hint: "GPX file of route"
+          required: false
+          widget: file
     hb_events_posts:
       name: events
       label: Events
@@ -233,6 +259,8 @@ decap_cms:
         - field_date
         - field_end_date
         - field_description
+        - field_location
+        - field_gpxfile
         - field_images
         - field_aliases
         - field_authors

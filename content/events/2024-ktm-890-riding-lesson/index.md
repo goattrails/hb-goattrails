@@ -8,29 +8,30 @@ comments: false
 publishDate: 2024-02-01T22:59:55.594Z
 date: 2024-02-03T09:30:00-0800
 endDate: 2024-02-03T15:00:00-0800
+location:
+  title: Peet's Coffee
+  address: |-
+    12148 Saratoga Sunnyvale Rd.
+    Saratoga, CA 95070
+gpxFile: feb03.gpx
 images:
   - ktm-890-adventure-r-rally-3.jpg.webp
 authors:
   - ich
 tags:
   - south-bay
-location:
-  title: Peet's Coffee
-  address: |-
-    12148 Saratoga Sunnyvale Rd.
-    Saratoga, CA 95070
 ---
 ## Start
 
 🔹 WHEN: Saturday February 3rd • meet 9:30 AM
 
-🔹 WHERE: [Peet's](https://www.google.com/maps/place/37.2926,-122.0319) ☕️ • 12148 Saratoga Sunnyvale Rd, Saratoga (top off at Valero ⛽)
+🔹 WHERE: [Peet's](https://www.google.com/maps/place/37.2926,-122.0319) ☕️ • 12148 Saratoga Sunnyvale Rd, Saratoga *(top off at Valero ⛽)*
 
-🔹 HOW: [GPX](feb03.gpx), [route](https://onthegomap.com/s/a828redc)
+🔹 HOW: [GPX]({{< gpxfile >}}), [route](https://onthegomap.com/s/a828redc)
 
 ## Route and Waypoints
 
-{{< gpxmap gpx="feb03.gpx" >}}
+{{< gpxmap >}}
 
     S feb03 ☼ 7:10 ~ 17:35 ☽
 
