@@ -300,11 +300,30 @@ decap_cms:
       fields:
         images:
           hint: "One featured image, and call it feature<something>.jpg"
+    hb_blog_posts:
+      path: "{{year}}-{{slug}}/index"
+      summary: "{{year}}-{{month}}-{{day}} / {{title}}"
+      sortable_fields: ["date", "title"]
+      view_groups:
+        - label: Year
+          field: date
+          pattern: "\\d{4}"
+        - label: Drafts
+          field: draft
     hb_events_posts:
       name: events
       label: Events
       label_singular: Event
       create: true
+      path: "{{year}}-{{slug}}/index"
+      summary: "{{date}} / {{title}}"
+      sortable_fields: ["date", "title"]
+      view_groups:
+        - label: Year
+          field: date
+          pattern: "\\d{4}"
+        - label: Drafts
+          field: draft
       _extends:
         - field_title
         - field_draft
@@ -334,19 +353,18 @@ decap_cms:
     events:
       description: Upcoming events
       folder: content/events
-      media_folder: ""
-      public_folder: ""
-      slug: "{{year}}-{{slug}}/index"
       _weight: 1
       _extends:
         - hb_events_posts
         - nested
     blog:
       folder: content/blog
-      slug: "{{year}}/{{slug}}/index"
-      media_folder: ""
-      public_folder: ""
       _weight: 2
       _extends:
         - hb_blog_posts
         - nested
+#    archives:
+#      folder: content/archives
+#      _weight: 3
+#      _extends:
+#        - hb_blog_archives
