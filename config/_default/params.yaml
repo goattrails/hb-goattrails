@@ -188,7 +188,7 @@ decap_cms:
           name: endDate
           label: "Event Ending Date"
           widget: datetime
-          picker_utc: true
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
     field_publish_date:
       fields:
         publish_date:
@@ -196,7 +196,7 @@ decap_cms:
           name: publishDate
           label: "Post Publish Date"
           widget: datetime
-          picker_utc: true
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
     field_hidden:
       fields:
         hidden:
@@ -227,13 +227,17 @@ decap_cms:
           widget: object
           required: false
           summary: "{{fields.title}}: {{fields.address}}"
+          collapsed: true
+          minimize_collapsed: true
           fields:
             - label: Title
               name: title
               widget: string
+              required: false
             - label: Address
               name: address
               widget: text
+              required: false
     field_gpxfile:
       fields:
         gpxFile:
@@ -243,6 +247,9 @@ decap_cms:
           hint: "GPX file of route"
           required: false
           widget: file
+          summary: "{{fields.gpxFile}}"
+          collapsed: true
+          minimize_collapsed: true
     hb_events_posts:
       name: events
       label: Events
@@ -279,7 +286,7 @@ decap_cms:
       folder: content/events
       media_folder: ""
       public_folder: ""
-      slug: "{{year}}-{{slug}}"
+      slug: "{{year}}-{{slug}}/index"
       _weight: 1
       _extends:
         - hb_events_posts
@@ -291,12 +298,12 @@ decap_cms:
            default: ["north-bay", "south-bay", "east-bay", "sierras", "norcal", "socal", "mexico"],
            hint: "north-bay, south-bay, east-bay, sierras, norcal, socal, mexico, pnw"}
         - {name: images, hint: "One featured image, and call it feature<something>.jpg" }
-        - {name: date, label: "Event Date", hint: "Date and Time of Event"}
-        - {name: endDate, widget: datetime, hint: "Ending time for Event"}
+        - {name: date, label: "Event Date", hint: "Date and Time of Event", picker_utc: false, format: "YYYY-MM-DDTHH:mm:ssZZ"}
         - {name: featured, hint: "Feature post on front page"}
         - {name: pinned, hint: "Pin post in carousel"}
     blog:
       folder: content/blog
+      slug: "{{year}}/{{slug}}/index"
       media_folder: ""
       public_folder: ""
       _weight: 2
