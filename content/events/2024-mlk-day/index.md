@@ -1,29 +1,25 @@
 ---
-title: "We have a dream! (MLK day)"
+title: We have a dream! (MLK day)
+draft: false
+featured: false
+pinned: false
+comments: true
 publishDate: 2024-01-13T23:32:25-08:00
 date: 2024-01-15T08:30:00-08:00
 endDate: 2024-01-15T15:00:00-08:00
-# expiryDate: 2024-01-13T23:32:25-08:00
-draft: false
-# description: "We have a dream!"
-noindex: false
-featured: false
-pinned: false
-authors:
- - ich
-# comments: false
-series:
-#  -
-categories:
-#  -
-tags:
- - peninsula
 images:
   - king-speech.webp
   - food.jpg
+authors:
+  - ich
+noindex: false
 location:
   title: Starbucks
   address: 325 Sharon Park Dr, Menlo Park
+series: null
+categories: null
+tags:
+  - peninsula
 ---
 A short ride in the hills along the newly reopened Stage Road, then back up through Los Gatos, with lunch in San Jose.
 <!--more-->
