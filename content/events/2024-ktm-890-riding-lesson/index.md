@@ -1,10 +1,10 @@
 ---
 title: KTM 890 Riding Lesson
 draft: false
-featured: false
-pinned: false
+featured: true
+pinned: true
 hidden: false
-comments: false
+comments: true
 publishDate: 2024-02-01T22:59:55.594Z
 date: 2024-02-03T09:30:00-0800
 endDate: 2024-02-03T15:00:00-0800
