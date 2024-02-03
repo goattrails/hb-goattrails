@@ -296,16 +296,6 @@ decap_cms:
       fields:
         pinned:
           label: "Pin post on front page and carousel"
-    hb_blog_posts:
-      path: "{{year}}-{{slug}}/index"
-      summary: "{{date | truncate(10, ' ')}}{{date | ternary('- ','')}}{{title}}"
-      sortable_fields: ["date", "title"]
-      view_groups:
-        - label: Year
-          field: date
-          pattern: "\\d{4}"
-        - label: Drafts
-          field: draft
     hb_events_posts:
       name: events
       label: Events
@@ -355,6 +345,15 @@ decap_cms:
         - nested
     blog:
       folder: content/blog
+      path: "{{year}}-{{slug}}/index"
+      summary: "{{date | truncate(10, ' ')}}{{date | ternary('- ','')}}{{title}}"
+      sortable_fields: ["date", "title"]
+      view_groups:
+        - label: Year
+          field: date
+          pattern: "\\d{4}"
+        - label: Drafts
+          field: draft
       _weight: 2
       _extends:
         - hb_blog_posts
