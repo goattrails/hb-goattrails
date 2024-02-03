@@ -1,7 +1,7 @@
 ---
 title: Fort Ross Road Ramble
 draft: false
-featured: true
+featured: false
 publishDate: 2023-07-27
 date: 2023-07-30T08:45:00-07:00
 endDate: 2023-07-30T14:45:00-07:00
