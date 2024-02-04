@@ -3,21 +3,23 @@ title: We have a dream! (MLK day)
 draft: false
 featured: false
 pinned: false
-comments: true
 publishDate: 2024-01-13T23:32:25-08:00
 date: 2024-01-15T08:30:00-08:00
 endDate: 2024-01-15T15:00:00-08:00
+location:
+  title: Starbucks
+  address: 325 Sharon Park Dr, Menlo Park
+gpxFile: jan15.gpx
 images:
   - king-speech.webp
   - food.jpg
 authors:
   - ich
 noindex: false
-location:
-  title: Starbucks
-  address: 325 Sharon Park Dr, Menlo Park
+comments: true
 series: null
-categories: null
+categories:
+  - rides
 tags:
   - peninsula
 ---
@@ -30,13 +32,13 @@ A short ride in the hills along the newly reopened Stage Road, then back up thro
 * **WHERE:** [Starbucks](https://www.google.com/maps/place/37.4235,-122.1975),
   325 Sharon Park Dr, Menlo Park
   *(top off at Shell :fuelpump:)*
-* **HOW:** [GPX](jan15.gpx), [route](https://onthegomap.com/s/s0br4n00)
+* **HOW:** [GPX]({{< gpxfile >}}), [route](https://onthegomap.com/s/s0br4n00)
 
 * Lunch at [Sam & Curry](https://samandcurry.com/) :india: or [BurgerIM](https://burgerimsanjose.com/home) :us: in San Jose.
 
 ## Map
 
-{{< gpxmap gpx="jan15.gpx" >}}
+{{< gpxmap >}}
 
 ## Time and Milages
 

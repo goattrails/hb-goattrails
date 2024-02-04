@@ -11,11 +11,11 @@ featured: false
 pinned: false
 comments: false
 authors:
-#  - ich
+  - ich
 series:
 #  -
 categories:
-#  -
+  rides
 tags:
 #  - coast
 #  - north-bay
@@ -25,6 +25,12 @@ tags:
 #  - california
 #  - mexico
 #  - pnw
+location:
+  title: Peet's Coffee
+  address: -
+    5800 Northgate Dr. #146
+    San Rafael, CA
+gpxFile: fort-ross.gpx
 images:
   - fort-ross.jpg
 ---
@@ -48,12 +54,12 @@ and Kruse Ranch Rd.
 * Ride ends at [Starbucks](https://goo.gl/maps/BrJcXxdC16p3T3iB7) :coffee:,
   800 Strawberry Village Shopping Center *(not the one in Safeway)*
 * **HOW:**
-  [GPX](fort-ross.gpx)
+  [GPX]({{< gpxfile >}})
   [Scenic](https://scenicapp.space/route/ByyIxbmz)
 
 ## Map and Waypoints
 
-{{< gpxmap gpx="fort-ross.gpx" >}}
+{{< gpxmap >}}
 
 | Name                           |   Dist. | G |  ETA  | Notes
 | :----------------------------- | ------: | - | ----: | :----

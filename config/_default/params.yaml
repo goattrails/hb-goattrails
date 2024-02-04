@@ -182,7 +182,7 @@ decap_cms:
       - news
       - events
   _configs:
-    field_event_date:
+    events_field_date:
       fields:
         date:
           i18n: true
@@ -191,7 +191,7 @@ decap_cms:
           widget: datetime
           format: "YYYY-MM-DDTHH:mm:ssZZ"
           picker_utc: false
-    field_end_date:
+    events_field_end_date:
       fields:
         end_date:
           i18n: true
@@ -227,7 +227,7 @@ decap_cms:
           widget: boolean
           default: true
           required: false
-    field_location:
+    events_field_location:
       fields:
         location:
           i18n: false
@@ -248,7 +248,7 @@ decap_cms:
               name: address
               widget: text
               required: false
-    field_gpxfile:
+    events_field_gpxfile:
       fields:
         gpxfile:
           i18n: false
@@ -263,6 +263,7 @@ decap_cms:
     field_authors:
       fields:
         authors:
+          widget: strings
           default:
             - ich
             - paul
@@ -270,7 +271,18 @@ decap_cms:
       fields:
         description:
           required: false
-    field_areas:
+    events_field_categories:
+      fields:
+        categories:
+          name: categories
+          label: "Categories"
+          label_singular: "Category"
+          default:
+            - "rides"
+          i18n: true
+          required: false
+          widget: strings
+    events_field_areas:
       fields:
         areas:
           name: tags
@@ -287,7 +299,7 @@ decap_cms:
             - "pnw"
           i18n: true
           required: false
-          widget: list
+          widget: strings
     hb_field_featured:
       fields:
         featured:
@@ -296,7 +308,11 @@ decap_cms:
       fields:
         pinned:
           label: "Pin post on front page and carousel"
-    hb_events_posts:
+    field_draft:
+      fields:
+        draft:
+          default: false
+    events_posts:
       name: events
       label: Events
       label_singular: Event
@@ -318,17 +334,17 @@ decap_cms:
         - field_hidden
         - field_comments
         - field_publish_date
-        - field_event_date
-        - field_end_date
+        - events_field_date
+        - events_field_end_date
         - field_description
-        - field_location
-        - field_gpxfile
+        - events_field_location
+        - events_field_gpxfile
         - field_images
         - field_aliases
         - field_authors
         - field_series
-        - field_categories
-        - field_areas
+        - events_field_categories
+        - events_field_areas
         - field_body
   search: true
   slug:
@@ -341,7 +357,7 @@ decap_cms:
       folder: content/events
       _weight: 1
       _extends:
-        - hb_events_posts
+        - events_posts
         - nested
     blog:
       folder: content/blog

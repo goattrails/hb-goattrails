@@ -14,10 +14,13 @@ location:
   geo:
     lat: 38.0044923
     lon: -122.5445852
+gpxFile: fort-ross.gpx
 images:
   - feature-fort-ross.jpg
 authors:
   - paul
+categories:
+  - rides
 tags:
   - north-bay
 ---
@@ -43,11 +46,11 @@ and Kruse Ranch Rd.
   [La Bodeguita Mexican](https://goo.gl/maps/BrJcXxdC16p3T3iB7) :burrito:
 * Ride ends at [Starbucks](https://goo.gl/maps/BrJcXxdC16p3T3iB7) :coffee:,
   800 Strawberry Village Shopping Center *(not the one in Safeway)*
-* **HOW:** [GPX](fort-ross.gpx) [Scenic](https://scenicapp.space/route/ByyIxbmz)
+* **HOW:** [GPX]({{< gpxfile >}}) [Scenic](https://scenicapp.space/route/ByyIxbmz)
 
 ## Route and Waypoints
 
-{{< gpxmap gpx="fort-ross.gpx" >}}
+{{< gpxmap >}}
 
 | Name                         | Dist.  | G   | ETA   | Notes               |
 | ---------------------------- | ------ | --- | ----- | ------------------- |

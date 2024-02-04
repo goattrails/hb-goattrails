@@ -1,17 +1,9 @@
 ---
 title: Baja California
 draft: false
-comments: true
 publishDate: 2024-01-01
-date: 2024-03-02T09:45:00-08:00
 endDate: 2024-03-16T18:00:00-07:00
-location:
-  title: Hollister Safeway Gas
-  address: 591 Tres Pinos Rd., Hollister, CA 95023
-  geo:
-    lat: 36.8380955
-    lon: -121.3910211
-    radius: 19
+gpxFile: map_v0.gpx
 images:
   - lapaz.jpg
 authors:
@@ -54,6 +46,17 @@ fullCalendar:
           title: whale watching
       defaultAllDay: true
       color: orange
+comments: true
+date: 2024-03-02T09:45:00-08:00
+location:
+  title: Hollister Safeway Gas
+  address: 591 Tres Pinos Rd., Hollister, CA 95023
+  geo:
+    lat: 36.8380955
+    lon: -121.3910211
+    radius: 19
+categories:
+  - rides
 tags:
   - mexico
 ---
@@ -72,7 +75,7 @@ Predominantly riding paved roads on street tires.
   :fuelpump: 591 Tres Pinos Rd., Hollister, CA 95023
 * [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk) discussion
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
-* [GPX](map_v0.gpx) file
+* [GPX]({{< gpxfile >}}) file
 
 ## Itinerary
 
@@ -88,7 +91,7 @@ Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 
 ![Baja 2024 Route](Matt_1a.jpg)
 
-{{< gpxmap "map_v0.gpx" >}}
+{{< gpxmap >}}
 
     sunrise ☼ 6:30 ~ 18:30 ☽ GMT-7 or GMT-8
 
