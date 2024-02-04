@@ -44,7 +44,7 @@ require (
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.10.0 // indirect
+	github.com/hbstack/hb v0.11.0 // indirect
 	github.com/hbstack/header v0.12.7 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
@@ -58,7 +58,7 @@ require (
 	github.com/hbstack/pagination v0.6.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
-	github.com/hbstack/revision v0.3.0 // indirect
+	github.com/hbstack/revision v0.4.0 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.1 // indirect
 	github.com/hbstack/slide v0.3.1 // indirect
@@ -74,7 +74,7 @@ require (
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.11.2 // indirect
+	github.com/hugomods/decap-cms v0.12.0 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
@@ -92,7 +92,7 @@ require (
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect
-	github.com/hugomods/search v0.8.4 // indirect
+	github.com/hugomods/search v0.8.5 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect

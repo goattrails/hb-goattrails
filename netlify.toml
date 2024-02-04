@@ -9,8 +9,8 @@ command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
 command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
 
 [build.environment]
-NODE_VERSION = "19"
-HUGO_VERSION = "0.121.2"
+NODE_VERSION = "20"
+HUGO_VERSION = "0.122.0"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
 GO_VERSION = "1.21.6"
