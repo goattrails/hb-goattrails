@@ -182,106 +182,8 @@ decap_cms:
       - news
       - events
   _configs:
-    events_field_date:
-      fields:
-        date:
-          i18n: true
-          name: date
-          label: "Event Start Date"
-          widget: datetime
-          format: "YYYY-MM-DDTHH:mm:ssZZ"
-          picker_utc: false
-    events_field_end_date:
-      fields:
-        end_date:
-          i18n: true
-          name: endDate
-          label: "Event Ending Date"
-          widget: datetime
-          format: "YYYY-MM-DDTHH:mm:ssZZ"
-          picker_utc: false
-    field_publish_date:
-      fields:
-        publish_date:
-          i18n: true
-          name: publishDate
-          label: "Post Publish Date"
-          widget: datetime
-          format: "YYYY-MM-DDTHH:mm:ssZZ"
-          picker_utc: false
-    field_hidden:
-      fields:
-        hidden:
-          i18n: false
-          name: hidden
-          label: "Hide post from front page"
-          widget: boolean
-          default: false
-          required: false
-    field_comments:
-      fields:
-        comments:
-          i18n: false
-          name: comments
-          label: "Allow comments"
-          widget: boolean
-          default: true
-          required: false
-    events_field_location:
-      fields:
-        location:
-          i18n: false
-          name: location
-          label: "Start location"
-          hint: "Name and address of start location"
-          widget: object
-          required: false
-          summary: "{{fields.title}}: {{fields.address}}"
-          collapsed: true
-          minimize_collapsed: true
-          fields:
-            - label: Title
-              name: title
-              widget: string
-              required: false
-            - label: Address
-              name: address
-              widget: text
-              required: false
-    events_field_gpxfile:
-      fields:
-        gpxfile:
-          i18n: false
-          name: gpxFile
-          label: "GPX file"
-          hint: "GPX file of route"
-          required: false
-          widget: file
-          summary: "{{fields.gpxFile}}"
-          collapsed: true
-          minimize_collapsed: true
-    field_authors:
-      fields:
-        authors:
-          widget: strings
-          default:
-            - ich
-            - paul
-    field_description:
-      fields:
-        description:
-          required: false
-    events_field_categories:
-      fields:
-        categories:
-          name: categories
-          label: "Categories"
-          label_singular: "Category"
-          default:
-            - "rides"
-          i18n: true
-          required: false
-          widget: strings
+    # completely new or redefined fields for events only
+    # (may recycle standard field names like date & tags)
     events_field_areas:
       fields:
         areas:
@@ -300,6 +202,103 @@ decap_cms:
           i18n: true
           required: false
           widget: strings
+    events_field_categories:
+      fields:
+        categories:
+          name: categories
+          label: "Categories"
+          label_singular: "Category"
+          default:
+            - "rides"
+          i18n: true
+          required: false
+          widget: strings
+    events_field_date:
+      fields:
+        date:
+          i18n: true
+          name: date
+          label: "Event Start Date"
+          widget: datetime
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
+    events_field_end_date:
+      fields:
+        end_date:
+          i18n: true
+          name: endDate
+          label: "Event Ending Date"
+          widget: datetime
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
+    events_field_gpxfile:
+      fields:
+        gpxfile:
+          i18n: false
+          name: gpxFile
+          label: "GPX file"
+          hint: "GPX file of route"
+          required: false
+          widget: file
+          summary: "{{fields.gpxFile}}"
+          collapsed: true
+          minimize_collapsed: true
+    events_field_location:
+      fields:
+        location:
+          i18n: false
+          name: location
+          label: "Start location"
+          hint: "Name and address of start location"
+          widget: object
+          required: false
+          summary: "{{fields.title}}{{fields.title | ternary(': ', '')}}{{fields.address}}"
+          collapsed: true
+          minimize_collapsed: true
+          fields:
+            - label: Title
+              name: title
+              widget: string
+              required: false
+            - label: Address
+              name: address
+              widget: text
+              required: false
+    # modifications to default standard entries
+    field_authors:
+      fields:
+        authors:
+          widget: strings
+          default:
+            - ich
+            - paul
+    field_description:
+      fields:
+        description:
+          required: false
+    field_draft:
+      fields:
+        draft:
+          default: false
+    field_publish_date:
+      fields:
+        publish_date:
+          i18n: true
+          name: publishDate
+          label: "Post Publish Date"
+          widget: datetime
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
+    # hb_comments is not documented particularly well
+    hb_field_comments:
+      fields:
+        comments:
+          i18n: false
+          name: comments
+          label: "Allow comments"
+          widget: boolean
+          default: true
+          required: false
     hb_field_featured:
       fields:
         featured:
@@ -308,10 +307,6 @@ decap_cms:
       fields:
         pinned:
           label: "Pin post on front page and carousel"
-    field_draft:
-      fields:
-        draft:
-          default: false
     events_posts:
       name: events
       label: Events
@@ -329,10 +324,9 @@ decap_cms:
       _extends:
         - field_title
         - field_draft
+        - hb_field_comments
         - hb_field_featured
         - hb_field_pinned
-        - field_hidden
-        - field_comments
         - field_publish_date
         - events_field_date
         - events_field_end_date
