@@ -231,6 +231,17 @@ decap_cms:
           widget: datetime
           format: "YYYY-MM-DDTHH:mm:ssZZ"
           picker_utc: false
+    # we need this since we are recycling date: to be the date of the event, not the date of the posting
+    # otherwise the posting wouldn't show up until after the event started!
+    events_field_publish_date:
+      fields:
+        publish_date:
+          i18n: true
+          name: publishDate
+          label: "Post Publish Date"
+          widget: datetime
+          format: "YYYY-MM-DDTHH:mm:ssZZ"
+          picker_utc: false
     events_field_gpxfile:
       fields:
         gpxfile:
@@ -268,7 +279,6 @@ decap_cms:
     field_authors:
       fields:
         authors:
-          widget: strings
           default:
             - ich
             - paul
@@ -280,15 +290,6 @@ decap_cms:
       fields:
         draft:
           default: false
-    field_publish_date:
-      fields:
-        publish_date:
-          i18n: true
-          name: publishDate
-          label: "Post Publish Date"
-          widget: datetime
-          format: "YYYY-MM-DDTHH:mm:ssZZ"
-          picker_utc: false
     # hb_comments is not documented particularly well
     hb_field_comments:
       fields:
@@ -327,7 +328,7 @@ decap_cms:
         - hb_field_comments
         - hb_field_featured
         - hb_field_pinned
-        - field_publish_date
+        - events_field_publish_date
         - events_field_date
         - events_field_end_date
         - field_description
