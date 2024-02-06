@@ -8,9 +8,9 @@ description: "{{ replace .Name "-" " " | title }}"
 noindex: false
 featured: false
 pinned: false
-# authors:
+authors:
 #  - ich
-# comments: false
+comments: true
 series:
 #  -
 categories:

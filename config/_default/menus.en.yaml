@@ -71,7 +71,7 @@ main:
 #        name: lightbulb
 #        color: orange
 #      description: Suggest new or updated features.
-#  
+#
 #  - name: Mastodon
 #    parent: support
 #    url: https://techhub.social/@hbstack
