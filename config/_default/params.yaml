@@ -354,6 +354,9 @@ decap_cms:
       _extends:
         - events_posts
         - nested
+        - meta_path
+      fields:
+        - {name: "path", default: "{{path}}", required: false}
     blog:
       folder: content/blog
       path: "{{year}}-{{slug}}/index"
@@ -369,6 +372,9 @@ decap_cms:
       _extends:
         - hb_blog_posts
         - nested
+        - meta_path
+      fields:
+        - {name: "path", default: "{{path}}", required: false}
 #    archives:
 #      folder: content/archives
 #      _weight: 3
