@@ -2,6 +2,8 @@ module github.com/goattrails/hb-goattrails
 
 go 1.21.6
 
+replace github.com/hbstack/decap-cms => ../decap-cms
+
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.9 // indirect
