@@ -3,6 +3,7 @@ module github.com/goattrails/hb-goattrails
 go 1.21.6
 
 replace github.com/hbstack/decap-cms => ../decap-cms
+replace github.com/hugomods/decap-cms => ../hm-decap-cms
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
@@ -30,7 +31,7 @@ require (
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.7.2 // indirect
-	github.com/hbstack/decap-cms v0.1.0 // indirect
+	github.com/hbstack/decap-cms v0.2.1 // indirect
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
@@ -76,7 +77,7 @@ require (
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.12.0 // indirect
+	github.com/hugomods/decap-cms v0.13.0 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
@@ -85,7 +86,7 @@ require (
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
-	github.com/hugomods/icons v0.6.0 // indirect
+	github.com/hugomods/icons v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.3 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.28 // indirect
