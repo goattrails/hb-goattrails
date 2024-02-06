@@ -1,7 +1,7 @@
 ---
 title: KTM 890 Riding Lesson
 draft: false
-featured: true
+featured: false
 pinned: false
 hidden: false
 comments: true
