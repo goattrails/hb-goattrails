@@ -145,12 +145,6 @@ mermaid:
 
 hugopress:
   modules:
-    decap-cms:
-      hooks:
-        head-end:
-          cacheable: false
-        body-end:
-          cacheable: false
     hb-custom:
       hooks:
         # see layouts/partials/hugopress/modules/hb-custom/hooks/head-end.html.

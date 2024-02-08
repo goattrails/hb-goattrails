@@ -68,8 +68,10 @@ imports:
   # to remove unused modules, you need to replace the recommended module with modules your need.
   # see also https://hbstack.dev/en/2023/10/replace-meta-modules/.
   - path: github.com/hbstack/meta/recommended
+  - path: github.com/hbstack/header/modules/banner
+  - path: github.com/hugomods/aos
+
+  - path: github.com/hbstack/blog/modules/decap-cms
+  - path: github.com/hugomods/decap-cms/modules/netlify-identity
   - path: github.com/hugomods/decap-cms/widgets/url
   - path: github.com/hugomods/decap-cms/editor-components/todo
-  - path: github.com/hbstack/blog/modules/decap-cms
-  - path: github.com/hugomods/aos
-  - path: github.com/hbstack/header/modules/banner
