@@ -1,5 +1,5 @@
 {{- $page := $.Page }}
-{{- $width := default "90%" (.Get `width`) }}
+{{- $width := default "100%" (.Get `width`) }}
 {{- $height := default 550 (.Get `height`) }}
 {{- $class := default "interactive-map shadow p-3 mb-5 bg-body rounded" (.Get `class`)}}
 {{- $cache := default false (.Get `cache`) }}
@@ -26,11 +26,22 @@
 {{- end }}
 {{- with $url }}
 <figure class="{{ $class }}">
-    <iframe width="{{ $width }}" height="{{ $height }}" loading="lazy" class="d-block mx-auto"
+    <div class="hide-pointer" onclick="style.pointerEvents='none'"></div>
+    <iframe width="{{ $width }}" height="{{ $height }}" loading="lazy" class="d-block mx-auto" frameborder="0"
             src="https://gpsvisualizer.com/atlas/map?cc=0&mc=0&wl=0&url={{ $url }}">
     </iframe>
-    <figcaption><a target="_blank" href="https://gpsvisualizer.com/atlas/map?url={{ $url }}">Interactive Map</a></figcaption>
+    <figcaption><a target="_blank" href="https://gpsvisualizer.com/atlas/map?url={{ $url }}">Fullscreen Map</a>  (or click in the map interact)</figcaption>
 </figure>
+<style>
+    .hide-pointer {
+        position: relative;
+        width: {{ $width }};
+        height: {{ $height }}px;
+        top: {{ $height }}px;
+        margin-top: -{{ $height }}px;
+        z-index: 1;
+    }
+</style>
 {{- else }}
     {{- errorf "%s: %q shortcode: no GPX file or URL specified" .Position .Name }}
 {{- end }}
