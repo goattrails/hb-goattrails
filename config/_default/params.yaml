@@ -288,24 +288,6 @@ decap_cms:
       fields:
         draft:
           default: false
-    # hb_comments is not documented particularly well
-    hb_field_comments:
-      fields:
-        comments:
-          i18n: false
-          name: comments
-          label: "Allow comments"
-          widget: boolean
-          default: true
-          required: false
-    hb_field_featured:
-      fields:
-        featured:
-          label: "Feature post in carousel"
-    hb_field_pinned:
-      fields:
-        pinned:
-          label: "Pin post on front page and carousel"
     events_posts:
       name: events
       label: Events
