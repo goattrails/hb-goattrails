@@ -24,6 +24,7 @@ used in Hugo content files, also it shows whether basic HTML elements
 are decorated with CSS in a Hugo theme.
 
 <!--more-->
+<!-- markdownlint-disable -->
 
 ## Headings
 
@@ -115,7 +116,7 @@ them out-of-the-box.
 
 ### Code block indented with four spaces
 
-```
+```html
 <!doctype html>
 <html lang="en">
 <head>

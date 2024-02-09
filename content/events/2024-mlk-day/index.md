@@ -23,7 +23,8 @@ categories:
 tags:
   - peninsula
 ---
-A short ride in the hills along the newly reopened Stage Road, then back up through Los Gatos, with lunch in San Jose.
+A short ride in the hills along the newly reopened Stage Road,
+then back up through Los Gatos, with lunch in San Jose.
 <!--more-->
 
 ## Summary
@@ -34,7 +35,8 @@ A short ride in the hills along the newly reopened Stage Road, then back up thro
   *(top off at Shell :fuelpump:)*
 * **HOW:** [GPX]({{< gpxfile >}}), [route](https://onthegomap.com/s/s0br4n00)
 
-* Lunch at [Sam & Curry](https://samandcurry.com/) :india: or [BurgerIM](https://burgerimsanjose.com/home) :us: in San Jose.
+* Lunch at [Sam & Curry](https://samandcurry.com/) :india:
+or [BurgerIM](https://burgerimsanjose.com/home) :us: in San Jose.
 
 ## Map
 

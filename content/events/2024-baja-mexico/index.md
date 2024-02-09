@@ -60,11 +60,12 @@ categories:
 tags:
   - mexico
 ---
-Motorcycle trip down the Baja California peninsula. Sightseeing, whale watching, beach wandering,
-and fish taco eating.
+Motorcycle trip down the Baja California peninsula. Sightseeing, whale watching,
+beach wandering, and fish taco eating.
 Predominantly riding paved roads on street tires.
 
-*Suitable for larger adventure bikes, Expect up to 40 miles of well groomed dirt roads. Tires should be good for 3600 miles.*
+*Suitable for larger adventure bikes, Expect up to 40 miles of well groomed
+dirt roads. Tires should be good for 3600 miles.*
 
 <!--more-->
 
@@ -81,11 +82,11 @@ Predominantly riding paved roads on street tires.
 
 {{< fullcalendar data="caldata.yaml" >}}
 
-Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
---- | ---- | -------- | --- | ----- | --- | ---- | ----- | -------
-0 | Sat Mar 2nd | Hollister, Coalinga, Maricopa, Cerro, Noroeste, Lebec<br><br>CA-25, CA-198, CA-33, CA-166, Mil Portrero | [us0](us0.gpx) | 309 | 498 | [Google](https://www.google.com/maps/dir/37.3959,-122.1019/37.2893,-121.8943/36.8380,-121.3906/36.1370,-120.3626/35.0584,-119.4001/34.8188,-118.8824), [OnTheGo](https://onthegomap.com/s/jb9pjlor), [interactive](https://www.goattrails.info/baja/maps/us0.html) | ![Day0](https://www.goattrails.info/baja/image/route_d0.jpg) | [Holiday Inn](https://www.ihg.com/holidayinnexpress/hotels/us/en/lebec/bkrfr/hoteldetail), [Motel 6](https://www.motel6.com/en/home/motels.ca.lebec.4640.html) $75 ~ $160 [Lebec](https://www.google.com/maps/place/34.8188,-118.8824)
-1 | Sun Mar 3rd | Lake Hughes, Wrightwood, Hemet, Warner Springs, Poway<br><br>N2, N6, N4, Big Pines, CA-66, CA-2, I-215, I-10, San Timoteo Canyon, CA-79, CA-78<br><br><mark>caveat: Big Pines at 7,000ft and Wildwood at 6,000ft may be snowed in. Detour via Bob's Gap to CA-138. | [us1](us1.gpx) | 254 | 408 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611), [OnTheGo](https://onthegomap.com/s/lcgjdtg1), [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day1](https://www.goattrails.info/baja/image/route_d1.jpg) | [Ramada](https://www.wyndhamhotels.com/ramada/poway-california/ramada-poway-san-diego-north/overview), [Best Western](https://www.bestwestern.com/en_US/book/hotel-rooms.05639.html) $140 [Poway](https://www.google.com/maps/place/32.9522,-117.0611)
-2 | Mon Mar 4th | Tecate border crossing :mexico:, Sierra Juarez, Mexicali, San Felipe<br><br>CA-94, MEX-2D, Mex-5 | [bj2](bj2.gpx) | 254 | 409 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611) [OnTheGo](https://onthegomap.com/s/lcgjdtg1) [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day2](https://www.goattrails.info/baja/image/route_d2.jpg) | [El Capitán](https://www.hotelcapitansanfelipe.com/), [Hotel George](https://www.georges-hotel.com/) ~$120 [San Felipe](https://www.google.com/maps/place/31.0197,-114.8350)
+| Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
+| --- | ---- | -------- | --- | ----- | --- | ---- | ----- | -------
+| 0 | Sat Mar 2nd | Hollister, Coalinga, Maricopa, Cerro, Noroeste, Lebec<br><br>CA-25, CA-198, CA-33, CA-166, Mil Portrero | [us0](us0.gpx) | 309 | 498 | [Google](https://www.google.com/maps/dir/37.3959,-122.1019/37.2893,-121.8943/36.8380,-121.3906/36.1370,-120.3626/35.0584,-119.4001/34.8188,-118.8824), [OnTheGo](https://onthegomap.com/s/jb9pjlor), [interactive](https://www.goattrails.info/baja/maps/us0.html) | ![Day0](https://www.goattrails.info/baja/image/route_d0.jpg) | [Holiday Inn](https://www.ihg.com/holidayinnexpress/hotels/us/en/lebec/bkrfr/hoteldetail), [Motel 6](https://www.motel6.com/en/home/motels.ca.lebec.4640.html) $75 ~ $160 [Lebec](https://www.google.com/maps/place/34.8188,-118.8824)
+| 1 | Sun Mar 3rd | Lake Hughes, Wrightwood, Hemet, Warner Springs, Poway<br><br>N2, N6, N4, Big Pines, CA-66, CA-2, I-215, I-10, San Timoteo Canyon, CA-79, CA-78<br><br><mark>caveat: Big Pines at 7,000ft and Wildwood at 6,000ft may be snowed in. Detour via Bob's Gap to CA-138. | [us1](us1.gpx) | 254 | 408 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611), [OnTheGo](https://onthegomap.com/s/lcgjdtg1), [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day1](https://www.goattrails.info/baja/image/route_d1.jpg) | [Ramada](https://www.wyndhamhotels.com/ramada/poway-california/ramada-poway-san-diego-north/overview), [Best Western](https://www.bestwestern.com/en_US/book/hotel-rooms.05639.html) $140 [Poway](https://www.google.com/maps/place/32.9522,-117.0611)
+| 2 | Mon Mar 4th | Tecate border crossing :mexico:, Sierra Juarez, Mexicali, San Felipe<br><br>CA-94, MEX-2D, Mex-5 | [bj2](bj2.gpx) | 254 | 409 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611) [OnTheGo](https://onthegomap.com/s/lcgjdtg1) [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day2](https://www.goattrails.info/baja/image/route_d2.jpg) | [El Capitán](https://www.hotelcapitansanfelipe.com/), [Hotel George](https://www.georges-hotel.com/) ~$120 [San Felipe](https://www.google.com/maps/place/31.0197,-114.8350)
 
 ## Route
 
@@ -273,8 +274,9 @@ Day | Date | Activity | GPX | Miles | KMs | Maps | Image | Lodging
 The longest stretch on this trip between refueling stops could be 230 miles.
 {{< /bs/alert >}}
 
-There may be roadside fuel peddlers but fuel availability, quality, and price can not be trusted.
-Carry two-gallon spare fuel canister and fill it up before these longer stretches.
+There may be roadside fuel peddlers but fuel availability, quality, and price
+can not be trusted. Carry two-gallon spare fuel canister and fill it up before
+these longer stretches.
 
 Stations are full service with attendant. *Tip 10 pesos (60¢) or not.*
 
@@ -287,11 +289,13 @@ Stations are full service with attendant. *Tip 10 pesos (60¢) or not.*
 
 ### Currency
 
-[$1 → 17 pesos](https://www.google.com/search?q=1+usd+mxn) ... currently about 1 peso ≈ 6¢
+[$1 → 17 pesos](https://www.google.com/search?q=1+usd+mxn)
+... currently about 1 peso ≈ 6¢
 
 ![Log Table of Exchange Rates](mxn_usd_log.gif)
 
-peso ÷20 → $ 🇺🇸 (approximately) ... more precisely, peso ≈ 6¢ = $ .06 = 6 ·10-2 = 6 ·101·10-3
+peso ÷20 → $ 🇺🇸 (approximately) ... more precisely,
+peso ≈ 6¢ = $ .06 = 6 ·10-2 = 6 ·101·10-3
 $ ×20 → peso 🇲🇽 (approximately) ... more precisely, -15% ... or -1:7
 
 ![Exchange](exchange_MXN_USD.gif)
@@ -306,29 +310,39 @@ Common bank notes are 💲 20, 50, 100, 200, 500
 
 #### Cash
 
-Exchange $300 ~ $500 USD to Mexican pesos just before crossing the border. Less if using mostly credit card to pay for motels, meals, and gas. More if using cash.
+Exchange $300 ~ $500 USD to Mexican pesos just before crossing the border. Less
+if using mostly credit card to pay for motels, meals, and gas. More if using
+cash.
 
 Budget $2,000 ~ $3,000 for this trip. XLS
 
 #### Taxes
 
-Mexico has 16% Impuesto al Valor Agregado (IVA). Frequently the value-added tax is rolled into an item's price, so you pay 80 pesos for an 80 peso burrito on the menu.
+Mexico has 16% Impuesto al Valor Agregado (IVA). Frequently the value-added tax
+is rolled into an item's price, so you pay 80 pesos for an 80 peso burrito on
+the menu.
 
-Occasionally, some touristy places handle pricing the opposite way. They specify 16% IVA no incluido on their menu and you would pay 116 pesos for a 100 peso item on those menus.
+Occasionally, some touristy places handle pricing the opposite way. They specify
+"16% IVA no incluido" on their menu and you would pay 116 pesos for a 100 peso
+item on those menus.
 
 ### Visas
 
 Americans do not need a Mexican visa to travel to Baja.
 
-We are supposed to obtain a tourist card, also known as an entry permit (Forma Migratoria Múltiple or FMM). One can apply for it online and pay the $38 fee, but riders have gotten by without any FMM on past Baja trips.
+We are supposed to obtain a tourist card, also known as an entry permit (Forma
+Migratoria Múltiple or FMM). One can apply for it online and pay the $38 fee,
+but riders have gotten by without any FMM on past Baja trips.
 
 US passport should be valid at for least 6 months, expiring after mid-September 2024.
 
-Information about Crossing into Mexico and Returning to the U.S.. More from US State Department.
+Information about Crossing into Mexico and Returning to the U.S.. More from US
+State Department.
 
 ### Insurance
 
-We are supposed to carry Mexican car insurance, but riders have gotten by without any Mexican insurance either on past Baja trips.
+We are supposed to carry Mexican car insurance, but riders have gotten by
+without any Mexican insurance either on past Baja trips.
 
 Vehicle permits (temporary import permit or TIP) are *not* required in Baja.
 
@@ -336,9 +350,10 @@ Vehicle permits (temporary import permit or TIP) are *not* required in Baja.
 
 Carry valid vehicle registration.
 
-Carry a valid California driver's license, and as an option also get an [International Driving Permit](https://www.goattrails.info/baja/image/ich_idp_redacted.jpg).
-[AAA](https://www.aaa.com/vacation/idpf.html) can provide for **$20**.
-Bring two passport photos, or AAA can take the photos for another **$20**.
+Carry a valid California driver's license, and as an option also get an
+[International Driving Permit](https://www.goattrails.info/baja/image/ich_idp_redacted.jpg).
+[AAA](https://www.aaa.com/vacation/idpf.html) can provide for **$20**. Bring two
+passport photos, or AAA can take the photos for another **$20**.
 
 ### Signage
 

@@ -29,7 +29,8 @@ tags:
 
 🔹 WHEN: Saturday February 3rd • meet 9:30 AM
 
-🔹 WHERE: [Peet's](https://www.google.com/maps/place/37.2926,-122.0319) ☕️ • 12148 Saratoga Sunnyvale Rd, Saratoga *(top off at Valero ⛽)*
+🔹 WHERE: [Peet's](https://www.google.com/maps/place/37.2926,-122.0319) ☕️
+• 12148 Saratoga Sunnyvale Rd, Saratoga *(top off at Valero ⛽)*
 
 🔹 HOW: [GPX]({{< gpxfile >}}), [route](https://onthegomap.com/s/a828redc)
 
@@ -54,4 +55,5 @@ tags:
 
 ![Otoro Sushi](otoro.jpg "Otoro Sushi")
 
-Lunch at [Otoro Sushi](https://www.facebook.com/OtoroSushiScottsValley/) • 235 Mt Hermon Rd #G, Scott's Valley
+Lunch at [Otoro Sushi](https://www.facebook.com/OtoroSushiScottsValley/)
+• 235 Mt Hermon Rd #G, Scott's Valley

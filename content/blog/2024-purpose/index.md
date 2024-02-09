@@ -9,7 +9,7 @@ comments: false
 images:
   - featured.jpg
 ---
-This is a wireframe example of what we can create using Hugo.
+This is a wire-frame example of what we can create using Hugo.
 Actual content management is a breeze and can even be managed
 through a web-based CMS.
 
@@ -19,8 +19,8 @@ our fearless leader, unless he finds it useful.
 <!--more-->
 
 The data for this website is hosted at
-https://github.com/goattrails/hb-goattrails
+<https://github.com/goattrails/hb-goattrails>
 
-All content and pages are written in Markdown, a simplifed text
+All content and pages are written in Markdown, a simplified text
 format that can be converted to HTML.  Widgets like calendars
-and countdown timers and GPX maps are invoked through shortcodes.
+and countdown timers and GPX maps are invoked through short-codes.
