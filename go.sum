@@ -142,10 +142,12 @@ github.com/hugomods/bootstrap v0.17.0 h1:oH+V92q5W/kye9QPSQdZXYsO3V2wyfkAjdYLPFI
 github.com/hugomods/bootstrap v0.17.0/go.mod h1:EA5CtuNQX+aNkwEt1xae7clZ+4087KFXWZGE+2/f5oc=
 github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBXE3nFT2vJxA=
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
-github.com/hugomods/decap-cms v0.13.0 h1:nvWTyMyN4cpTrJ3rr/DBskcK0itPRPuZ97so77YE3Z8=
-github.com/hugomods/decap-cms v0.13.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.14.0 h1:P2FhDIT1GgQv/o2hIt2SrboKFzizkU6eTTX2pF2L+X4=
+github.com/hugomods/decap-cms v0.14.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.2 h1:358itSlZSkRAT4KtU5ymBDWldoSKVX/qU+Hp8GEwyVE=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.2/go.mod h1:H6twtMoytIh1mFmeA09gJ2T4WwT1WX6KFO3QEZoWwkc=
+github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1 h1:teyM/VsxqEpAhfaK7NFY9575HDaL/M1WRkM9NsJU1QY=
+github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1/go.mod h1:YQ3TtUWPcepdFG6Be5PF7T9/KasM6f2jyi6jMjY/1I8=
 github.com/hugomods/decap-cms/widgets/url v0.1.2 h1:i/JLvydLE2eKDQTpHiuL8qP5oUHywMa9/cOLuzbrihc=
 github.com/hugomods/decap-cms/widgets/url v0.1.2/go.mod h1:m3oxSKMUgJr5dZChLLr8oqp7vbsF+oaCRz8DFQDxzb8=
 github.com/hugomods/font-awesome v6.4.2+incompatible h1:oTdZYvNEXRuocAaGTa8f6ZET9e+cjD8JXpZRG7dx8Qw=
@@ -178,8 +180,6 @@ github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/pwa v0.7.0 h1:4m8WTkWSEWi2FCnfHMJm1ZbcAPbPbHElh2gepPzfM3A=
 github.com/hugomods/pwa v0.7.0/go.mod h1:KpYK2Ffn969+Py5SzV3+iXYase4UoUeRAsd9jY7Q2Us=
-github.com/hugomods/search v0.8.5 h1:tP3ixxpUgpdj7dmBmnMdoDQtn+dwQNOTgA0Uw1mlxA8=
-github.com/hugomods/search v0.8.5/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
 github.com/hugomods/search v0.8.6 h1:7vSSMjIfIail0iijo9SqiW4O4yBsrqcaOLZgxzrYNLc=
 github.com/hugomods/search v0.8.6/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
@@ -210,10 +210,6 @@ github.com/jakearchibald/idb v8.0.0+incompatible h1:sTNGHgh+JoyQ4Eqey+1ScX4F03uT
 github.com/jakearchibald/idb v8.0.0+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/4+FKWjvo=
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
-github.com/pleasantone/hm-decap-cms v0.12.1-0.20240208174031-1ead49b78d81 h1:FMAt87Om7tyM3hqajcFbRX744SPFFH24pIX0k70LbVA=
-github.com/pleasantone/hm-decap-cms v0.12.1-0.20240208174031-1ead49b78d81/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
-github.com/pleasantone/hm-decap-cms/modules/netlify-identity v0.0.0-20240208174031-1ead49b78d81 h1:xNZWFOjoObE4hqxXWQlZZaWR9vbAHEzdQkrW2KVSP/g=
-github.com/pleasantone/hm-decap-cms/modules/netlify-identity v0.0.0-20240208174031-1ead49b78d81/go.mod h1:a/pMQ9ctvbXljNFaQVqHhpChaw/7Ue5OcPyY8tv3/kM=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
