@@ -1,6 +1,6 @@
 {{- $page := $.Page }}
 {{- $width := default "100%" (.Get `width`) }}
-{{- $height := default 550 (.Get `height`) }}
+{{- $height := default "550px" (.Get `height`) }}
 {{- $class := default "interactive-map shadow p-3 mb-5 bg-body rounded" (.Get `class`)}}
 {{- $cache := default false (.Get `cache`) }}
 {{- $url := default $page.Params.gpxfile (cond .IsNamedParams (.Get `gpx`) (.Get 0)) }}
@@ -26,20 +26,24 @@
 {{- end }}
 {{- with $url }}
 <figure class="{{ $class }}">
-    <div class="hide-pointer" onclick="style.pointerEvents='none'"></div>
-    <iframe width="{{ $width }}" height="{{ $height }}" loading="lazy" class="d-block mx-auto" frameborder="0"
+    <div class="gpxmap-overlay" onclick="style.pointerEvents='none'" onmouseleave="style.pointerEvents='auto'"></div>
+    <iframe loading="lazy" class="d-block mx-auto gpxmap" frameborder="0"
             src="https://gpsvisualizer.com/atlas/map?cc=0&mc=0&wl=0&url={{ $url }}">
     </iframe>
     <figcaption><a target="_blank" href="https://gpsvisualizer.com/atlas/map?url={{ $url }}">Fullscreen Map</a>  (or click in the map interact)</figcaption>
 </figure>
 <style>
-    .hide-pointer {
+    .gpxmap-overlay {
         position: relative;
+        top: {{ $height }};
+        margin-top: -{{ $height }};
+        height: {{ $height }};
         width: {{ $width }};
-        height: {{ $height }}px;
-        top: {{ $height }}px;
-        margin-top: -{{ $height }}px;
         z-index: 1;
+    }
+    .gpxmap {
+        height: {{ $height }};
+        width: {{ $width }};
     }
 </style>
 {{- else }}
