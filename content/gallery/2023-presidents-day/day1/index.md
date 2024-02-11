@@ -2,6 +2,8 @@
 title: "Day 1 - Saturday"
 date: 2023-02-18T16:16:05-08:00
 description: "Saturday February 18th - Bay Area to Santa Maria"
+images:
+  - featured-441A8572.jpg
 authors:
   - ich
 resources:
@@ -28,7 +30,7 @@ resources:
     title: Larkin Valley Rd.
   - src: 441A8533.jpg
     title: Jonathan's shifter came loose
-  - src: 441A8572-featured.jpg
+  - src: featured-441A8572.jpg
     title: Corral de Tierra Rd.
   - src: 441A8712.jpg
     title: Tuggle, Wes, Raj, Vachan, Estha, JT, Yee, Mia, Kent

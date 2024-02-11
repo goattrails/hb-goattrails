@@ -16,7 +16,7 @@ location:
     lon: -122.5445852
 gpxFile: fort-ross.gpx
 images:
-  - feature-fort-ross.jpg
+  - fort-ross.jpg
 authors:
   - paul
 categories:
