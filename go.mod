@@ -28,7 +28,7 @@ require (
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.7.2 // indirect
-	github.com/hbstack/decap-cms v0.2.1 // indirect
+	github.com/hbstack/decap-cms v0.3.0 // indirect
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
@@ -86,9 +86,9 @@ require (
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.2 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.3 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.28 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.4 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.2 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.29 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.9.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
