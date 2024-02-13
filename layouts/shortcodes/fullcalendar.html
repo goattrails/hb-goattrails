@@ -1,2 +1,2 @@
-{{ partial "fullcalendar" (dict "page" .Page "data" (.Get "data") "view" (.Get "view")) }}
+{{ partial "fullcalendar" (dict "page" .Page "data" (.Get "data") "view" (.Get "view") "nodefault" (.Get "nodefault" | default false)) }}
 

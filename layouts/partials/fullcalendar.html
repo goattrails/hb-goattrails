@@ -26,16 +26,19 @@
     "initialView" $view
     "eventOrder" "-allDay"
 }}
-{{- $pageEvent := dict
-    "title" $page.Title
-    "start" ($page.Date.Format $isoformat)
-}}
-{{- if $end_date }}
-    {{- $pageEvent = merge $pageEvent (dict
-            "end" (($end_date | time).Format $isoformat)
-    )}}
+{{- $pageEvent := dict }}
+{{- if not $context.nodefault }}
+    {{- $pageEvent = dict
+        "title" $page.Title
+        "start" ($page.Date.Format $isoformat)
+    }}
+    {{- if $end_date }}
+        {{- $pageEvent = merge $pageEvent (dict
+                "end" (($end_date | time).Format $isoformat)
+        )}}
+    {{- end }}
+    {{- $pageEvent = (dict "events" (slice $pageEvent)) }}
 {{- end }}
-{{- $pageEvent = (dict "events" (slice $pageEvent)) }}
 {{- $pageEventSources = (dict "eventSources" $pageEventSources) }}
 {{- $merged := merge $defaults $pageEvent $pageEventSources $extraData }}
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
