@@ -1,0 +1,20 @@
+  eventSources:
+    - events:
+        - start: 2024-03-02
+          title: Lebec
+        - start: 2024-03-03
+          title: Poway
+        - start: 2024-03-04
+          title: San Felipe
+        - start: 2024-03-05
+          title: La Mesa
+        - start: 2024-03-06
+          title: Camarillo
+        - start: 2024-03-07
+          title: Home
+      defaultAllDay: true
+      color: green
+    - events:
+        - start: 2024-03-02T09:45:00-0800
+          end: 2024-03-07T16:00:00-0800
+          title: Short Route
