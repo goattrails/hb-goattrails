@@ -1,5 +1,5 @@
 {{- $id := print "countdown-timer-" (delimit (shuffle (seq 1 9)) "") }}
-<div class="countdown-timer text-center p-3 mb-5 bg-body shadow rounded border {{.class }}" id="{{ $id }}">
+<div class="countdown-timer {{ .class }}" id="{{ $id }}">
     <div class="countdown-active">
       <ul>
         <li><span class="days"></span> Days</li>

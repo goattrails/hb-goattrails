@@ -9,6 +9,9 @@
 .countdown-timer {
   text-align: center;
   margin-bottom: 1rem;
+  & ul {
+    padding-left: 0;
+  }
   & li {
     display: inline-block;
     font-size: 1.25rem;
@@ -16,6 +19,7 @@
     padding: 1rem;
     text-transform: uppercase;
     & span {
+      display: block;
       font-size: 2.5rem;
     }
   }
@@ -26,6 +30,5 @@
           font-size: calc(3.375rem * var(--smaller));
         }
       }
-
     }
 }

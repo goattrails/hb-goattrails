@@ -1,4 +1,9 @@
 {{- $target := default .Page.Date (.Get "target") }}
 {{- $completed := default "This event has already started." (.Get "completed") }}
 {{- $seconds := default true (.Get "seconds") }}
-{{- partial "countdown.html" (dict "page" .Page "target_date" $target "completed_text" $completed "seconds" $seconds) }}
+{{- partial "countdown.html"
+    (dict "page" .Page
+          "target_date" $target
+          "completed_text" $completed
+          "seconds" $seconds
+          "class" "bg-body p-3 mb-5 shadow rounded border") }}
