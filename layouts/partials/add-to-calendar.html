@@ -12,22 +12,22 @@
 {{- if $end_date }}
   {{- $end_date = time.AsTime $end_date | time }}
 {{- end }}
-{{/* this stupidity is because add-to-calendar does not understand numeric timeoffsets */}}
+{{/* this stupidity is because add-to-calendar does not understand numeric time offsets */}}
 {{- $timeOffset := $start_date.Format "-0700" }}
 {{- $timeSign := cond (strings.Contains $timeOffset "-") "+" "-" }}
 {{- $timeOffset = int (strings.TrimLeft "0-" $timeOffset) }}
 {{- $timeOffset = printf "Etc/GMT%s%d" $timeSign (div (int $timeOffset) 100) }}
 <add-to-calendar-button
   name="{{ $title }}"
-  description="{{ replace  $description "\n" "[br]" }}"
+  description="{{ replace  $description `\n` `[br]` }}"
 {{- if $location }}
-  location="{{ replace $location "\n" ", " }}"
+  location="{{ replace $location `\n` `, ` }}"
 {{- end }}
-  startDate="{{ $start_date.Format "2006-01-02" }}"
-  startTime="{{ $start_date.Format "15:04" }}"
+  startDate="{{ $start_date.Format `2006-01-02` }}"
+  startTime="{{ $start_date.Format `15:04` }}"
 {{- if $end_date }}
-  endDate="{{ $end_date.Format "2006-01-02" }}"
-  endTime="{{ $end_date.Format "15:04" }}"
+  endDate="{{ $end_date.Format `2006-01-02` }}"
+  endTime="{{ $end_date.Format `15:04` }}"
 {{- end }}
   url="{{ $url }}"
   options="'Apple','Google','iCal','Outlook.com','Yahoo'"
@@ -36,3 +36,22 @@
   lightMode="bodyScheme"
   hideBranding
 ></add-to-calendar-button>
+<script>
+// convert our hbstack theme hints into hints for calendar button
+(function () {
+    const theme = localStorage.getItem('hb-theme');
+    if (theme === 'dark' || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('atcb-dark');
+    } else {
+      document.documentElement.classList.remove('atcb-dark');
+    }
+
+    document.addEventListener('hb:theme', (e) => {
+      if (e.detail.theme === 'dark') {
+        document.documentElement.classList.add('atcb-dark');
+      } else {
+        document.documentElement.classList.remove('atcb-dark');
+      }
+    });
+}());
+</script>

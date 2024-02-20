@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "Almaden",
+        "anchorize",
+        "atcb",
         "Baja",
         "boba",
         "cacheable",
@@ -25,8 +27,10 @@
         "gpxmap",
         "gpxref",
         "Guerneville",
+        "hbstack",
         "Hollister",
         "hugopress",
+        "ical",
         "Ignatio",
         "isoformat",
         "Lato",
@@ -48,6 +52,7 @@
         "Pescadero",
         "Piños",
         "Pismo",
+        "plainify",
         "Poway",
         "purgecss",
         "razonyang",
