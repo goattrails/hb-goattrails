@@ -73,7 +73,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.4.1 // indirect
-	github.com/hugomods/bootstrap v0.17.0 // indirect
+	github.com/hugomods/bootstrap v0.17.1 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.14.0 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
