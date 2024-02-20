@@ -72,7 +72,7 @@ dirt roads. Tires should be good for 3600 miles.*
 * **WHEN:** Meet 9:45 AM **(KSU 10:00AM sharp!)**
 * **WHERE:** [Safeway Gas](https://maps.app.goo.gl/7V9dctZGNNzJXKan9),
   :fuelpump: 591 Tres Pinos Rd., Hollister, CA 95023
-* [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk) discussion
+* [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk)
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
 * [GPX]({{< gpxfile >}}) file
 

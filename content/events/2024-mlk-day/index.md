@@ -48,7 +48,7 @@ or [BurgerIM](https://burgerimsanjose.com/home) :us: in San Jose.
 | :----------------------------- | ------: | - | ----: | :----
 | 01 Sbux                        |       0 |   | 09:00 | Start
 | 02 Pescadero                   |   31/31 | G | 10:02 | Bathroom (+0:15)
-| 03 Sam Curry                   | 105/105 | GL| 12:44 | Restaurant (+1:00), Gas Station (+0:15)
+| 03 Sam Curry                   | 105/105 | GL| 12:44 | Gas / Lunch (+1:15)
 | 04 Canon Vista                 |   8/113 |   | 14:01 | End
 
 * 01/15/24: Sunrise: 07:22, Starts: 09:00, Ends: 14:01, Sunset: 17:12

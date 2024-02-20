@@ -1,5 +1,7 @@
 {
     "no-inline-html": {
         "allowed_elements": ["br", "mark"]
-    }
+    },
+    "tables": false,
+    "fenced-code-language": false
 }
