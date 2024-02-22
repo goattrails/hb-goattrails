@@ -38,7 +38,7 @@ tags:
 
 {{< gpxmap >}}
 
-```text
+```
   S feb03 ☼ 7:10 ~ 17:35 ☽
 
     LAT     LONG    WP   NAME       MILE     ETA

@@ -45,7 +45,7 @@ require (
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.11.0 // indirect
+	github.com/hbstack/hb v0.11.1 // indirect
 	github.com/hbstack/header v0.14.0 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
@@ -72,7 +72,7 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
-	github.com/hugomods/base v0.4.1 // indirect
+	github.com/hugomods/base v0.4.2 // indirect
 	github.com/hugomods/bootstrap v0.17.1 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.14.0 // indirect
@@ -94,7 +94,7 @@ require (
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect
-	github.com/hugomods/search v0.11.0 // indirect
+	github.com/hugomods/search v0.13.0 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect
@@ -109,6 +109,6 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
