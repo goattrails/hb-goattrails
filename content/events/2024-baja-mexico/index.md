@@ -52,7 +52,7 @@ location:
   title: Starbucks
   address: |
       1730 Airline Hwy
-      Hollister CA
+      Hollister, CA 95023
 categories:
   - rides
 tags:
@@ -70,15 +70,19 @@ dirt roads. Tires should be good for 3600 miles.*
 ## Summary
 
 * **WHEN:** Meet 9:45 AM **(KSU 10:00AM sharp!)**
-* **WHERE:** [Safeway Gas](https://maps.app.goo.gl/7V9dctZGNNzJXKan9),
-  :fuelpump: 591 Tres Pinos Rd., Hollister, CA 95023
+* **WHERE:** [Starbucks](https://maps.app.goo.gl/GDEZLTncZGp8LNnJA),
+  :coffee: 1730 Airline Highway, Hollister, CA 95023
 * [Signal](https://signal.group/#CjQKIBx4zFOT5mC6fkV5rqoU4SRHC9PJJqvblp9cvcae1JKeEhBQnqUlOZiEhhG7BiIUE2Wk)
 * [Notes](Matt_2.jpg) from Jun 8 discussion.
 * [GPX]({{< gpxfile >}}) file
 
+## Attendees
+
+{{< bs/img-grid "attendees" >}}
+
 ## Itinerary
 
-### 15 Day Route
+### 15 Day Itinerary
 
 {{< fullcalendar data="caldata.yaml" caption="15 Day Route" >}}
 
@@ -87,9 +91,11 @@ dirt roads. Tires should be good for 3600 miles.*
 | 0 | Sat Mar 2nd | Hollister, Coalinga, Maricopa, Cerro, Noroeste, Lebec<br><br>CA-25, CA-198, CA-33, CA-166, Mil Portrero | [us0](us0.gpx) | 309 | 498 | [Google](https://www.google.com/maps/dir/37.3959,-122.1019/37.2893,-121.8943/36.8380,-121.3906/36.1370,-120.3626/35.0584,-119.4001/34.8188,-118.8824), [OnTheGo](https://onthegomap.com/s/jb9pjlor), [interactive](https://www.goattrails.info/baja/maps/us0.html) | ![Day0](https://www.goattrails.info/baja/image/route_d0.jpg) | [Holiday Inn](https://www.ihg.com/holidayinnexpress/hotels/us/en/lebec/bkrfr/hoteldetail), [Motel 6](https://www.motel6.com/en/home/motels.ca.lebec.4640.html) $75 ~ $160 [Lebec](https://www.google.com/maps/place/34.8188,-118.8824)
 | 1 | Sun Mar 3rd | Lake Hughes, Wrightwood, Hemet, Warner Springs, Poway<br><br>N2, N6, N4, Big Pines, CA-66, CA-2, I-215, I-10, San Timoteo Canyon, CA-79, CA-78<br><br><mark>caveat: Big Pines at 7,000ft and Wildwood at 6,000ft may be snowed in. Detour via Bob's Gap to CA-138. | [us1](us1.gpx) | 254 | 408 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611), [OnTheGo](https://onthegomap.com/s/lcgjdtg1), [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day1](https://www.goattrails.info/baja/image/route_d1.jpg) | [Ramada](https://www.wyndhamhotels.com/ramada/poway-california/ramada-poway-san-diego-north/overview), [Best Western](https://www.bestwestern.com/en_US/book/hotel-rooms.05639.html) $140 [Poway](https://www.google.com/maps/place/32.9522,-117.0611)
 | 2 | Mon Mar 4th | Tecate border crossing :mexico:, Sierra Juarez, Mexicali, San Felipe<br><br>CA-94, MEX-2D, Mex-5 | [bj2](bj2.gpx) | 254 | 409 | [Google](https://www.google.com/maps/dir/34.8188,-118.8824/34.3609,-117.6329/33.7480,-117.0067/33.2832,-116.6344/32.9522,-117.0611) [OnTheGo](https://onthegomap.com/s/lcgjdtg1) [interactive](https://www.goattrails.info/baja/maps/us1.html) | ![Day2](https://www.goattrails.info/baja/image/route_d2.jpg) | [El Capitán](https://www.hotelcapitansanfelipe.com/), [Hotel George](https://www.georges-hotel.com/) ~$120 [San Felipe](https://www.google.com/maps/place/31.0197,-114.8350)
+| 3 | Tue Mar 5th | Mar de Cortés, Sierra de Calamajué, Sierra Salorio, Bahía de los Ángeles<br><br>MEX-5, MEX-1, MEX-12 | [bj3](bj3.gpx) | 202 | 325 | [Google](https://www.google.com/maps/dir/31.0252,-114.8422/29.7924,-114.4138/29.3757,-114.3745/29.0462,-114.1529/28.9605,-113.5639/28.9498,-113.5599) [OnTheGo](https://onthegomap.com/s/q4bttcsh) [interactive](https://www.goattrails.info/baja/maps/bj3.html) | ![Day3](https://www.goattrails.info/baja/image/route_d3.jpg) | TBD hotel, [Motel Princess](https://www.motelprincessbdla.com/) ~$90 (1500 pesos) [Bahía de los Ángeles](https://www.google.com/maps/place/28.9498,-113.5599)
+| 4 | Wed Mar 6th | Sierra de Calmalli, Guerrero Negro, Desierto el Vizcaíno, Sierra San Francisco, Misión San Ignacio<br><br>MEX-12, MEX-1 | [bj4](bj4.gpx) | 171 | 275 | [Google](https://www.google.com/maps/dir/27.3021,-112.8954/27.3414,-112.2664/27.3372,-112.2682/26.8906,-111.9841/26.7651,-111.8878/26.0069,-111.3499/26.0069,-111.3393) [OnTheGo](https://onthegomap.com/s/2gddekar) [interactive](https://www.goattrails.info/baja/maps/bj6.html) | ![Day 4](https://www.goattrails.info/baja/image/route_d6.jpg) | [Hotel Oasis](https://www.hoteloasis.com/) $210 (3,500 pesos) [Loreto](https://www.google.com/maps/place/26.0069,-111.3393)
 | 14 | Sat Mar 16th | Santa Ynez Mountains, Nipomo Valley, Rossi's driveway, Airline highway, home<br><br>US-101, CA-154, Foxen Canyon, Tepusquet, CA-166, CA-227, CA-229, Cross Canyon, Peach Tree, Indian Valley, CA-25, US-101 | [us14](us14.gpx) | 370 | 596 | [Google](https://www.google.com/maps/dir/34.2221,-119.0698/35.0361,-120.4865/35.7476,-120.6994/36.8380,-121.3906/37.3959,-122.1019) [OnTheGo](https://onthegomap.com/s/2mebn9u4) [Interactive](https://www.goattrails.info/baja/maps/us14.html) | ![Day 14](https://www.goattrails.info/baja/image/route_d14.jpg) | Home
 
-### 6 Day Route
+### 6 Day Itinerary
 
 {{< fullcalendar data="short-calendar.yaml" nodefault=true >}}
 
@@ -277,9 +283,10 @@ US14 Camarillo → home
 G=gas, M=motel, xxx/yyy → xxx=miles since gas, yyy=cumulative miles
 ```
 
-## Attendees
-
-{{< bs/img-grid "attendees" >}}
+* Printable copies of this
+[itenerary](https://www.goattrails.info/baja/daily_itin.pdf) (PDF 4 pages)
+* Printable copies of daily
+[tank bag notes](https://www.goattrails.info/baja/tankbag_merged.pdf) (PDF 15 pages)
 
 ## Preparations
 
@@ -384,6 +391,56 @@ passport photos, or AAA can take the photos for another **$20**.
 * 2 gallons extra fuel (bladder or container)
 * Basic tools to handle flat repairs or minor tip overs.
 
+#### Moto Ride
+
+• Sena, battery power pack, USB cable
+• gloves: mesh, winter, rain
+• rain jacket
+• ear plugs
+• DSLR
+• insurance & registration
+• US passport
+• cash, credit card
+• cell phone
+• pen
+• maps, magnifier
+• reading glasses
+
+#### Moto Repair
+
+• tire patch kit, inflator, pressure gauge
+• spare fuel containers, funnel
+• Torx & Hex tools
+• bungee cord, paracord, carabiner
+• zip ties, duct tape, metal wire, electrical tape
+• WD40, paper towel, latex glove, PVC stand
+
+#### Clothing
+
+• sunglasses, hat
+• sweat pants, shorts
+• sweat shirt
+• quick-dry shirts, socks, underwear ×3
+• swim trunk, goggle
+• slippers
+
+#### Chargers
+
+• USB-C phone charger, Sena charger
+• camera charger, spare batteries
+• extension cord
+• flashlight, batteries
+
+#### Toiletries
+
+• nail clipper, tweezer
+• razor, Q-tips
+• tooth brush, tooth paste, floss, toothpick
+• medications
+• ear plugs
+• detergent, sink stopper, paracord
+• dish soap
+
 ### Weather
 
 Weather in
@@ -410,3 +467,84 @@ Both use standard time year round.
 Only a few border cities synchronize with US daylight saving time shifts.
 
 ![time zones](mexico_time_zone.gif)
+
+### Español
+
+* [Google Translate](https://translate.google.com/?sl=es&tl=en)
+* [Spanish Dictionary](http://www.spanishdict.com/translate/a)
+* [Wiktionary](https://en.wiktionary.org/)
+
+Identificación Automática de Vehículos (IAVE)
+:  electronic transponder for toll payments
+
+carril derecho exclusivo IAVE
+:  right lane exclusively for IAVE card
+
+solo pago en efectivo y tarjeta IAVE
+:  only cash payment and IAVE card
+
+prepare su cuota
+:  prepare to pay toll
+
+plaza de cobro, caseta de cobro
+:  toll plaza, caseta de cobro
+
+inicia tramo a cargo de SCT
+:  begin section maintained by Secretaría de Infraestructura, Comunicaciones y Transportes
+
+no frene con motor
+:  no engine braking
+
+autopista, carretera
+:  motorway, highway
+
+alto
+:  halt, stop
+
+ceda el paso
+:  cede, handover, yield the way
+
+estacionar
+:  park, station
+
+desviación
+:  deviation, detour
+
+prohibido retorno
+:  no U-turn
+
+cuidado con el tren
+:  beware of the train
+
+puesto militar de seguridad
+:  military security post
+
+queja o sugerencia
+:  complaint or suggestion
+
+botica, farmacia, apoteca
+:  drugstore, pharmacy
+
+botana, aperitivo, entrada, tapa
+:  snack, appetizer
+
+refacción
+:  repair, spare part
+
+lleno por favor
+:  fill up please
+
+doscientos pesos
+:  fill up with 200 pesos ($12 USD)
+
+¿Acceptas tarjetas?
+:  Do you accept credit cards?
+
+sanitario, inodoro, baño, retrete
+:  restroom, toilet, lavatory
+
+almeja
+:  clam
+
+ostión
+:  oyster
