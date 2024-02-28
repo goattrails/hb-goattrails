@@ -96,6 +96,8 @@ github.com/hbstack/header/modules/socials v0.1.28 h1:C7E+aBhFdoLUgzlYtj5d2/Lxqbv
 github.com/hbstack/header/modules/socials v0.1.28/go.mod h1:N3tqnzmImktAMRJlwEBp7CX9zb2xrc4nyV4eSjNmGNM=
 github.com/hbstack/header/modules/theme-toggle v0.4.4 h1:2abRpCpNxlL5k8KqnFMDvyUwaVo9s+uyRirxXf6mOD8=
 github.com/hbstack/header/modules/theme-toggle v0.4.4/go.mod h1:s0wry+fpt4OJO49dwHSaDW2aux7SZ+zvX5t6wlWSw5k=
+github.com/hbstack/header/themes/pills v0.2.18 h1:3g2LmC8jPjmx51afWGLymoOwy9lfmBSk6sV8Hsg0Nk4=
+github.com/hbstack/header/themes/pills v0.2.18/go.mod h1:hzka2CZXFw7AkI19tOKawCosanb9qDKAHEP3hECsRfQ=
 github.com/hbstack/heading-sign v0.2.0 h1:yXKZQEjPn/+jKyQxCJh34X+wXbiG4Bnr1VVF6lgMhi8=
 github.com/hbstack/heading-sign v0.2.0/go.mod h1:SXJWIr9C/7phTOXfWMzNSVZCeimKbYualuwIOHDeOu0=
 github.com/hbstack/mermaid v0.2.1 h1:jcTPFIk5e5+4tS3qGr2R0l9Snky2XReAjKIrtRUZs18=
@@ -210,7 +212,6 @@ github.com/jakearchibald/idb v8.0.0+incompatible h1:sTNGHgh+JoyQ4Eqey+1ScX4F03uT
 github.com/jakearchibald/idb v8.0.0+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/4+FKWjvo=
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
-github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
