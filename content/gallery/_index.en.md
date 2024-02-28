@@ -6,6 +6,6 @@ menu:
     weight: 4
     params:
       icon:
-        vendor: fas
+        vendor: bs
         name: images
 ---

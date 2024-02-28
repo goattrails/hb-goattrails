@@ -19,6 +19,6 @@ header:
       Goat Trail Junkies
       { .text-uppercase .mb-5 data-aos="fade-up" }
     description: |
-      Riding *faster*, *farther*, and *stupider*
+      Riding *faster*, *farther*, and *stupider*...
       { .mb-5 data-aos="fade-up" data-aos-delay="200" }
 ---

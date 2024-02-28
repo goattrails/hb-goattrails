@@ -1,7 +1,7 @@
 ---
 title: "Events"
 type: blog
-description: Yet another digital garden that uses the blog layout.
+description: Rides and other events.
 menu:
   main:
     weight: 1
