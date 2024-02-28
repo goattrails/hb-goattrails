@@ -2,7 +2,7 @@
   "name": "hb-goattrails",
   "description": "Website for [Goat Trail Junkies](https://goattrails.org/).",
   "scripts": {
-    "dev": "hugo server --gc -D --enableGitInfo",
+    "dev": "hugo server --gc -D --enableGitInfo --baseURL=/ --appendPort=false",
     "prod": "npm run clean && hugo server --gc --disableFastRender --renderToDisk --minify -e production --enableGitInfo -p 1314",
     "build": "hugo --gc --minify --enableGitInfo",
     "clean": "rm -f hugo_stats.json && rm -rf public/ resources/",
