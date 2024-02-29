@@ -7,6 +7,8 @@ hb:
   # css_bundle_name: main # the CSS bundle name.
   full_width: false # when true, the layout takes full width globally.
   header:
+    banner:
+      transparentize_navbar_bg: false
     brand: GTJ # the brand name, leave it empty to use site's title.
 #    logo_bg: '#dddddd' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
