@@ -47,7 +47,7 @@ require (
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.0 // indirect
 	github.com/hbstack/header v0.14.1 // indirect
-	github.com/hbstack/header/modules/banner v0.5.11 // indirect
+	github.com/hbstack/header/modules/banner v0.6.1 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
@@ -91,7 +91,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.3 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.31 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
-	github.com/hugomods/images v0.9.1 // indirect
+	github.com/hugomods/images v0.9.2 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect
