@@ -39,7 +39,7 @@ require (
 	github.com/hbstack/docs/modules/social-share-buttons v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
-	github.com/hbstack/footer v0.3.0 // indirect
+	github.com/hbstack/footer v0.4.0 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/gallery v0.11.0 // indirect
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
@@ -47,7 +47,7 @@ require (
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.0 // indirect
 	github.com/hbstack/header v0.14.1 // indirect
-	github.com/hbstack/header/modules/banner v0.6.1 // indirect
+	github.com/hbstack/header/modules/banner v0.7.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
@@ -80,7 +80,7 @@ require (
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
-	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
+	github.com/hugomods/font-awesome v6.5.1+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
@@ -88,7 +88,7 @@ require (
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.2 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.5 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.3 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.4 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.31 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.9.2 // indirect
