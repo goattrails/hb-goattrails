@@ -8,9 +8,9 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.2.0 // indirect
-	github.com/hbstack/base v0.4.3 // indirect
+	github.com/hbstack/base v0.4.4 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.25.1 // indirect
+	github.com/hbstack/blog v0.25.2 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/decap-cms v0.3.0 // indirect
@@ -45,14 +45,13 @@ require (
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.12.0 // indirect
-	github.com/hbstack/header v0.14.1 // indirect
+	github.com/hbstack/hb v0.12.1 // indirect
+	github.com/hbstack/header v0.14.2 // indirect
 	github.com/hbstack/header/modules/banner v0.7.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.4.4 // indirect
-	github.com/hbstack/header/themes/pills v0.2.18 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
 	github.com/hbstack/mermaid v0.2.1 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
@@ -74,7 +73,7 @@ require (
 	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.4.2 // indirect
-	github.com/hugomods/bootstrap v0.17.3 // indirect
+	github.com/hugomods/bootstrap v0.18.2 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/decap-cms v0.14.0 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
@@ -97,13 +96,13 @@ require (
 	github.com/hugomods/pwa v0.7.0 // indirect
 	github.com/hugomods/search v0.13.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
-	github.com/hugomods/seo/modules/base v0.1.0 // indirect
+	github.com/hugomods/seo/modules/base v0.1.1 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect
 	github.com/hugomods/seo/modules/open-graph v0.1.0 // indirect
 	github.com/hugomods/seo/modules/schema v0.1.1 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.0 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
-	github.com/hugomods/shortcodes v0.14.0 // indirect
+	github.com/hugomods/shortcodes v0.16.0 // indirect
 	github.com/hugomods/simple-icons v11.6.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/video-js v0.1.1 // indirect
