@@ -3,7 +3,7 @@
   "timezone": "America/Los_Angeles",
   "extends": [
     "config:best-practices",
-    "schedule:automergeDaily",
+    "schedule:automergeWeekly",
     ":automergeBranch",
     ":automergeMinor",
     ":automergeDigest",
