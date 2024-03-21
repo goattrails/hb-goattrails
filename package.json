@@ -8,7 +8,10 @@
     "clean": "rm -f hugo_stats.json && rm -rf public/ resources/",
     "clean-build": "npm run clean && npm run build",
     "update": "hugo mod get -u && hugo mod tidy",
-    "decap-server": "npx decap-server"
+    "decap-server": "npx decap-server",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "ts-standard",
+    "stylelint": "npx stylelint \"**/*.scss\""
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,13 @@
     "autoprefixer": "^10.4.14",
     "decap-server": "^3.0.1",
     "postcss-cli": "^11.0.0",
-    "rtlcss": "^4.0.0"
+    "rtlcss": "^4.0.0",
+    "@tsconfig/recommended": "^1.0.2",
+    "prettier": "^3.0.0",
+    "prettier-plugin-go-template": "^0.0.15",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-scss": "^6.0.0",
+    "ts-standard": "^12.0.2"
   }
 }
