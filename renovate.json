@@ -3,11 +3,6 @@
   "timezone": "America/Los_Angeles",
   "extends": [
     "config:best-practices",
-    "schedule:automergeWeekly",
-    ":automergeBranch",
-    ":automergeMinor",
-    ":automergeDigest",
-    ":preserveSemverRanges"
   ],
   "postUpdateOptions": [
     "gomodTidy"
