@@ -3,6 +3,7 @@
   "timezone": "America/Los_Angeles",
   "extends": [
     "config:best-practices",
+    ":preserveSemverRanges"
   ],
   "postUpdateOptions": [
     "gomodTidy"
