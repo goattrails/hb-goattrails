@@ -9,23 +9,28 @@
 .countdown-timer {
   text-align: center;
   margin-bottom: 1rem;
+
   & ul {
     padding-left: 0;
   }
+
   & li {
     display: inline-block;
     font-size: 1.25rem;
     list-style-type: none;
     padding: 1rem;
     text-transform: uppercase;
+
     & span {
       display: block;
       font-size: 2.5rem;
     }
   }
+
   @media all and (max-width: 768px) {
       li {
         font-size: calc(1.125rem * var(--smaller));
+
         & span {
           font-size: calc(3.375rem * var(--smaller));
         }
@@ -35,6 +40,7 @@
 
 .countdown-timer.vertical li {
   display: block;
+
   & span {
     display: block;
   }
