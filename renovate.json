@@ -5,9 +5,6 @@
     "config:best-practices",
     ":preserveSemverRanges"
   ],
-  "postUpdateOptions": [
-    "gomodTidy"
-  ],
   "packageRules": [
     {
       "matchManagers": ["gomod"],
