@@ -52,6 +52,7 @@ github.com/hbstack/decap-cms v0.3.0 h1:MCdS9TNS3CcRO3i8eftBPak64vFTV/1N3idS2qdm3
 github.com/hbstack/decap-cms v0.3.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
 github.com/hbstack/docs v0.13.1 h1:ckngYBUhFVu5ClFRY5mhW4dNCLJYwVZPXwaKGgL52d4=
 github.com/hbstack/docs v0.13.1/go.mod h1:iey13n4+pBonrrBX8+GUULMOBIQEyLSlezec7rcwloY=
+github.com/hbstack/docs v0.13.2/go.mod h1:PQ3F3OXkDcKxBO46MSSdnqssGBbZjox26kNNx9aAJQ8=
 github.com/hbstack/docs/modules/breadcrumb v0.1.9 h1:znf/33KfQFZXOXVKezdksy/euM0FDnoNKeKSyw3SwCk=
 github.com/hbstack/docs/modules/breadcrumb v0.1.9/go.mod h1:vpQYRcZmRTqYpVb7x7sOgw13MxBuNgUt82wQDz6ZtZU=
 github.com/hbstack/docs/modules/content-panel v0.1.8 h1:jdvI05iKD3awcCFx9UoGNh7DfNK60jWLJjVAspqEH+o=
