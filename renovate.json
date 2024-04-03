@@ -3,7 +3,10 @@
   "timezone": "America/Los_Angeles",
   "extends": [
     "config:best-practices",
-    ":preserveSemverRanges"
+    ":preserveSemverRanges",
+    ":automergeBranch",
+    ":automergeMinor",
+    ":automergeDigest"
   ],
   "packageRules": [
     {
