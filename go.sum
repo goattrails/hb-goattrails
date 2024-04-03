@@ -155,6 +155,7 @@ github.com/hugomods/decap-cms/widgets/url v0.1.2 h1:i/JLvydLE2eKDQTpHiuL8qP5oUHy
 github.com/hugomods/decap-cms/widgets/url v0.1.2/go.mod h1:m3oxSKMUgJr5dZChLLr8oqp7vbsF+oaCRz8DFQDxzb8=
 github.com/hugomods/font-awesome v6.5.1+incompatible h1:Z/ZK4yQm0DptAxpXl2zfbo6taBejL0GCFwI4o4Ya7v0=
 github.com/hugomods/font-awesome v6.5.1+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
+github.com/hugomods/font-awesome v6.5.2+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/fuse-js v0.1.0 h1:CmWHBZANvjOP44RDNQNLntqlLf9GLqeM29jekxTNcPE=
 github.com/hugomods/fuse-js v0.1.0/go.mod h1:srCqvtBQR02HS/abTraDU4oINv1D3PljNPdexdoHhpo=
 github.com/hugomods/giscus v0.1.1 h1:Kb8137Cp2nQJPFb6e+CdXy8nyIAJ2dFIymG4bDdaXWI=
@@ -171,6 +172,7 @@ github.com/hugomods/icons/vendors/bootstrap v0.5.6 h1:4Vj7u52gFUnO+Jj/CqmGfsLroi
 github.com/hugomods/icons/vendors/bootstrap v0.5.6/go.mod h1:Sw1RhQvFcsQlJ5a4SKpp7A0XHDYQ0DK0pQwnnx+l+Ao=
 github.com/hugomods/icons/vendors/font-awesome v0.6.5 h1:sf9hPR2zR1psHVM7ASSt9o47EwD9NhGcK9echjxaNmU=
 github.com/hugomods/icons/vendors/font-awesome v0.6.5/go.mod h1:olo6073bAL17apxc7lTLfQKpT9sIam8Zx+d9lrCwV/o=
+github.com/hugomods/icons/vendors/font-awesome v0.6.6/go.mod h1:2IVdmnq+IWCnPFYsvbxq59dTuW3+prPLerpu8Ezobro=
 github.com/hugomods/icons/vendors/simple-icons v1.0.36 h1:F5nR2KGQW/OvTqdiAWHgET940AuebQMe5yWUqqF7y/w=
 github.com/hugomods/icons/vendors/simple-icons v1.0.36/go.mod h1:831A05oHGziqogtDl3NW7ZjtHpnPTzhK/w/19/mnH+E=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
