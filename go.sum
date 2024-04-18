@@ -144,6 +144,7 @@ github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBX
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/decap-cms v0.14.5 h1:BM4HmaMFIECp+fNZ9t7pRyLQkB2oqc4rll1FoRafEfg=
 github.com/hugomods/decap-cms v0.14.5/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.14.7/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.2 h1:358itSlZSkRAT4KtU5ymBDWldoSKVX/qU+Hp8GEwyVE=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.2/go.mod h1:H6twtMoytIh1mFmeA09gJ2T4WwT1WX6KFO3QEZoWwkc=
 github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1 h1:teyM/VsxqEpAhfaK7NFY9575HDaL/M1WRkM9NsJU1QY=
