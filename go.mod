@@ -10,14 +10,14 @@ require (
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.4.6 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.26.2 // indirect
+	github.com/hbstack/blog v0.27.2 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/decap-cms v0.3.0 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
-	github.com/hbstack/blog/modules/post-nav v0.3.6 // indirect
+	github.com/hbstack/blog/modules/post-nav v0.3.7 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.2.5 // indirect
 	github.com/hbstack/blog/modules/revision v0.1.0 // indirect
 	github.com/hbstack/blog/modules/social-share-buttons v0.1.1 // indirect
@@ -29,10 +29,10 @@ require (
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/content-panel v0.8.0 // indirect
 	github.com/hbstack/decap-cms v0.3.0 // indirect
-	github.com/hbstack/docs v0.13.2 // indirect
+	github.com/hbstack/docs v0.14.1 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
-	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
+	github.com/hbstack/docs/modules/doc-nav v0.3.5 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
@@ -75,7 +75,7 @@ require (
 	github.com/hugomods/base v0.6.0 // indirect
 	github.com/hugomods/bootstrap v0.21.2 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.14.5 // indirect
+	github.com/hugomods/decap-cms v0.14.7 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
