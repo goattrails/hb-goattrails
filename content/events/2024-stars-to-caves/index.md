@@ -48,11 +48,11 @@ Ride up to Lick, visit the new Junction, eat lunch in Livermore, and back down C
 
 | Name                           |   Dist. | G |  ETA  | Notes
 | :----------------------------- | ------: | - | ----: | :----
-| Starbucks                      |       0 |   | 09:30 | Flag, Blue
-| Lick Observatory               |      20 |   | 10:10 | Flag, Blue
-| Junction Bar & Grill           |      39 |   | 10:47 | Flag, Blue
-| Petra Middle Eastern Cuisine   |      71 | L | 11:51 | Restaurant (+1:00)
-| i-Tea                          | 100/100 |   | 13:50 | Flag, Blue
+| Starbucks                      |       0 |   | 09:30 | KSU 09:30am
+| Lick Observatory               |      20 |   | 10:10 | Photos
+| Junction Bar & Grill           |      39 |   | 10:57 | Visit
+| Petra Middle Eastern Cuisine   |      71 | L | 12:01 | Restaurant (+1:00)
+| i-Tea                          | 100/100 |   | 13:50 | Boba
 
 * 04/21/24: Sunrise: 06:24, Starts: 09:30, Ends: 13:50, Sunset: 19:48
 
