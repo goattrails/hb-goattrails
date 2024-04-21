@@ -3,7 +3,7 @@ title: "Stars to Caves"
 date: 2024-04-21T09:00:00-07:00
 publishDate: 2024-04-20T19:10:13-07:00
 # expiryDate: 2024-04-20T19:10:13-07:00
-endDate: 2024-04-21T19:10:13-07:00
+endDate: 2024-04-21T15:00:00-07:00
 description: "Visit the new Junction, eat at Petra"
 draft: false
 noindex: false
@@ -35,7 +35,7 @@ Ride up to Lick, visit the new Junction, eat lunch in Livermore, and back down C
    [Shell](https://maps.app.goo.gl/JvRQ2rVpsW2pDL7b8)
    :fuelpump:)*
 * Lunch in Livermore at
-  [Petra Middle Eastern Cuisine](https://maps.app.goo.gl/YVBmX444UNdG3Gqt5) (:jo:)
+  [Petra Middle Eastern Cuisine](https://maps.app.goo.gl/YVBmX444UNdG3Gqt5) (:jordan:)
 * Ride ends at [i-Tea](https://maps.app.goo.gl/DvebMT5JiAbQKkPWA) :coffee:,
   760 E Calaveras Blvd, Milpitas, CA 95035
 * **HOW:**
