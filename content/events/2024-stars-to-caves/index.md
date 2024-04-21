@@ -2,7 +2,6 @@
 title: "Stars to Caves"
 date: 2024-04-21T09:00:00-07:00
 publishDate: 2024-04-20T19:10:13-07:00
-# expiryDate: 2024-04-20T19:10:13-07:00
 endDate: 2024-04-21T15:00:00-07:00
 description: "Visit the new Junction, eat at Petra"
 draft: false
@@ -19,7 +18,10 @@ tags:
   - east-bay
 location:
   title: Starbucks Coffee
-  address: 2702 McKee Rd., San Jose, CA
+  address: |
+      2702 McKee Rd.
+      San Jose, CA
+categories:
 gpxFile: stars-to-caves.gpx
 images:
   - Treasury_petra_crop.jpeg
