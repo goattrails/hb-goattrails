@@ -6,7 +6,9 @@
     ":preserveSemverRanges",
     ":automergeBranch",
     ":automergeMinor",
-    ":automergeDigest"
+    ":automergeDigest",
+    "schedule:automergeWeekly",
+    "schedule:weekly"
   ],
   "packageRules": [
     {
