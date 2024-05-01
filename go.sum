@@ -124,6 +124,7 @@ github.com/hbstack/social-share-buttons v0.2.2 h1:p9ly/NrC2KGBTxg55zg+DrQig5BoD4
 github.com/hbstack/social-share-buttons v0.2.2/go.mod h1:WAXsqPI+12QA67fA/IWLvxVubuvbW8kzLwTo0pZW41E=
 github.com/hbstack/socials v0.10.0 h1:XU2UwFq/6EzZMEIND/hfa+6CsvvzqPGK4odPwudBwo0=
 github.com/hbstack/socials v0.10.0/go.mod h1:VeK9k0+f+HsKuPbVAqRwwz5KqWm+2+NlYlJsMdja4c8=
+github.com/hbstack/socials v0.14.1/go.mod h1:xCbwzO1NzuLhll79QlkG9r/wS0r3Hl5Cy+GhxZBqceo=
 github.com/hbstack/syntax-highlighting v0.2.0 h1:BP5SR/AbVlJyAFtVdgYjeqVZKmncEmuplTR5R2AUbw8=
 github.com/hbstack/syntax-highlighting v0.2.0/go.mod h1:6IoaM+tSIkKZblIrT1i5L3zVH68nt4UScU9JB30FQsc=
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 h1:IzJlnkHGS8XhibNjUFvyV3YE7rc7WMsAhdxWZTbORI4=
@@ -170,6 +171,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.6 h1:rb12roByF9LZfUxBpyhyqen
 github.com/hugomods/icons/vendors/font-awesome v0.6.6/go.mod h1:2IVdmnq+IWCnPFYsvbxq59dTuW3+prPLerpu8Ezobro=
 github.com/hugomods/icons/vendors/simple-icons v1.0.37 h1:y3uiKO0Z9pJ48eX5WUAFsP0gX7j9i5YUbBvrcwM7R5k=
 github.com/hugomods/icons/vendors/simple-icons v1.0.37/go.mod h1:YnC8ZUSGAKOhW3aY8qugJLe6w5Ck/k8EXBzGmKN5YdA=
+github.com/hugomods/icons/vendors/simple-icons v1.0.38/go.mod h1:XhswsNEfVeOhYACVe9+IIN7Z2AN0keT1ddnWv/vHp9A=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
 github.com/hugomods/images v0.10.1 h1:ok3ZUZ63MAcmFuTx2kC5JJ3Sffd420RRW9yO57SFeQA=
@@ -200,6 +202,7 @@ github.com/hugomods/shortcodes v0.18.1 h1:mu0tGzx9Td1YfLD+f4i6GCltM3XLP5dNaXUj8K
 github.com/hugomods/shortcodes v0.18.1/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/simple-icons v11.13.0+incompatible h1:6V5xwEgLaFxKStxgqAhB3QPMx852jTNjxf5hj1Ltg0M=
 github.com/hugomods/simple-icons v11.13.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v11.14.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
