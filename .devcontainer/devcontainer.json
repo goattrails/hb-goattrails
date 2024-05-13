@@ -7,8 +7,8 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/go:1": {},
-		"ghcr.io/devcontainers/features/hugo:1": {
+		"ghcr.io/devcontainers/features/go:1@sha256:6adad519ea1b49989de42ce5bde5add32748cae68eeb6034db4c2d69e87c161b": {},
+		"ghcr.io/devcontainers/features/hugo:1@sha256:60233d58f5b8b875e38b96222004b9be2f8401887c9df9509b1dc42fe1b2f95f": {
 			"extended": true
 		}
 	},
