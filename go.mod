@@ -23,7 +23,7 @@ require (
 	github.com/hbstack/blog/modules/social-share-buttons v0.1.1 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 // indirect
 	github.com/hbstack/bootstrap v0.2.2 // indirect
-	github.com/hbstack/breadcrumb v0.7.2 // indirect
+	github.com/hbstack/breadcrumb v0.7.3 // indirect
 	github.com/hbstack/bs-tooltip v0.1.1 // indirect
 	github.com/hbstack/carousel v0.2.6 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
@@ -91,7 +91,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.7 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.43 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
-	github.com/hugomods/images v0.10.1 // indirect
+	github.com/hugomods/images v0.11.0 // indirect
 	github.com/hugomods/katex v0.3.2 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect

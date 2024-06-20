@@ -38,8 +38,8 @@ github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 h1:UgA7UxoHTOzFDRp1XxhCmCNi
 github.com/hbstack/blog/modules/toc-scrollspy v0.2.0/go.mod h1:61D0fK0cilgwUzQm4fhVqfAc0cFYkvTE4pVSP6+FvHI=
 github.com/hbstack/bootstrap v0.2.2 h1:Kiy+XEiyDvH9KVfuS7uWYTDoTLbiww0PWTheEXO/fdM=
 github.com/hbstack/bootstrap v0.2.2/go.mod h1:2Qd2g72fKgje8fCMSaz8KlKIv60c6PAak59Zg2FJHs0=
-github.com/hbstack/breadcrumb v0.7.2 h1:6TrbG5xnnsY74yTzCk+Kieu5RrL+4OuoeQwKPms9HxU=
-github.com/hbstack/breadcrumb v0.7.2/go.mod h1:iLp0/AKYRVTNo+Sae1V55hX7CfhX9i0F/nMZ0SnicLQ=
+github.com/hbstack/breadcrumb v0.7.3 h1:HVwTFf8ZOW4PkSUH2phx33DwMa2hmjpn2GHN1/nCEyk=
+github.com/hbstack/breadcrumb v0.7.3/go.mod h1:Xh93KE3dzXP7fYKcV7mjiMgw7P4JUOFfFgsx28jTo5o=
 github.com/hbstack/bs-tooltip v0.1.1 h1:3ne4fgVrn90TUPhU5r94AKqY2zD6ZmUFZGVW1wzZEv4=
 github.com/hbstack/bs-tooltip v0.1.1/go.mod h1:CHhLg2OQq5CdRI1UCe52NbBUQb+pNkXFPdyj32gB/uk=
 github.com/hbstack/carousel v0.2.6 h1:yQ9Pv0kTYZluDd07I7V27In89JU9/e3wBb3LF8W7dwQ=
@@ -174,8 +174,8 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.43 h1:+5BqxGNTvwGIVBfxwAeair
 github.com/hugomods/icons/vendors/simple-icons v1.0.43/go.mod h1:4XiukTwoxx4f9qLYUsSppODCq7mQx/P/cJp2UDHzECw=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
-github.com/hugomods/images v0.10.1 h1:ok3ZUZ63MAcmFuTx2kC5JJ3Sffd420RRW9yO57SFeQA=
-github.com/hugomods/images v0.10.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/images v0.11.0 h1:njtKxqLmKIRXwzriosh13aj9BK3iBgJXeQFpYXIzQTM=
+github.com/hugomods/images v0.11.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.3.2 h1:ETXxFxxu9P8FbkYwWqgWE0/7tpQTDXm6YG7XrXiTwvE=
 github.com/hugomods/katex v0.3.2/go.mod h1:i+fKI52f3QbiuK0ug5yRCB9ZJ/qUFERTk8UGuSZMQNQ=
 github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
