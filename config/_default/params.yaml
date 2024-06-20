@@ -13,7 +13,7 @@ hb:
 #    logo_bg: '#dddddd' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-       facebook: https://www.facebook.com/groups/339744652011427
+       facebookgroup: "339744652011427"
        signal: https://signal.group/#CjQKIFP9k4ONdQV4_FC7ehTnQQUmUhB-yvlmBL85eVjlFkcGEhCJ6mI4bl6Ctp6mp8BINagG
        rss: true
        github: goattrails
@@ -24,7 +24,7 @@ hb:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
        _color: false # when false, remove the color of social icons.
-       facebook: https://www.facebook.com/groups/339744652011427
+       facebookgroup: "339744652011427"
        signal: https://signal.group/#CjQKIFP9k4ONdQV4_FC7ehTnQQUmUhB-yvlmBL85eVjlFkcGEhCJ6mI4bl6Ctp6mp8BINagG
        rss: true
        github: goattrails
@@ -52,7 +52,7 @@ hb:
         company: Goat Trail Junkies
         location: SF Bay Area
         socials:
-          facebook: https://www.facebook.com/groups/339744652011427
+          facebookgroup: "339744652011427"
           signal: https://signal.group/#CjQKIFP9k4ONdQV4_FC7ehTnQQUmUhB-yvlmBL85eVjlFkcGEhCJ6mI4bl6Ctp6mp8BINagG
           github: goattrails
           rss: true
