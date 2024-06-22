@@ -112,6 +112,7 @@ github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
 github.com/hbstack/pwa v0.1.2/go.mod h1:8x01rczLrSw1aCWD+yrn6v5FRQPtaEh/PYCtFDICEWo=
 github.com/hbstack/revision v0.6.5 h1:QUuvNLEOLpkYNHxTSJyLnZax072AlVPF51zBnucngcQ=
 github.com/hbstack/revision v0.6.5/go.mod h1:P4Z51jp/LzYFglkT0oYtzXUgSZifw/vuXHtZNet+6UA=
+github.com/hbstack/revision v0.6.6/go.mod h1:P4Z51jp/LzYFglkT0oYtzXUgSZifw/vuXHtZNet+6UA=
 github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2HsyY=
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
 github.com/hbstack/search v0.2.2 h1:OcGCw2cVzZlB48wogNatcbaHk2BB7Boc/ESt9txI4Gw=
@@ -212,6 +213,7 @@ github.com/jakearchibald/idb v8.0.0+incompatible h1:sTNGHgh+JoyQ4Eqey+1ScX4F03uT
 github.com/jakearchibald/idb v8.0.0+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/4+FKWjvo=
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
