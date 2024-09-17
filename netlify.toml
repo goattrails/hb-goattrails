@@ -17,7 +17,7 @@ command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
 command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
 
 [[plugins]]
-  package = "netlify-plugin-dartsass"
+  package = "@gethinode/netlify-plugin-dartsass"
 
 [[plugins]]
   package = "netlify-plugin-checklinks"
