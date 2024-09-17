@@ -86,6 +86,7 @@ github.com/hbstack/google-fonts v0.1.1 h1:rw9lsHL0x9a7olFh/9gWI+X5sRAf30DM5bzwP/
 github.com/hbstack/google-fonts v0.1.1/go.mod h1:4Xn7/i4MRPs0wDuYTIvCJvNfAMIC5vMJ4gNIWM3Vg24=
 github.com/hbstack/hb v0.12.4 h1:dhhsoGyHq2HGhz3xJUGuyK6A4sqiTxW1l8yuTREr4JM=
 github.com/hbstack/hb v0.12.4/go.mod h1:FJilVCHtkVpfXZT+Ii2OFCVeu9wQh/YGgRMuPKX5ycA=
+github.com/hbstack/hb v0.15.3/go.mod h1:FJilVCHtkVpfXZT+Ii2OFCVeu9wQh/YGgRMuPKX5ycA=
 github.com/hbstack/header v0.15.0 h1:HEeag8NJHgA3mBh2ryjc+7wcZYHxJmoZoVdvk5mmBAU=
 github.com/hbstack/header v0.15.0/go.mod h1:L/d+aYCUxWqzvdGzsVUI8hWJNESs1qw4emI4Gobvda4=
 github.com/hbstack/header/modules/banner v0.7.1 h1:7ZNjV4RVhnloETII2OEoS8Ry1xa0utCqASqflAYoFOA=
