@@ -1,3 +1,11 @@
+[build.environment]
+NODE_VERSION = "20"
+HUGO_VERSION = "0.134.2"
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+GO_VERSION = "1.23.1"
+DART_SASS_VERSION = "1.78.0"
+
 [build]
 command = "npm ci && hugo --minify --gc -b $URL"
 publish = "public"
@@ -8,16 +16,13 @@ command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
 [context.branch-deploy]
 command = "npm ci && hugo --minify --buildFuture --gc -b $DEPLOY_PRIME_URL"
 
-[build.environment]
-NODE_VERSION = "20"
-HUGO_VERSION = "0.134.2"
-HUGO_ENABLEGITINFO = "true"
-HUGO_ENV = "production"
-GO_VERSION = "1.23.1"
-DART_SASS_VERSION = "1.78.0"
-
 [[plugins]]
   package = "netlify-plugin-dartsass"
+
+[[plugins]]
+  package = "netlify-plugin-checklinks"
+  [plugins.inputs]
+  skipPatterns = ['https://fonts.gstatic.com', 'https://fonts.googleapis.com']
 
 [[headers]]
   for = "/*"
