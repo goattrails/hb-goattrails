@@ -16,6 +16,7 @@ github.com/hbstack/bigger-picture v0.10.1 h1:EgUYZgSGhl4KwKVqryf6ncB2QY4YYgOqTpD
 github.com/hbstack/bigger-picture v0.10.1/go.mod h1:wZpRrOlTFrt2lO3tl9Y7cIAJbAJN1MdvRu0UsbCnkaE=
 github.com/hbstack/blog v0.37.4 h1:JGPb40MVoc8f10yCs5ZrKwvlnXKsSNvDrJsB4UvQN3o=
 github.com/hbstack/blog v0.37.4/go.mod h1:kPLAw+tLZGjcnaNevNjo86KS2zQNkblFLiG01qF2O1Q=
+github.com/hbstack/blog v0.38.0/go.mod h1:mSWZq1M68aJSjGPv+yfbduABOSNbpBJ9HAM/EIKWxfQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.23 h1:MgUR88vv4cs/M1/cVBKUInFw3DcRw0W2AlmmcdhxewY=
 github.com/hbstack/blog/modules/breadcrumb v0.1.23/go.mod h1:smQySqXDtUv2pP7bb+XBr+QGNFxhDGN0fLmQkOIWa5g=
 github.com/hbstack/blog/modules/content-panel v0.1.21 h1:g43IVjn3O6QCQSvCbgr9iYCgZcI5XG8YAiuVPb269Ok=
@@ -54,6 +55,7 @@ github.com/hbstack/decap-cms v0.4.0 h1:WFmq3iJkab1shgR58YKEKdTHGRCQvAXVb/B6BRDxw
 github.com/hbstack/decap-cms v0.4.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
 github.com/hbstack/docs v0.18.0 h1:fNz/v22goiVNq/08c/FBP2uKWNKwWrChQLmxVFmvWlI=
 github.com/hbstack/docs v0.18.0/go.mod h1:VsGPvObHOsKYEQL6a4LgC2baFmru1O9gZavEsBmrIq0=
+github.com/hbstack/docs v0.20.1/go.mod h1:34Lnp91olEaYg2Ipbgx667U2EXz+aNRcPq7VUyYNook=
 github.com/hbstack/docs/modules/breadcrumb v0.1.10 h1:Ryp68WkRdOxL2UlGNYtN5ZJUxbbHv7bWe0NdzDt2Obg=
 github.com/hbstack/docs/modules/breadcrumb v0.1.10/go.mod h1:pTh43gl04dPERZZVDQ70KVU0j0Z4hmPK7GrxUfLw15s=
 github.com/hbstack/docs/modules/content-panel v0.1.8 h1:jdvI05iKD3awcCFx9UoGNh7DfNK60jWLJjVAspqEH+o=
@@ -88,6 +90,7 @@ github.com/hbstack/hb v0.15.3 h1:Q7XKGYLJobkRYKiMd4tLmmBQDaIBX7n3f8QlwAohKvA=
 github.com/hbstack/hb v0.15.3/go.mod h1:FJilVCHtkVpfXZT+Ii2OFCVeu9wQh/YGgRMuPKX5ycA=
 github.com/hbstack/header v0.15.0 h1:HEeag8NJHgA3mBh2ryjc+7wcZYHxJmoZoVdvk5mmBAU=
 github.com/hbstack/header v0.15.0/go.mod h1:L/d+aYCUxWqzvdGzsVUI8hWJNESs1qw4emI4Gobvda4=
+github.com/hbstack/header v0.16.2/go.mod h1:ruhJLStQ+YHY31W/PpcBSuvKJbWENbbB9RmNkuKnPpk=
 github.com/hbstack/header/modules/banner v0.7.2 h1:dVWPeEKPhKMfoB01cUgjuNiwbj44AZIoYbMRnBKitU4=
 github.com/hbstack/header/modules/banner v0.7.2/go.mod h1:thQa57Ru9HU7cV6/2qMwk3iIiFqm3Rto1zM6BOhM/+M=
 github.com/hbstack/header/modules/language-picker v0.1.26 h1:iu/PtI6ckZt/6o7ekzcpFZYZEwRsNM/rxRuqRrAr0m0=
@@ -126,6 +129,7 @@ github.com/hbstack/social-share-buttons v0.4.0 h1:ygMO2h7X7lx6FzAqIzZf+d9HUYvIMp
 github.com/hbstack/social-share-buttons v0.4.0/go.mod h1:WAXsqPI+12QA67fA/IWLvxVubuvbW8kzLwTo0pZW41E=
 github.com/hbstack/socials v0.16.0 h1:gR7NL/EBLQzqO31Tp/ITU7jtDuyDXfNskJyLtnpU0VM=
 github.com/hbstack/socials v0.16.0/go.mod h1:9pfExMNoBMnQ0JV2ODURqUQsEC/HlgUo9b3jXdrHNM4=
+github.com/hbstack/socials v0.17.0/go.mod h1:bGfRrGxVWfvwseOzJ+13vHhHpZ+e+f2z8k4ypPBhH10=
 github.com/hbstack/syntax-highlighting v0.2.0 h1:BP5SR/AbVlJyAFtVdgYjeqVZKmncEmuplTR5R2AUbw8=
 github.com/hbstack/syntax-highlighting v0.2.0/go.mod h1:6IoaM+tSIkKZblIrT1i5L3zVH68nt4UScU9JB30FQsc=
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 h1:IzJlnkHGS8XhibNjUFvyV3YE7rc7WMsAhdxWZTbORI4=
@@ -174,6 +178,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.8 h1:wcqovckhWxcYTkOn4JOp2Hl
 github.com/hugomods/icons/vendors/font-awesome v0.6.8/go.mod h1:IwJEJX8eFwDFCcxMjFBIgVWlPTf16yFVk78Rc3RUBjs=
 github.com/hugomods/icons/vendors/simple-icons v1.0.53 h1:8bmj+0HGE/Oj5JN+KaTKWuevUPHsdUecBFHxlgF0BzE=
 github.com/hugomods/icons/vendors/simple-icons v1.0.53/go.mod h1:uhL0lxvPii4EnmJhJcG0yvzgzoGDxw6+95Ouzez+jvc=
+github.com/hugomods/icons/vendors/simple-icons v1.0.56/go.mod h1:amg6gmRchBb2zrdPIbLAqXViVtNplSvnYL+MZrZSX6g=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
 github.com/hugomods/images v0.11.2 h1:d7u3c/ePboeOGx8OI5eUnilpA79YvD7KJjUgqVMR83Y=
@@ -206,6 +211,7 @@ github.com/hugomods/shortcodes v0.22.0 h1:Qx8vNYgMyc/kAtuAJkJVazidBRZhBN3NEngJ/O
 github.com/hugomods/shortcodes v0.22.0/go.mod h1:EnVopbZMNI/HeteM3Lp3phBTCRLvPSe7l142qhRFFPY=
 github.com/hugomods/simple-icons v13.10.0+incompatible h1:N22pHkO+C4NLRJljSRP5/oBTwZsw3YzA1+li9cK0ja0=
 github.com/hugomods/simple-icons v13.10.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v13.13.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=
