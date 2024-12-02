@@ -46,7 +46,7 @@ require (
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.1 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.15.3 // indirect
+	github.com/hbstack/hb v0.16.0 // indirect
 	github.com/hbstack/header v0.16.3 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
