@@ -38,5 +38,9 @@
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-scss": "^6.0.0",
     "ts-standard": "^12.0.2"
+  },
+  "dependencies": {
+    "dart-sass": "^1.25.0",
+    "sass": "^1.83.0"
   }
 }

@@ -1,10 +1,10 @@
 [build.environment]
-NODE_VERSION = "20"
-HUGO_VERSION = "0.134.2"
+NODE_VERSION = "23"
+HUGO_VERSION = "0.140.2"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
-GO_VERSION = "1.23.1"
-DART_SASS_VERSION = "1.78.0"
+GO_VERSION = "1.23.4"
+DART_SASS_VERSION = "1.83.0"
 
 [build]
 command = "npm ci && hugo --minify --gc -b $URL"
