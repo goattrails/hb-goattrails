@@ -4,7 +4,7 @@ HUGO_VERSION = "0.140.2"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
 GO_VERSION = "1.23.4"
-# DART_SASS_VERSION = "1.83.0"
+DART_SASS_VERSION = "1.78.0"
 
 [build]
 command = "npm ci && hugo --minify --gc -b $URL"
