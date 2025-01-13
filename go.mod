@@ -76,7 +76,7 @@ require (
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/bootstrap v0.23.0 // indirect
-	github.com/hugomods/code-block-panel v0.7.1 // indirect
+	github.com/hugomods/code-block-panel v0.8.0 // indirect
 	github.com/hugomods/decap-cms v0.16.3 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1 // indirect
