@@ -231,5 +231,6 @@ github.com/twbs/bootstrap v5.3.4-0.20241219072357-0cbfe13adf66+incompatible h1:a
 github.com/twbs/bootstrap v5.3.4-0.20241219072357-0cbfe13adf66+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.4-0.20241231080859-a5d430d526dc+incompatible h1:e5XWgyzKNhmpVck71EdjUs+0NYBHJr61Fj776Kx95AI=
 github.com/twbs/bootstrap v5.3.4-0.20241231080859-a5d430d526dc+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.4-0.20250218143557-90acd33350e1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
 github.com/twbs/icons v1.11.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
