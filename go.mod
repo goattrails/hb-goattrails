@@ -1,6 +1,6 @@
 module github.com/goattrails/hb-goattrails
 
-go 1.22.2
+go 1.24
 
 require (
 	github.com/GoogleChrome/workbox v7.3.0+incompatible // indirect
