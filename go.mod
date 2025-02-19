@@ -4,9 +4,9 @@ go 1.22.2
 
 require (
 	github.com/GoogleChrome/workbox v7.3.0+incompatible // indirect
-	github.com/KaTeX/KaTeX v0.16.19 // indirect
+	github.com/KaTeX/KaTeX v0.16.21 // indirect
 	github.com/desandro/masonry v4.2.2+incompatible // indirect
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.6.2 // indirect
@@ -47,7 +47,7 @@ require (
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.16.0 // indirect
-	github.com/hbstack/header v0.16.4 // indirect
+	github.com/hbstack/header v0.16.5 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/search v0.1.38 // indirect
@@ -60,13 +60,13 @@ require (
 	github.com/hbstack/pagination v0.8.0 // indirect
 	github.com/hbstack/progress-bar v0.1.1 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
-	github.com/hbstack/revision v0.6.8 // indirect
+	github.com/hbstack/revision v0.6.9 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.2 // indirect
 	github.com/hbstack/slide v0.4.0 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
-	github.com/hbstack/social-share-buttons v0.4.0 // indirect
-	github.com/hbstack/socials v0.17.2 // indirect
+	github.com/hbstack/social-share-buttons v0.6.0 // indirect
+	github.com/hbstack/socials v0.18.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.2.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.2 // indirect
 	github.com/hbstack/theme-cards v0.1.1 // indirect
@@ -76,8 +76,8 @@ require (
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/bootstrap v0.23.0 // indirect
-	github.com/hugomods/code-block-panel v0.7.1 // indirect
-	github.com/hugomods/decap-cms v0.16.3 // indirect
+	github.com/hugomods/code-block-panel v0.8.0 // indirect
+	github.com/hugomods/decap-cms v0.16.5 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/modules/netlify-identity v0.1.1 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
@@ -90,15 +90,15 @@ require (
 	github.com/hugomods/icons v0.6.6 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.9 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.12 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.1.0 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.1.1 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
 	github.com/hugomods/katex v0.3.6 // indirect
 	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
-	github.com/hugomods/search v0.19.0 // indirect
-	github.com/hugomods/search-index v0.1.1 // indirect
+	github.com/hugomods/search v0.19.2 // indirect
+	github.com/hugomods/search-index v0.1.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.2 // indirect
@@ -111,8 +111,8 @@ require (
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/video-js v0.3.0 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
-	github.com/jakearchibald/idb v8.0.1+incompatible // indirect
-	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.4-0.20241231080859-a5d430d526dc+incompatible // indirect
+	github.com/jakearchibald/idb v8.0.2+incompatible // indirect
+	github.com/krisk/Fuse v7.1.0+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.4-0.20250218143557-90acd33350e1+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
