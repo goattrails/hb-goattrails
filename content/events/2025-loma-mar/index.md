@@ -62,11 +62,11 @@ led by Mike Lund.
 
 ## Track: GTJ Feb 22 Mountains (Track)
 
-|        Lat,Lon       | Name                           |   Dist. | GL |  ETA  | Notes
-| :------------------: | :----------------------------- | ------: | -- | ----: | :----
-|    37.4236,-122.1976 | Starbucks                      |       0 |    | 09:30
-|    37.2697,-122.3089 | Loma Mar Store & Kitchen       |      26 |  L | 10:21 | Restaurant (+1:00)
-|    37.4018,-122.1931 | Route End                      |   66/66 |    | 12:39
+|        Lat,Lon       | Name                           |   Dist. | GL |  ETA  | Notes |
+| :------------------: | :----------------------------- | ------: | -- | ----: | :---- |
+|    37.4236,-122.1976 | Starbucks                      |       0 |    | 09:30 | |
+|    37.2697,-122.3089 | Loma Mar Store & Kitchen       |      26 |  L | 10:21 | Restaurant (+1:00) |
+|    37.4018,-122.1931 | Route End                      |   66/66 |    | 12:39 | |
 
 * 02/22/25: Sunset: 17:54, Sunrise: 06:49, Starts: 09:30, Ends: 12:39
 
