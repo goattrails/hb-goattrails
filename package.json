@@ -24,22 +24,20 @@
   },
   "homepage": "https://github.com/goattrails/hb-goattrails#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "@gethinode/netlify-plugin-dartsass": "^0.3.0",
-    "@tsconfig/recommended": "^1.0.2",
-    "add-to-calendar-button": "^2.6.0",
-    "autoprefixer": "^10.4.18",
-    "decap-server": "^3.0.1",
+    "@tsconfig/recommended": "^1.0.8",
+    "add-to-calendar-button": "^2.8.1",
+    "autoprefixer": "^10.4.20",
+    "decap-server": "^3.2.0",
     "postcss-cli": "^11.0.0",
-    "prettier": "^3.0.0",
+    "postcss-purgecss": "^5.0.0",
+    "prettier": "^3.5.1",
     "prettier-plugin-go-template": "^0.0.15",
-    "rtlcss": "^4.0.0",
-    "stylelint": "^16.0.0",
-    "stylelint-config-standard-scss": "^13.0.0",
-    "stylelint-scss": "^6.0.0",
+    "rtlcss": "^4.3.0",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-scss": "^6.11.0",
     "ts-standard": "^12.0.2"
-  },
-  "dependencies": {
-    "sass": "^1.83.0"
   }
 }
