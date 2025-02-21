@@ -19,9 +19,9 @@
 {{- $timeOffset = printf "Etc/GMT%s%d" $timeSign (div (int $timeOffset) 100) }}
 <add-to-calendar-button
   name="{{ $title }}"
-  description="{{ replace  $description `\n` `[br]` }}"
+  description="{{ replace  $description "\n" "[br]" }}"
 {{- if $location }}
-  location="{{ replace $location `\n` `, ` }}"
+  location="{{ replace $location "\n" ", " }}"
 {{- end }}
   startDate="{{ $start_date.Format `2006-01-02` }}"
   startTime="{{ $start_date.Format `15:04` }}"
@@ -36,6 +36,9 @@
   lightMode="bodyScheme"
   useUserTZ
   hideBranding
+  buttonStyle="date"
+  size="4"
+  pastDateHandling="disable"
 ></add-to-calendar-button>
 <script>
 // convert our hbstack theme hints into hints for calendar button
