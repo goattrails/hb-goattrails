@@ -30,6 +30,7 @@ location:
   address: >-
     325 Sharon Park Dr.
     Menlo Park, CA
+  url: https://maps.app.goo.gl/FwmYxLXhgCBdZUHT7
 gpxFile: 20250220_140517_gtj-feb-22-mountains.gpx
 images:
   - Pavel-Kosek-MULHOLLAND-1-900x600.jpg
@@ -44,7 +45,7 @@ led by Mike Lund.
    Menlo Park, CA
    *(top off at [Shell](https://maps.app.goo.gl/Qj3Rq27i7MFmqFWf7) :fuelpump:)*
 * Lunch in Loma Mar at the
-  [Loma Mar Store & Kitchen](https://maps.app.goo.gl/vZrp5cK7qPC42ADj8) (:us:)
+  [Loma Mar Store & Kitchen](https://maps.app.goo.gl/vZrp5cK7qPC42ADj8) :us:
 * Ride ends at [Konditorei](https://maps.app.goo.gl/d4pQpn8omQe35jiN6) :coffee:,
   3130 Alpine Rd., Portola Valley, CA 94028
 * **HOW:**
