@@ -11,9 +11,8 @@ pinned: false
 comments: false
 authors:
   - paul
-series:
 categories:
-  rides
+  - rides
 tags:
   - east-bay
 location:
@@ -21,7 +20,6 @@ location:
   address: |
       2702 McKee Rd.
       San Jose, CA
-categories:
 gpxFile: stars-to-caves.gpx
 images:
   - Treasury_petra_crop.jpeg
