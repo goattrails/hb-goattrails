@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/goattrails/hb-goattrails#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "@gethinode/netlify-plugin-dartsass": "^0.3.0",
     "@tsconfig/recommended": "^1.0.10",
     "add-to-calendar-button": "^2.9.1",
