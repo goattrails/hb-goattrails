@@ -3,7 +3,7 @@
   "description": "Website for [Goat Trail Junkies](https://goattrails.org/).",
   "scripts": {
     "dev": "hugo server --gc -D --enableGitInfo --baseURL=/ --appendPort=false",
-    "prod": "npm run clean && hugo server --gc --disableFastRender --renderToDisk --minify -e production --enableGitInfo -p 1314",
+    "prod": "npm run clean && hugo server --gc --disableFastRender --minify -e production --enableGitInfo -p 1314",
     "build": "hugo --gc --minify --enableGitInfo",
     "clean": "rm -f hugo_stats.json && rm -rf public/ resources/",
     "clean-build": "npm run clean && npm run build",
@@ -24,19 +24,19 @@
   },
   "homepage": "https://github.com/goattrails/hb-goattrails#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "@gethinode/netlify-plugin-dartsass": "^0.3.0",
-    "@tsconfig/recommended": "^1.0.10",
-    "add-to-calendar-button": "^2.9.1",
-    "autoprefixer": "^10.4.20",
-    "decap-server": "^3.3.0",
+    "@tsconfig/recommended": "^1.0.13",
+    "add-to-calendar-button": "^2.13.8",
+    "autoprefixer": "^10.4.27",
+    "decap-server": "^3.5.2",
     "postcss-cli": "^11.0.1",
-    "prettier": "^3.6.2",
+    "prettier": "^3.8.1",
     "prettier-plugin-go-template": "^0.0.15",
     "rtlcss": "^4.3.0",
-    "stylelint": "^16.23.0",
-    "stylelint-config-standard-scss": "^16.0.0",
-    "stylelint-scss": "^6.12.1",
+    "stylelint": "^17.4.0",
+    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-scss": "^7.0.0",
     "ts-standard": "^12.0.2"
   }
 }
